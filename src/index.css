@@ -1,7 +1,21 @@
+@import './vars.css';
+
 * {
   box-sizing:border-box;
-  margin: 2;
-  padding: 2;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: var(--bckgrnd-color);
+  height:100vh;
+}
+
+
+h1,h2,h3 {
   font-family: "Handjet", sans-serif;
   font-weight: 375;
+}
+p {
+  font-family: "Abel", sans-serif;
+  font-weight:400;
 }

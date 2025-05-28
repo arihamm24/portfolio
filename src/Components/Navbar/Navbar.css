@@ -1,0 +1,33 @@
+@import '../../vars.css';
+
+.navbar {
+    display: flex;
+    padding-left: 10px;
+    padding-right:10px;
+    align-items:center;
+    justify-content: space-between;
+    background-color: var(--dark-color);
+    font-weight: 400;
+}
+.navHeader{
+    display: flex;
+    padding: 15px;
+    color:var(--text-color);
+    font-size: 25px;
+    gap: 5px;
+}
+.navHeader > img {
+    height: 64px;
+    width:64px;
+    margin-left:20px;
+}
+.navMenu {
+    display:flex;
+    padding: 40px;
+    align-items:end;
+    color:white;
+    font-family:"Handjet", monospace;
+    gap: 60px;
+    font-size: 28px;
+    list-style: none;
+}

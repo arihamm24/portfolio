@@ -1,0 +1,73 @@
+@import '../../vars.css';
+
+
+.hero{
+    margin:20px 150px;
+    padding: 20px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap:35px;
+}
+.heroImg {
+    border-radius:250px;
+    height: 500px;
+    width: 500px;
+    object-fit: cover;
+    margin: 10px;
+    filter:drop-shadow(30px 10px 4px var(--secondary-color));
+}
+.heroText > h1 {
+    font-size:50px;
+    color:var(--text-color);
+}
+.heroName {
+    color:var(--accent-color);
+    text-shadow:0 0 1em var(--accent-color), 0 0 0.2em darkorchid;
+}
+.heroText > p {
+    color:white;
+    font-family:"Abel", sans-serif;
+    font-weight:400;
+    font-size: 20px;
+    margin-top:15px;
+    margin-bottom:20px;
+}
+.heroButtons{
+    display:flex;
+    align-content: center;
+    gap: 20px;
+}
+.heroConnect{
+    padding:10px 30px;
+    border-radius:50px;
+    font-family:"Abel",sans-serif;
+    font-size: 20px;
+    font-weight:bold;
+    background:var(--text-color);
+    color:var(--dark-color);
+    cursor:pointer;
+    transition:0.5s;
+}
+.heroConnect:hover {
+    color:var(--text-color);
+    background-color: var(--bckgrnd-color);
+    border:2px solid var(--text-color);
+}
+.heroResume {
+    padding:10px 30px;
+    width:fit-content;
+    border-radius:50px;
+    font-family:"Abel",sans-serif;
+    font-size: 20px;
+    color:white;
+    font-weight: bold;
+    border: solid 2px white;
+    cursor:pointer;
+    transition:0.5s;
+}
+.heroResume:hover {
+    color:var(--bckgrnd-color);
+    background-color: white;
+}
