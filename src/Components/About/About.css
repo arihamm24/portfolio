@@ -43,6 +43,18 @@
     font-weight: 500;
     text-shadow:0 0 1em var(--accent-color), 0 0 0.2em darkorchid;
 }
+.name{
+    color:var(--accent-color);
+    text-shadow:0 0 1em var(--secondary-color), 0 0 0.2em darkorchid;
+}
+.interests {
+    color:var(--text-color);
+    text-shadow:0 0 1em var(--text-color), 0 0 0.2em lightseagreen;
+}
 .aboutAchievement p {
     font-size:28px;
+}
+.skill{
+    color:yellow;
+    text-shadow:0 0 1em gold;
 }

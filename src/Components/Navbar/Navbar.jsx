@@ -1,6 +1,6 @@
 import React from 'react'
 import './Navbar.css'
-import computer from '../../assets/hero/computer_2_cool-0.png'
+import computer from '../../assets/projects/computer_2_cool-0.png'
 
 const Navbar = () => {
     return (
@@ -10,10 +10,10 @@ const Navbar = () => {
                 <h1>Ari Hammond</h1>
             </div>
             <ul className="navMenu">
-                <li>Home</li>
-                <li>About</li>
-                <li>Projects</li>
-                <li>Contact</li>
+                <li className="navItem">Home</li>
+                <li className="navItem">About</li>
+                <li className="navItem">Projects</li>
+                <li className="navItem">Contact</li>
             </ul>
         </div>
     )
