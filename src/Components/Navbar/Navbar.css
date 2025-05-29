@@ -11,30 +11,40 @@
 }
 .navHeader{
     display: flex;
+    align-items:center;
+    text-decoration: none;
     padding: 15px;
     color:var(--text-color);
-    font-size: 25px;
+    font-size: 30px;
     gap: 5px;
 }
 .navHeader > img {
     height: 64px;
     width:64px;
-    margin-left:20px;
+    margin-left:30px;
 }
 .navMenu {
     display:flex;
     padding: 40px;
     align-items:end;
-    color:white;
     font-family:"Handjet", monospace;
     gap: 60px;
     font-size: 28px;
     list-style: none;
 }
 .navItem{
+    color:white;
+    text-decoration: none;
     transition:0.5s
 }
 .navItem:hover{
     transform:scale(1.2);
     color:yellow;
+}
+.navItem:visited{
+    color:white;
+}
+.navHeader:hover {
+    transform:scale(1.02);
+    filter:drop-shadow(10px 8px 5px black);
 }

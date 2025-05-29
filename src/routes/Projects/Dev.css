@@ -1,0 +1,88 @@
+@import '../../vars.css';
+
+.dev{
+    margin: 20px 150px;
+}
+
+.devTitle {
+     color:var(--text-color);
+    font-size:26px;
+    margin-bottom: 25px;
+}
+.devCategoryLabel{
+    color:var(--accent-color);
+    font-size: 24px;
+    margin-bottom:15px;
+}
+.devContainer{
+    margin:15px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    gap: 40px;
+}
+.devSection{
+    margin: 20px;
+    padding: 15px;
+}
+.devImage{
+    width:128px;
+}
+.devProject{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.devText> h3 {
+    font-family:"Handjet", monospace;
+    color:var(--text-color);
+    
+}
+.devText > h4 {
+    font-family: "Abel", sans-serif;
+    color:white;
+    font-style: italic;
+}
+.devPara {
+    color:white;
+}
+.devText{
+    margin:15px;
+    padding:5px;
+    text-align: center;
+}
+.devLinks {
+    display:flex;
+    gap:10px;
+}
+.devExt {
+    border: 2px var(--text-color) solid;
+    border-radius:30px;
+    color: var(--text-color);
+    padding:10px;
+    text-decoration: none;
+    font-weight:bold;
+    font-family:"Abel", sans-serif;
+    transition:0.5s
+}
+.devGit {
+    border: 2px white solid;
+    border-radius:30px;
+    color: white;
+    padding:10px;
+    font-weight:bold;
+    text-decoration: none;
+    font-family:"Abel", sans-serif;
+    transition:0.5s;
+}
+.devExt:hover{
+    color:var(--bckgrnd-color);
+    background-color: var(--text-color);
+    border:none;
+}
+.devGit:hover{
+    color:var(--bckgrnd-color);
+    background-color: white;
+    border:none;
+}

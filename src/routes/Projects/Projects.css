@@ -8,6 +8,7 @@
 .projectsTitle {
     color:var(--text-color);
     font-size:24px;
+    margin-bottom: 25px;
 }
 .projectsContainer{
     margin: 20px 0px;
@@ -28,8 +29,14 @@
     justify-content: center;
     align-items: center;
     flex-wrap:wrap;
+    text-decoration: none;
     text-align: center;
     transition:0.5s;
+}
+.projectDesc {
+    margin-top:10px;
+    color: white;
+    font-size: 18px;
 }
 .projectsCategory:hover{
     background-color:var(--secondary-color);
@@ -37,6 +44,7 @@
     transform:scale(1.1);
     filter:none;
 }
+
 .projectImg{
     height: 128px;
     margin-bottom:5px;

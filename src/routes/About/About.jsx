@@ -1,5 +1,6 @@
 import React from 'react'
 import "./About.css"
+import { Link } from 'react-router-dom'
 import me from '../../assets/about/about.jpeg'
 
 const About = () => {
@@ -18,6 +19,9 @@ const About = () => {
                         <br></br>
                         <p>I have experience with front-end web development with  <span className="skill">HTML, CSS, and JavaScript</span>, web application development in  <span className="skill">Django</span>, and data science and information visualization with  <span className="skill">Python and D3.js.</span> I am also a street photographer and video editor, tools that actively inform the creative practices in my academic research. In my spare time, I love to read, cook, play guitar, go to concerts, and I am an active member of the Yellow Jacket Roller Derby Team. </p>
                     </div>
+                    <Link to="https://drive.google.com/file/d/1Hcytu-s-SGouMR2oXOl57uko_cLx2B25/view?usp=sharing" className="aboutResume">
+                        View my Resume
+                    </Link>
                 </div>
             </div>
             <div className="aboutAchievements">

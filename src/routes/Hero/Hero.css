@@ -48,6 +48,7 @@
     background:var(--text-color);
     color:var(--dark-color);
     cursor:pointer;
+    text-decoration:none;
     transition:0.5s;
 }
 .heroConnect:hover {
@@ -66,6 +67,7 @@
     border: solid 2px white;
     cursor:pointer;
     transition:0.5s;
+    text-decoration: none;
 }
 .heroResume:hover {
     color:var(--bckgrnd-color);

@@ -23,6 +23,25 @@
 }
 .aboutPara{
     font-size: 20px;
+    margin-bottom: 30px;
+}
+.aboutResume {
+    padding:10px 30px;
+    margin-top: 40px;
+    width:fit-content;
+    border-radius:50px;
+    font-family:"Abel",sans-serif;
+    font-size: 20px;
+    color:white;
+    font-weight: bold;
+    border: solid 2px white;
+    cursor:pointer;
+    transition:0.5s;
+    text-decoration: none;
+}
+.aboutResume:hover {
+    color:var(--bckgrnd-color);
+    background-color: white;
 }
 .aboutAchievements{
     margin: auto;
