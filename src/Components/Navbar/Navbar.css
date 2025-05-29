@@ -17,6 +17,7 @@
     color:var(--text-color);
     font-size: 30px;
     gap: 5px;
+    transition:0.5s;
 }
 .navHeader > img {
     height: 64px;
@@ -40,11 +41,13 @@
 .navItem:hover{
     transform:scale(1.2);
     color:yellow;
+    filter:drop-shadow(7px 8px 5px black);
 }
 .navItem:visited{
     color:white;
 }
 .navHeader:hover {
     transform:scale(1.02);
+    color:yellow;
     filter:drop-shadow(10px 8px 5px black);
 }

@@ -9,3 +9,78 @@
     font-size:24px;
     margin-bottom: 25px;
 }
+.writeProject{
+    display:flex;
+    margin:30px 0px;
+    align-items: center;
+    gap: 40px;
+}
+.writeText{
+    color:white;
+    display:flex;
+    flex-direction: column;
+}
+.writeWorkTitle{
+    font-size: 20px;
+    color:yellow;
+    font-style: italic;
+    margin-bottom:2px;
+}
+.writePub, .movieTitle{
+    font-style: italic;
+}
+.date{
+    color:var(--accent-color);
+    font-style: normal;
+}
+.writePub{
+    margin-bottom:15px;
+}
+.writeRead{
+    font-family: "Abel", sans-serif;
+    font-weight:bold;
+    text-align: center;
+    width: 100px;
+    border:2px solid var(--text-color);
+    margin-top: 15px;
+    border-radius: 20px;
+    padding: 5px;
+    color:var(--bckgrnd-color);
+    background-color: var(--text-color);
+    transition:0.5s;
+}
+.writeLink {
+    text-decoration: none;
+    transition:0.5s;
+}
+.writeRead:hover{
+    transform:scale(1.02);
+    background-color: var(--bckgrnd-color);
+}
+.writeRead:hover > .writeLink {
+    color:var(--text-color);
+}
+.writeRead:visited{
+    color:var(--text-color);
+}
+.redirect{
+    width:200px;
+    padding:5px;
+    border-radius:30px;
+    text-align:center;
+    border: 2px solid var(--accent-color);
+    background-color:var(--accent-color);
+    transition:0.5s;
+    margin:10px 15px;
+}
+.redirectLink {
+    font-family: "Abel", sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    transition:0.5s;
+}
+.redirect:hover{
+    transform:scale(1.1);
+    border-color: yellow;
+    background-color: yellow;
+}

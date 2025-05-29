@@ -15,18 +15,29 @@
     margin-bottom:15px;
 }
 .devContainer{
-    margin:15px;
-    display:flex;
-    flex-direction: row;
-    flex-wrap:wrap;
-    gap: 40px;
+    margin:20px 0px;
+    display:grid;
+    grid-template-columns: 350px 350px 350px;
+    gap: 70px;
 }
 .devSection{
     margin: 20px;
-    padding: 15px;
+    padding: 10px;
 }
 .devImage{
-    width:128px;
+    width:75%;
+    height:200px;
+    object-fit: fit;
+}
+.descrLink {
+    color:var(--text-color);
+    text-decoration: none;
+}
+.descrLink:visited{
+    color:var(--accent-color);
+}
+.descrLink:hover{
+    color:yellow;
 }
 .devProject{
     display:flex;
@@ -45,10 +56,11 @@
     font-style: italic;
 }
 .devPara {
+    margin-top:12px;
     color:white;
 }
 .devText{
-    margin:15px;
+    margin:10px;
     padding:5px;
     text-align: center;
 }
@@ -60,21 +72,23 @@
     border: 2px var(--text-color) solid;
     border-radius:30px;
     color: var(--text-color);
-    padding:10px;
+    padding:9px;
     text-decoration: none;
     font-weight:bold;
     font-family:"Abel", sans-serif;
-    transition:0.5s
+    transition:0.5s;
+    text-align: center;
 }
 .devGit {
     border: 2px white solid;
     border-radius:30px;
     color: white;
-    padding:10px;
+    padding:9px;
     font-weight:bold;
     text-decoration: none;
     font-family:"Abel", sans-serif;
     transition:0.5s;
+    text-align: center;
 }
 .devExt:hover{
     color:var(--bckgrnd-color);

@@ -17,6 +17,11 @@
     justify-content: space-around;
     flex-direction:row;
 }
+.projectDesc {
+    margin-top:10px;
+    color: white;
+    font-size: 18px;
+}
 .projectsCategory{
     background-color:var(--dark-color);
     border-radius: 25px;
@@ -32,11 +37,6 @@
     text-decoration: none;
     text-align: center;
     transition:0.5s;
-}
-.projectDesc {
-    margin-top:10px;
-    color: white;
-    font-size: 18px;
 }
 .projectsCategory:hover{
     background-color:var(--secondary-color);

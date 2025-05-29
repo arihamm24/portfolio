@@ -9,4 +9,29 @@
     font-size:24px;
     margin-bottom: 25px;
 }
-
+ .photosContainer {
+    margin:20px 0px;
+    padding: 20px;
+ }
+.photoBlurb {
+    color:white;
+    font-style: italic;
+    font-size: 20px;
+}
+.photosGrid {
+    --numcolumns: 3;
+    --gap: 5px;
+    --size: calc(900px / var(--numcolumns));
+    display: grid;
+    grid-template-columns: repeat(var(--numcolumns), 1fr);
+    
+    grid-template-rows: auto;
+    gap: var(--gap);
+    align-items: stretch; 
+    
+    margin:25px 0px;
+}
+.photoFeat {
+    display: block;
+    height: calc(var(--size) - var(--gap));
+}
