@@ -73,3 +73,26 @@
     color:var(--bckgrnd-color);
     background-color: white;
 }
+@media(max-width:768px){
+    .hero {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .heroImg{
+        width:250px;
+        height:250px;
+        align-self: center;
+        filter:drop-shadow(10px 10px 4px var(--secondary-color));
+    }
+    .heroText > h1 {
+        font-size:35px;
+    }
+    .heroText > p {
+        font-size: 20px;
+    }
+    .heroConnect, .heroResume {
+        font-size: 18px;
+        width:150px;
+        align-content: center;
+    }
+}
