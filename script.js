@@ -1,6 +1,7 @@
 let projectCards = null;
 let projectModals = null;
 
+//create PROJECT CARDS for main page
 fetch('./project-cards.json')
     .then(response => response.json())
     .then(data => {
@@ -24,6 +25,7 @@ function createProjectCards(data) {
 
 }
 
+//PROJECT MODAL POPUPS
 fetch('./project-modals.json')
     .then(response => response.json())
     .then(data => {
@@ -56,6 +58,7 @@ function createProjectModals(data) {
 
         //TODO: create layout for case studies!
         var bodyHTML = `<p>CASE STUDY HERE</p>`;
+        bodyHTML += `<a target="_blank" class="projLink" href=${project.link}>See Live Project</a>`;
 
         modalBody.innerHTML = bodyHTML;
 

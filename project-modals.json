@@ -4,14 +4,16 @@
         "title":"Born in the Anthropocene",
         "summary":"",
         "demo":"",
-        "team": [["Ari Hammond", "Writer, Graphics Artist, Twine Developer, p5.js Developer"], ["Noah Graff","p5.js Developer"]]
+        "team": [["Ari Hammond", "Writer, Graphics Artist, Twine Developer, p5.js Developer"], ["Noah Graff","p5.js Developer"]],
+        "link":"https://arihammond.itch.io/born-in-the-anthropocene"
     },
     {
         "id":"museum",
         "title":"AI Museum Dataset Site",
         "summary":"",
         "demo":"",
-        "team": [["Ari Hammond", "Principal Investigator"], ["Dr. Abigale Stangl","Faculty Advisor"]]
+        "team": [["Ari Hammond", "Principal Investigator"], ["Dr. Abigale Stangl","Faculty Advisor"]],
+        "link":"https://github.com/arihamm24/ai-museum-datasets"
        
     },
     {
@@ -19,6 +21,7 @@
         "title":"Jam Packed",
         "summary":"",
         "demo":"",
-        "team": [["Ari Hammond", "Developer, Artist"]]
+        "team": [["Ari Hammond", "Developer, Artist"]],
+        "link":""
     }
 ]
