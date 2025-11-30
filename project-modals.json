@@ -2,7 +2,7 @@
     {
         "id":"anthropocene",
         "title":"Born in the Anthropocene",
-        "summary":"",
+        "summary":"Born in the Anthropocene is a 3-part interactive narrative implemented using Twine and p5.js. Users navigate a society founded on collective welfare, postmodern education, and multigenerational, communal family structures. In each section, they make a series of decisions that determine the structures and objects they can place in their own city map at the end of each stage, demonstrating how ethical decision-making, critical thought, and social cooperation could shape the state of sustainability and its tangible environmental impacts.",
         "demo":"",
         "team": [["Ari Hammond", "Writer, Graphics Artist, Twine Developer, p5.js Developer"], ["Noah Graff","p5.js Developer"]],
         "link":"https://arihammond.itch.io/born-in-the-anthropocene"
