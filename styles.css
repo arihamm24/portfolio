@@ -5,14 +5,29 @@
 --text-color: #0f0503ff;
 --link-visited: #ba2018ff;
 }
-body {
+h1, h2, h3 {
+    font-family:"Cascadia Code", monospace;
+    font-weight: 650;
+}
+h4 {
+    font-family: "Figtree", sans-serif;
+    font-weight: 600;
+}
+p, li, a, button, h5, h6 {
+   font-family: "Figtree", sans-serif;
+}
+button {
+    margin: 5px 0;
 }
 header, footer {
-    padding: 8px;
+    padding: 18px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+}
+#about-interests {
+    background-color: yellow;
 }
 #container {
     display: grid;
@@ -35,7 +50,10 @@ header, footer {
 #content {
     overflow-y: scroll;
 }
-ul {
+div.content-item {
+    padding: 20px;
+}
+#sidebar > ul {
     list-style: none;
     padding: 0;
     text-align: center;
@@ -53,23 +71,24 @@ ul {
     align-items: center;
 }
 #about-cards {
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 #project-cards {
     gap: 20px;
 }
 .card {
     border: 1px solid black;
+    margin: 3px;
     padding:10px;
     width: 250px;
     border-radius: 20px;
 }
-#about-cards > .card {
-    text-align: center;
-}
 #project-cards > .card{
-    padding: 20px;
+    padding: 25px;
     height: 175px;
+}
+#about-cards > .card {
+    padding: 25px;
 }
 .content-item {
     border: 1px dotted black;
@@ -82,7 +101,7 @@ ul {
 
 /*FOR PROJECT/RESEARCH MODAL WINDOWS*/
 .modal {
-    padding: 20px;
+    padding: 0px 20px 20px 20px;
     position: fixed;
     top:50%;
     left:50%;
@@ -93,12 +112,17 @@ ul {
     background-color: white;
     z-index:10;
     width:80%;
+    height:80%;
+    overflow: scroll;
 }
 .modal.active {
     transform: translate(-50%,-50%) scale(1);
 }
 .modal-header {
-    padding: 5px;
+    background-color: white;
+    position: sticky;
+    top:0;
+    margin-bottom: 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -112,6 +136,8 @@ ul {
     font-weight:bold;
 }
 .modal-body {
+    padding-left: 100px;
+    padding-right: 100px;
     overflow: scroll;
 }
 #overlay {
@@ -128,4 +154,20 @@ ul {
 #overlay.active {
     pointer-events: all;
     opacity: 1;
+}
+
+.projDemoSection {
+    display: flex;
+    flex-direction: row;
+    gap: 45px;
+    margin-bottom: 12px;
+}
+.projReflection {
+    margin: 20px;
+    padding: 5px;
+    border: solid black 2px;
+}
+#summaryTitle {
+    font-style: oblique;
+    font-weight: bold;
 }

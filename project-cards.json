@@ -19,5 +19,12 @@
         "tagline":"A roller-derby video game developed for the mGBA emulator",
         "langauges":["C"],
         "genre":"game-dev"
+    },
+    {
+        "id":"travelmate",
+        "title":"TravelMate",
+        "tagline":"an interactive travel planning web application",
+        "languages":["Django","HTML/CSS", "SQLite"],
+        "genre":"web-dev"
     }
 ]

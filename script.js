@@ -57,10 +57,57 @@ function createProjectModals(data) {
         modalBody.setAttribute('class','modal-body');
 
         //TODO: create layout for case studies!
-        var bodyHTML = `<p>CASE STUDY HERE</p>`;
-        bodyHTML += `<a target="_blank" class="projLink" href=${project.link}>See Live Project</a>`;
+        var bodyHTML = ` `;
+        //Demo and Summary Section
+        bodyHTML += ` 
+        <div class="projDemoSection">
+            <div class="projVideo">
+            <iframe src=${project.demo} width="500" height="400"></iframe>
+            </div>
+            <div class="projSummary">
+            <p><span id="summaryTitle">${project.title}</span>${project.summary}</p>
+            </div>
+        </div>
+        `;
+
+        bodyHTML += `<a target="_blank" class="projLink" href=${project.link}>See Project</a>`;
+        
+        //Roles and Team
+        bodyHTML += ` 
+        <div class="projRolesSection">
+            <div class="projRole">
+            <h4>My Role: ${project.role}</h4>
+            </div>
+            <div class="projTeam">
+            <h4>Project Team</h4>
+            <ul>
+                <li>Team Members here
+            </ul>
+            </div>
+        </div>
+        `;
+
+        //Problem Statement/Description
+        bodyHTML += ` 
+        <div class="projProblem">
+            <h4>Challenge/Problem Statement</h4>
+            <div id="problemStatement">${project.problemStatement}</div>
+        </div>
+        `;
+
+        //process documents
+        var processDocs = document.createElement('div');
+        processDocs.setAttribute('id','processDocs');
+
+        bodyHTML += ` 
+        <div class="projReflection">
+            <h4>Reflection</h4>
+            <div id="reflection">${project.reflection}</div>
+        </div>
+        `;
 
         modalBody.innerHTML = bodyHTML;
+        
 
         //adding children!
         modal.appendChild(modalHeader);
@@ -76,6 +123,9 @@ function createProjectModals(data) {
         
     });
 }
+
+//TODO: Research CARDS
+
 function openModal(projectID) {
     modal = document.getElementById(projectID);
     modal.classList.add('active');
