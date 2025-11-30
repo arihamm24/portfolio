@@ -4,6 +4,7 @@
         "title":"Born in the Anthropocene",
         "summary":" is a 3-part interactive narrative implemented using Twine and p5.js. Users navigate a society founded on collective welfare, postmodern education, and multigenerational, communal family structures. In each section, they make a series of decisions that determine the structures and objects they can place in their own city map at the end of each stage, demonstrating how ethical decision-making, critical thought, and social cooperation could shape the state of sustainability and its tangible environmental impacts.",
         "demo":"https://youtu.be/n69gkQKcF2Y",
+        "team":[["Ari Hammond","Writer, Twine Developer, Graphics Artist"], ["Noah Graff", "p5.js Developer, Graphics Artist"],  ["Case Dinkla", "p5.js Developer"],  ["Caden Terrell", "Writer"],  ["Sowmiyan Vijayakumar", "Writer"]],
         "role": "Writer, Graphics Artist, Twine Developer, p5.js Developer",
         "link":"https://arihammond.itch.io/born-in-the-anthropocene",
         "problemStatement" :"",
@@ -29,9 +30,10 @@
     {
         "id":"travelmate",
         "title":"TravelMate",
-        "summary":" is an interactive travel planning web application. Users input their dates, destination, and activities to receive custom AI and API powered weather forecasts, packing lists, and additional travel tips. ",
+        "summary":" is an interactive travel planning web application built with Django and HTML. Users input their dates, destination, and activities to receive custom AI and API powered weather forecasts, packing lists, and additional travel tips. ",
         "demo":"https://youtu.be/Bw96BV2pxgg",
-        "role":"",
+        "team":[["Ari Hammond", "Full Stack Developer"],["Mithil Cherkadi", "Full Stack Developer"], ["Jason Li","Product Manager, Back End Developer"], ["Neha Kunche","Scrum Master, Front End Developer"], ["Deepthi Munagapati", "Full Stack Developer"]],
+        "role":"Full Stack Developer",
         "link":""
     }
 ]

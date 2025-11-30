@@ -49,12 +49,15 @@ function createProjectModals(data) {
         //MODAL HEADER - child of modal
         var modalHeader = document.createElement('div');
         modalHeader.setAttribute('class','modal-header');
-        var headerHTML = `<h3>${project.title}</h3><button class="close-modal-button" onclick="closeModal(${project.id} +'-modal')">&times;</button>`
+        var headerHTML = `<h3 id="modalTitle">${project.title}</h3><button class="close-modal-button" onclick="closeModal(${project.id}+'-modal')">&times;</button>`
         modalHeader.innerHTML = headerHTML;
 
         //MODAL BODY - child of modal
         var modalBody = document.createElement('div');
         modalBody.setAttribute('class','modal-body');
+
+       var teamList = createList(project.team);
+       console.log(teamList);
 
         //TODO: create layout for case studies!
         var bodyHTML = ` `;
@@ -80,9 +83,10 @@ function createProjectModals(data) {
             </div>
             <div class="projTeam">
             <h4>Project Team</h4>
-            <ul>
-                <li>Team Members here
-            </ul>
+        `
+        bodyHTML += teamList;
+
+        bodyHTML +=`
             </div>
         </div>
         `;
@@ -122,6 +126,14 @@ function createProjectModals(data) {
         projectCard.appendChild(overlay);
         
     });
+}
+function createList(array) {
+    var list = `<ul>`;
+    array.forEach(member => {
+        list += `<li><strong>${member[0]}:</strong> ${member[1]}</li>`;
+    });
+    list += `</ul>`;
+    return list;
 }
 
 //TODO: Research CARDS

@@ -1,23 +1,36 @@
 * {
---main-bg: #7c8244ff;
+--card-bg: #7c8244ff;
 --link: #403716ff;
---card-bg: #97b536ff;
+--main-bg: #97b536ff;
 --text-color: #0f0503ff;
 --link-visited: #ba2018ff;
+line-height: 1.3;
+color:var(--text-color);
 }
 h1, h2, h3 {
     font-family:"Cascadia Code", monospace;
     font-weight: 650;
 }
-h4 {
+h4, #modalTitle {
     font-family: "Figtree", sans-serif;
-    font-weight: 600;
+    font-weight: 650;
 }
 p, li, a, button, h5, h6 {
    font-family: "Figtree", sans-serif;
 }
+a {
+    color: var(--link);
+}
+a:visited {
+    color:var(--link-visited);
+}
 button {
     margin: 5px 0;
+}
+.card > button {
+    padding: 5px;
+    border-radius: 20px;
+    width: fit-content;
 }
 header, footer {
     padding: 18px;
@@ -77,15 +90,19 @@ div.content-item {
     gap: 20px;
 }
 .card {
-    border: 1px solid black;
+    border: 4px solid purple;
     margin: 3px;
     padding:10px;
     width: 250px;
+    height: 200px;
     border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 #project-cards > .card{
     padding: 25px;
-    height: 175px;
+    height: 200px;
 }
 #about-cards > .card {
     padding: 25px;
