@@ -18,7 +18,7 @@ function createProjectCards(data) {
         var card = document.createElement('div');
         card.setAttribute('class','card');
         card.setAttribute('id', project.id);
-        var info = `<h4>${project.title}</h4><p>${project.tagline}</p><button class="open-modal-button" id=${project.id} onclick="openModal(this.id+'-modal')">View Project Case Study</button>`;
+        var info = `<h4>${project.title}</h4><p>${project.tagline}</p><button class="open-modal-button" id=${project.id} onclick="openModal(this.id+'-modal')">More Info</button>`;
         card.innerHTML = info;
         document.getElementById("project-cards").appendChild(card);
     });
@@ -64,49 +64,30 @@ function createProjectModals(data) {
         //Demo and Summary Section
         bodyHTML += ` 
         <div class="projDemoSection">
-            <div class="projVideo">
-            <iframe src=${project.demo} width="500" height="400"></iframe>
-            </div>
             <div class="projSummary">
-            <p><span id="summaryTitle">${project.title}</span>${project.summary}</p>
+                <div class="projImg">
+                    <img src=${project.image} width="375" height="auto" />
+                </div>
+                <p><span id="summaryTitle">${project.title}</span>${project.summary}</p>
+                <div class="projButtons">
+                    <button><a target="_blank" class="modalLink" href=${project.link}>See Project</a></button>
+                    <button><a target="_blank" class="modalLink" href=${project.demo}>View Demo</a></button>
+                    <button><a href=${project.id}.html class="modalLink">See Case Study</a></button>
+                </div>
             </div>
         </div>
         `;
 
-        bodyHTML += `<a target="_blank" class="projLink" href=${project.link}>See Project</a>`;
-        
         //Roles and Team
         bodyHTML += ` 
         <div class="projRolesSection">
-            <div class="projRole">
-            <h4>My Role: ${project.role}</h4>
-            </div>
             <div class="projTeam">
             <h4>Project Team</h4>
         `
         bodyHTML += teamList;
 
         bodyHTML +=`
-            </div>
-        </div>
-        `;
-
-        //Problem Statement/Description
-        bodyHTML += ` 
-        <div class="projProblem">
-            <h4>Challenge/Problem Statement</h4>
-            <div id="problemStatement">${project.problemStatement}</div>
-        </div>
-        `;
-
-        //process documents
-        var processDocs = document.createElement('div');
-        processDocs.setAttribute('id','processDocs');
-
-        bodyHTML += ` 
-        <div class="projReflection">
-            <h4>Reflection</h4>
-            <div id="reflection">${project.reflection}</div>
+            </div> 
         </div>
         `;
 

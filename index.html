@@ -13,10 +13,17 @@
     <body>
         <header>
             <h1>Ari Hammond - Portfolio</h1>
-            <nav>
-                <button><a href="mailto:ahammmond43@gatech.edu">Contact</a></button>
-                <button><a href="#" download>Download CV</a></button>
-            </nav>
+            <div id="headerNavbar">
+                <nav>
+                    <a href="#about">About</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#research">Research</a>
+                </nav>
+                <div id="headerButtons">
+                    <button><a href="mailto:ahammmond43@gatech.edu">Contact</a></button>
+                    <button><a href="#" download>Download CV</a></button>
+                </div>
+            </div>
         </header>
         <main id="container">
             <div id="sidebar">
@@ -24,7 +31,8 @@
                 <h1>Ari Hammond</h1>
                 <h4 id="blurb">Media/Design Researcher, Critical Media Practitioner, Web Developer</h4>
                 <ul id="socials">
-                    <li><a href="https://www.github.com/arihamm24" target="_blank">GitHub</a></li>
+                    <!--TODO: Social Icons-->
+                    <li><a href="https://www.github.com/arihamm24" target="_blank" alt="">GitHub</a></li>
                     <li><a href="https://www.linkedin.com/in/ari-hammond-01a77327a/" target="_blank">LinkedIn</a></li>
                 </ul>
                 <h2>Menu</h2>
@@ -36,14 +44,26 @@
             </div>
             <div id="content">
                 <div class="content-item" id="about">
-                    <h2>About</h2>
-                    <p>Hello! My name is Ari Hammond (they/them). I am a second-year <strong>Computational Media</strong> student at Georgia Tech, with concentrations in People and Film & Media Studies. My research interests include <span id="about-interests">interactive narratives, non-fiction media, digital humanities, and new media technologies.</span>  Under the supervision of Dr. André Brock, I am conducting practice-based research on interactive documentaries as a medium for Black historical counternarratives, ultimately culminating in my undergraduate thesis. </p>
+                    <div class="contentHeader">
+                        <h2>About</h2>
+                        <p>Hello! My name is Ari Hammond (they/them). I am a second-year <strong>Computational Media</strong> student at Georgia Tech, with concentrations in People and Film & Media Studies. My research interests include <span id="about-interests">interactive narratives, non-fiction media, digital humanities, and new media technologies.</span>  Under the supervision of Dr. André Brock, I am conducting practice-based research on interactive documentaries as a medium for Black historical counternarratives, ultimately culminating in my undergraduate thesis. </p>
+                    </div>
+                    
                     <div class="cards-container" id="about-cards">
+                        <div class="card" id="research-interests">
+                            <h3>Research Interests</h3>
+                            <ul>
+                                <li>Interactive Narratives</li>
+                                <li>Digital Humanities</li>
+                                <li>Black Media Studies</li>
+                                <li>New Media</li>
+                            </ul>
+                        </div>
                         <div class="card" id="languages">
                             <h3>Programming Languages</h3>
                             <ul>
                                 <li>Java</li>
-                                <li>JavaScript (Vanilla, p5.js, React)</li>
+                                <li>JavaScript</li>
                                 <li>Python</li>
                                 <li>C</li>
                             </ul>
@@ -57,24 +77,21 @@
                                 <li>QualCoder</li>
                             </ul>
                         </div>
-                        <div class="card" id="research-interests">
-                            <h3>Research Interests</h3>
-                            <ul>
-                                <li>Interactive Narratives</li>
-                                <li>Digital Humanities</li>
-                                <li>Black Media Studies</li>
-                                <li>New Media</li>
-                            </ul>
-                        </div>
                     </div>
                 </div>
                 <div class="content-item" id="projects">
-                    <h2>Projects</h2>
-                    <p>My current body of work includes games, interactive narratives, UI/UX design, and web development projects.</p>
+                    <div class="contentHeader">
+                        <h2>Projects</h2>
+                        <p>My current body of work includes games, interactive narratives, UI/UX design, and web development projects.</p>
+                    </div>
                     <div class="cards-container" id="project-cards"></div>
                 </div>
                 <div class="content-item" id="research">
-                    <h2>Research & Publications</h2>
+                    <div class="contentHeader">
+                        <h2>Research & Publications</h2>
+                        <p></p>
+                    </div>
+                    
                     <div class="cards-container" id="research-cards"></div>
                 </div>
             </div>

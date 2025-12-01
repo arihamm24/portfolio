@@ -1,14 +1,20 @@
 * {
---card-bg: #7c8244ff;
---link: #403716ff;
---main-bg: #97b536ff;
---text-color: #0f0503ff;
---link-visited: #ba2018ff;
+--card-bg: #ead2ff;
+--content-bg: #AB81cd;
+--link: #FFDF5E;
+--page-bg: #574AE2;
+--main-bg: #222A68;
+--text-color: #FFFFFF;
+--link-visited: #de5eff;
 line-height: 1.3;
-color:var(--text-color);
+}
+body {
+    background-color: var(--page-bg);
+    color:var(--text-color);
+    margin:0;
 }
 h1, h2, h3 {
-    font-family:"Cascadia Code", monospace;
+    font-family:"Cascadia Code", "Fira Code", 'Courier New', monospace;
     font-weight: 650;
 }
 h4, #modalTitle {
@@ -25,42 +31,100 @@ a:visited {
     color:var(--link-visited);
 }
 button {
+    border: none;
     margin: 5px 0;
-}
-.card > button {
-    padding: 5px;
+    background-color: var(--link);
+    padding: 10px;
     border-radius: 20px;
     width: fit-content;
+    transition: 100ms ease-in;
 }
 header, footer {
-    padding: 18px;
+    background-color: var(--main-bg);
+    margin: 0;
     display: flex;
+    width: 100vw;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    gap: 100px;
+}
+header {
+   justify-content: space-around; 
+}
+footer {
+    justify-content: space-around;
+}
+#headerNavbar {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+#headerButtons {
+    display: flex;
+    gap: 15px;
+}
+#headerNavbar > nav {
+    display: flex;
+    gap: 20px;
+}
+#headerNavbar > nav > a{
+    color: var(--link);
+    text-decoration: none;
+    font-style: italic;
+    font-weight: 700;
+}
+#headerNavbar > nav > a:hover {
+    color: var(--main-bg);
+    font-style: normal;
+    transform: scale(1.1);
+    background-color: var(--link);
+}
+#headerButtons > button > a {
+    color:var(--main-bg);
+    text-decoration: none;
+}
+#headerButtons > button:hover {
+    transform: scale(1.2);
+    color:var(--main-bg);
+    background-color: var(--card-bg);
+    text-decoration: none;
 }
 #about-interests {
-    background-color: yellow;
+    font-weight: 600;
+    color: var(--card-bg);
 }
 #container {
-    display: grid;
-    grid-template-columns:[sidebar-start] 20% [sidebar-end content-start] 78.5%;
-    column-gap: 10px;
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 20px;
+    align-content: center;
+    justify-content: center;
 }
 #sidebar, #content {
     /*center content*/
     display:flex;
     flex-direction: column;
-    border:1px solid blue;
     margin:10px;
-    padding: 15px;
+    padding: 20px;
     align-items: center;
-    
+    background-color: var(--main-bg);
+    border-radius: 20px;
 }
 #sidebar{
+    width: 12%;
     text-align: center;
 }
+#sidebar > img {
+    width: 150px;
+    height: auto;
+    border-radius: 300px;
+    padding: 15px;
+}
 #content {
+    width: 80vw;
     overflow-y: scroll;
 }
 div.content-item {
@@ -90,7 +154,8 @@ div.content-item {
     gap: 20px;
 }
 .card {
-    border: 4px solid purple;
+    background-color: var(--card-bg);
+    color: var(--main-bg);
     margin: 3px;
     padding:10px;
     width: 250px;
@@ -104,11 +169,19 @@ div.content-item {
     padding: 25px;
     height: 200px;
 }
+#project-cards > .card > button:hover {
+    transform: scale(1.2);
+    background-color:var(--main-bg);
+    color: var(--link);
+    text-decoration: none;
+}
 #about-cards > .card {
     padding: 25px;
 }
 .content-item {
-    border: 1px dotted black;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
     width: 95%;
     margin:5px;
     padding:15px;
@@ -128,8 +201,8 @@ div.content-item {
     border-radius:10px;
     background-color: white;
     z-index:10;
-    width:80%;
-    height:80%;
+    max-width:70%;
+    max-height:70%;
     overflow: scroll;
 }
 .modal.active {
@@ -139,7 +212,7 @@ div.content-item {
     background-color: white;
     position: sticky;
     top:0;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -172,12 +245,19 @@ div.content-item {
     pointer-events: all;
     opacity: 1;
 }
-
 .projDemoSection {
     display: flex;
     flex-direction: row;
-    gap: 45px;
     margin-bottom: 12px;
+}
+.projSummary {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.modalLink {
+    text-decoration: none;
+    color: var(--main-bg);
 }
 .projReflection {
     margin: 20px;
