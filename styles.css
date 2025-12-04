@@ -178,6 +178,14 @@ div.content-item {
 #about-cards > .card {
     padding: 25px;
 }
+#research-cards > .card{
+    padding: 25px;
+    width: 250px;
+    height: 250px;
+}
+#research-cards > .card > button > a{
+    text-decoration: none;
+}
 .content-item {
     display: flex;
     flex-direction: column;
@@ -245,6 +253,10 @@ div.content-item {
     pointer-events: all;
     opacity: 1;
 }
+.projImg {
+    display: flex;
+    justify-content: center;
+}
 .projDemoSection {
     display: flex;
     flex-direction: row;
@@ -267,4 +279,47 @@ div.content-item {
 #summaryTitle {
     font-style: oblique;
     font-weight: bold;
+}
+
+/*Project Page Styling*/
+#projPage {
+    display: flex;
+    flex-direction: column;
+}
+.projContent {
+    border: 1px solid white;
+    padding: 25px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 100%;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+}
+.projContent > div {
+    border: 1px solid greenyellow;
+    padding: 10px;
+    margin: 10px;
+}
+#prevPhotos {
+    display: grid;
+    grid-template-rows: repeat(2, 2fr);
+    grid-template-columns: repeat(2, 1fr);
+}
+#overview {
+    background-color: var(--main-bg);
+    justify-content: space-around;
+}
+#overview > div {
+    width: 25%;
+}
+#challenge, #reflection {
+    flex-direction: column;
+}
+#solution {
+    background-color: var(--main-bg);
+}
+#reflection > p, #challenge > p {
+    padding: 0 150px;
 }

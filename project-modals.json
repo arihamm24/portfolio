@@ -2,7 +2,7 @@
     {
         "id":"anthropocene",
         "title":"Born in the Anthropocene",
-        "image":"https://img.itch.zone/aW1nLzI0MTcxMDM3LnBuZw==/original/ROjYCs.png",
+        "image":"./projectPreviewPics/anthropocene.png",
         "summary":" is a 3-part interactive narrative implemented using Twine and p5.js. Users navigate a society founded on collective welfare, postmodern education, and multigenerational, communal family structures. In each section, they make a series of decisions that determine the structures and objects they can place in their own city map at the end of each stage, demonstrating how ethical decision-making, critical thought, and social cooperation could shape the state of sustainability and its tangible environmental impacts.",
         "demo":"https://youtu.be/n69gkQKcF2Y",
         "team":[["Ari Hammond","Writer, Twine Developer, Graphics Artist"], ["Noah Graff", "p5.js Developer, Graphics Artist"],  ["Case Dinkla", "p5.js Developer"],  ["Caden Terrell", "Writer"],  ["Sowmiyan Vijayakumar", "Writer"]],
@@ -12,15 +12,17 @@
     {
         "id":"museum",
         "title":"AI Museum Dataset Site",
+        "image" : "./projectPreviewPics/museum.png",
         "summary":"",
         "demo":"",
         "team": [["Ari Hammond", "Principal Investigator"], ["Dr. Abigale Stangl","Faculty Advisor"]],
-        "link":"https://github.com/arihamm24/ai-museum-datasets"
+        "link":"https://arihamm24.github.io/ai-museum-datasets/"
        
     },
     {
         "id":"jampacked",
         "title":"Jam Packed",
+        "image":"./projectPreviewPics/jamPacked.png",
         "summary":"",
         "demo":"",
         "team": [["Ari Hammond", "Developer, Artist"]],
@@ -29,10 +31,11 @@
     {
         "id":"travelmate",
         "title":"TravelMate",
+        "image" : "./projectPreviewPics/travelmate.png",
         "summary":" is an interactive travel planning web application built with Django and HTML. Users input their dates, destination, and activities to receive custom AI and API powered weather forecasts, packing lists, and additional travel tips. ",
         "demo":"https://youtu.be/Bw96BV2pxgg",
-        "team":[["Ari Hammond", "Full Stack Developer"],["Mithil Cherkadi", "Full Stack Developer"], ["Jason Li","Product Manager, Back End Developer"], ["Neha Kunche","Scrum Master, Front End Developer"], ["Deepthi Munagapati", "Full Stack Developer"]],
+        "team":[["Ari Hammond", "Full Stack Developer, Front-end Designer"],["Mithil Cherkadi", "Full Stack Developer"], ["Jason Li","Product Manager, Back End Developer"], ["Neha Kunche","Scrum Master, Front End Developer"], ["Deepthi Munagapati", "Full Stack Developer"]],
         "role":"Full Stack Developer",
-        "link":""
+        "link": ""
     }
 ]

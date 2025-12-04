@@ -57,7 +57,16 @@ function createProjectModals(data) {
         modalBody.setAttribute('class','modal-body');
 
        var teamList = createList(project.team);
-       console.log(teamList);
+
+       var buttons = ``;
+       if (project.link === "") {
+            buttons = `<button><a target="_blank" class="modalLink" href=${project.demo}>View Demo</a></button>
+                    <button><a href=${project.id}.html class="modalLink">See Case Study</a></button>`;
+       } else {
+            buttons = `<button><a class="modalLink" href=${project.link}>See Project</a></button>
+                    <button><a target="_blank" class="modalLink" href=${project.demo}>View Demo</a></button>
+                    <button><a href=${project.id}.html class="modalLink">See Case Study</a></button>`;
+       }
 
         //TODO: create layout for case studies!
         var bodyHTML = ` `;
@@ -70,13 +79,14 @@ function createProjectModals(data) {
                 </div>
                 <p><span id="summaryTitle">${project.title}</span>${project.summary}</p>
                 <div class="projButtons">
-                    <button><a target="_blank" class="modalLink" href=${project.link}>See Project</a></button>
-                    <button><a target="_blank" class="modalLink" href=${project.demo}>View Demo</a></button>
-                    <button><a href=${project.id}.html class="modalLink">See Case Study</a></button>
+        `;
+        bodyHTML += buttons;
+        bodyHTML +=` 
                 </div>
             </div>
         </div>
         `;
+
 
         //Roles and Team
         bodyHTML += ` 
@@ -118,6 +128,29 @@ function createList(array) {
 }
 
 //TODO: Research CARDS
+let researchCards = null;
+fetch('./research-cards.json')
+    .then(response => response.json())
+    .then(data => {
+            createResearchCards(data);
+        })
+    .catch(error => {
+            console.error('Error fetching data:', error);
+    }
+);
+
+function createResearchCards(data) {
+    researchCards = data;
+    researchCards.forEach(pub => {
+        var card = document.createElement('div');
+        card.setAttribute('class','card');
+        card.setAttribute('id', pub.id);
+        var info = `<h4>${pub.title}</h4><p><em>${pub.publication}</em>, ${pub.date}</p><button id=${pub.id}><a href=${pub.link}>Read Here</a></button>`;
+        card.innerHTML = info;
+        document.getElementById("research-cards").appendChild(card);
+    });
+
+}
 
 function openModal(projectID) {
     modal = document.getElementById(projectID);
