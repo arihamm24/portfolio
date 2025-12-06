@@ -62,13 +62,14 @@ function createProjectModals(data) {
        if (project.link === "") {
             buttons = `<button><a target="_blank" class="modalLink" href=${project.demo}>View Demo</a></button>
                     <button><a href=${project.id}.html class="modalLink">See Case Study</a></button>`;
+       } else if(project.demo === ""){
+            buttons = `<button><a class="modalLink" href=${project.link}>See Project</a></button>
+                    <button><a href=${project.id}.html class="modalLink">See Case Study</a></button>`;
        } else {
             buttons = `<button><a class="modalLink" href=${project.link}>See Project</a></button>
                     <button><a target="_blank" class="modalLink" href=${project.demo}>View Demo</a></button>
                     <button><a href=${project.id}.html class="modalLink">See Case Study</a></button>`;
        }
-
-        //TODO: create layout for case studies!
         var bodyHTML = ` `;
         //Demo and Summary Section
         bodyHTML += ` 
@@ -127,7 +128,6 @@ function createList(array) {
     return list;
 }
 
-//TODO: Research CARDS
 let researchCards = null;
 fetch('./research-cards.json')
     .then(response => response.json())
@@ -145,7 +145,7 @@ function createResearchCards(data) {
         var card = document.createElement('div');
         card.setAttribute('class','card');
         card.setAttribute('id', pub.id);
-        var info = `<h4>${pub.title}</h4><p><em>${pub.publication}</em>, ${pub.date}</p><button id=${pub.id}><a href=${pub.link}>Read Here</a></button>`;
+        var info = `<h4>${pub.title}</h4><p><em>${pub.publication}</em>, ${pub.date}</p><button id=${pub.id}><a href=${pub.link} target="_blank">Read Here</a></button>`;
         card.innerHTML = info;
         document.getElementById("research-cards").appendChild(card);
     });

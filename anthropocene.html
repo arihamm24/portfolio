@@ -4,7 +4,7 @@
         <title>Ari Hammond - Born in the Anthropocene</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Cascadia+Code:ital,wght@0,200..700;1,200..700&family=Figtree:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Sora:ital,wght@0,200..700;1,200..700&family=Figtree:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="styles.css"/>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,11 +12,6 @@
         <header>
             <a href="index.html" style="text-decoration:none; color:white;"><h1>Ari Hammond - Portfolio</h1></a>
             <div id="headerNavbar">
-                <nav>
-                    <a href="#about">About</a>
-                    <a href="#projects">Projects</a>
-                    <a href="#research">Research</a>
-                </nav>
                 <div id="headerButtons">
                     <button><a href="mailto:ahammmond43@gatech.edu">Contact</a></button>
                     <button><a href="./documents/Hammond_Ari_Resume.pdf" type="application.pdf" download>Download Resume</a></button>
@@ -26,41 +21,34 @@
         </header>
         <main id="projPage">
             <div class="projContent" id="hero">
+                <div class="details">
+                    <h2>Born in the Anthropocene</h2>
+                    <h3>An interactive narrative exploring a sustainable future based in collective welfare and critical thought</h3>
+                    <h4>November 2025, 3 week timeline</h4>
+                    <h4>Class Project</h4>
+                    <h4>Project Team</h4>
+                    <ul>
+                        <li><span id="myRole"><strong>Ari Hammond:</strong> Twine Developer, Writer, Graphics Artist</span></li>
+                        <li><strong>Noah Graff:</strong> p5.js Developer, Graphic Artist</li>
+                        <li><strong>Case Dinkla:</strong> p5.js Developer</li>
+                        <li><strong>Caden Terrell:</strong> Writer</li>
+                        <li><strong>Sowmiyan Nattamai:</strong> Writer</li>
+                    </ul>  
+                </div>
                 <div class="image">
                     <img src="./projectPreviewPics/anthropocene.png" alt="" width="350" height="auto"/>
                 </div>
-                <div class="details">
-                    <h2>Born in the Anthropocene</h2>
-                    <h3>Tagline</h3>
-                    <h4>Dates</h4>
-                    <h4>Project Type</h4>
-                    <h4>Project Team</h4>
-                    <ul>
-                        <li id="myRole"><strong>Name:</strong> Role</li>
-                        <li><strong>Name:</strong> Role</li>
-                        <li><strong>Name:</strong> Role</li>
-                        <li><strong>Name:</strong> Role</li>
-                        <li><strong>Name:</strong> Role</li>
-                    </ul>  
-                </div>
-                <div id="prevPhotos">
-                    <img alt="screenshot of project"/>
-                    <img alt="screenshot of project"/>
-                    <img alt="screenshot of project"/>
-                    <img alt="screenshot of project"/>
-                </div>
+                
             </div>
             <div class="projContent" id="overview"> <!--diff bg color-->
                 <div id="summary">
-                    <p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed provident maxime aliquid numquam, nihil velit dolores expedita optio dolorem autem repellat explicabo odit dolore! Ipsum, laudantium pariatur! Vitae, eveniet nihil?
-                    </p>
+                    <p>This is a design futuring project assigned to demonstrate competencies in p5.js and with key concepts of computational media and design. We collaborated to employ these skillsets and design a sustainable future aligned with one or more UN Sustainable Development Goals, using fabulation as our main approach.</p>
                 </div>
                 <div id="task">
                     <h4>Goals</h4>
-                    <p id="goals">Project Task/Ideas</p>
+                    <p id="goals"><span id="goalVerb">Propose</span> a sustainable future society. <span  id="goalVerb">Develop</span> a p5.js sketch or other interactive program to show this society</p>
                     <h4>Results</h4>
-                    <p id="results">Synopsis of what the final deliverable is</p>
+                    <p id="results">An interactive narrative and integrate p5.js sketch where users make social/cultural decisions in the proposed future that determine the sustainability score used to determine the kind of city they can build</p>
                 </div>
                 <div id="tools">
                     <h4>Tools</h4>
@@ -70,33 +58,31 @@
                     </ul>
                 </div>
             </div>
-            <div class="projContent" id="challenge">
-                <h3>The Challenge</h3>
-                <h4>Task sentence here</h4>
-                <p>Additional details/Stats/etc about Problem statement</p>
+            <div class="projContent" id="problem">
+                <h3>Problem/Research Question</h3>
+                <h4>Before we can work toward more positive futures, we have to imagine them. Work in a team to imagine a more sustainable future society.</h4>
+                <p>Despite the promising and novel innovations enabled by the advent of artificial intelligence (AI), this development has also had immediate and severe environmental impacts predicted to continue. In the face of rapidly changing climate and this new, ubiquitous environmental pressor, we must find and develop more sustainable structure for future generations.</p>
             </div>
             <div class="projContent" id="solution">
                 <h3>Solution</h3>
                 <div id="solSection">
-                    <h4>Discovery and Ideation</h4>
+                    <h4>Background and Theoretical Framework</h4>
                 </div>
                 <div id="solSection">
-                    <h4>Proposal</h4>
+                    <h4>Methodology</h4>
                 </div>
                 <div id="solSection">
-                    <h4>Phase 1</h4>
-                    <h5>Feedback</h5>
+                    <h4>Artifacts</h4>
                 </div>
                 <div id="solSection">
-                    <h4>Phase 2</h4>
-                </div>
-                <div id="solSection">
-                    <h4>Final Deliverable</h4>
+                    <h4>Findings/Insights</h4>
                 </div>
             </div>
             <div class="projContent" id="reflection">
                 <h3>Reflection</h3>
-                <p>The critical last section concludes the case study by outlining any project success metrics that were achieved, awards that were won. In the case of a project that is not live, reflections and the project’s next steps are sufficient to round up the case study. Try to share any lessons that you learned to demonstrate you are invested in both the project’s life cycle and your career development.</p>
+                <p>This project received high marks from our instructional team for the course, Introduction to Computational Media, meaning we successfully proposed a sustainable future and designed an interactive artifact that allowed for the exploration of said future. We were also applauded for expanding beyond the constraints of p5.js and incorporating other tools.</p>
+                <p>This project was a valuable opportunity to improve my understanding of Twine as a prototyping/development tool for hypertext narratives. I successfully translated a traditional narrative into hypertext, considering the branches of the narrative and how different choices allowed for the exploration of key themes in our proposed future.</p>
+                <p>As my first foray into design futuring, it was fascinating to see how I may use interactive narratives as sites for speculative fiction. With more time, I would've liked to better establish the world of our proposed future, creating a cohesive and solid background upon which to explore the social and cultural determinants of sustainability.</p>            
             </div>
         </main>
         <footer>
@@ -105,3 +91,12 @@
         </footer>
     </body>
 </html>
+<!--
+Structure (for DM admissions)
+Problem / Research Question
+• Theoretical Framework
+• Methods
+• Prototype / Artifact
+• Findings / Insights
+• Reflection
+• Why this matters for digital media research-->
