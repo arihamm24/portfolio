@@ -50,6 +50,9 @@ button {
     width: fit-content;
     transition: 100ms ease-in;
 }
+button:hover {
+    cursor: pointer;
+}
 button > a:visited {
     text-decoration: none;
     color: var(--main-bg);
@@ -167,6 +170,7 @@ div.content-item {
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
+    gap: 10px;
 }
 #about-cards {
     justify-content: space-evenly;
