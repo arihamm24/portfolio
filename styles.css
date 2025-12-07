@@ -141,6 +141,9 @@ footer {
     border-radius: 300px;
     padding: 15px;
 }
+#navbar > li > a{
+    color:var(--link);
+}
 #content {
     width: 80vw;
     overflow-y: scroll;
