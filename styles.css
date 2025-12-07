@@ -254,6 +254,9 @@ button:hover{
     font-size:1.25rem;
     font-weight:bold;
 }
+.modal-header > a:hover {
+    color:var(--content-bg);
+}
 .modal-body {
     padding-left: 100px;
     padding-right: 100px;
