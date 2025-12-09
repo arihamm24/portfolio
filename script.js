@@ -1,16 +1,42 @@
 let projectCards = null;
 let projectModals = null;
+let researchCards = null;
 
-//create PROJECT CARDS for main page
-fetch('./project-cards.json')
-    .then(response => response.json())
-    .then(data => {
-            createProjectCards(data);
-        })
-    .catch(error => {
-            console.error('Error fetching data:', error);
-    }
-);
+//create CARDS for main page
+document.addEventListener("DOMContentLoaded", () => {
+    fetch('./project-cards.json')
+        .then(response => response.json())
+        .then(data => {
+                createProjectCards(data);
+            })
+        .catch(error => {
+                console.error('Error fetching data:', error);
+        }
+    );
+
+    //PROJECT MODAL POPUPS
+    fetch('./project-modals.json')
+        .then(response => response.json())
+        .then(data => {
+                createProjectModals(data);
+            })
+        .catch(error => {
+                console.error('Error fetching data:', error);
+        }
+    );
+
+    //RESEARCH CARDS
+    fetch('./research-cards.json')
+        .then(response => response.json())
+        .then(data => {
+                createResearchCards(data);
+            })
+        .catch(error => {
+                console.error('Error fetching data:', error);
+        }
+    );
+});
+
 
 function createProjectCards(data) {
     projectCards = data;
@@ -24,17 +50,6 @@ function createProjectCards(data) {
     });
 
 }
-
-//PROJECT MODAL POPUPS
-fetch('./project-modals.json')
-    .then(response => response.json())
-    .then(data => {
-            createProjectModals(data);
-        })
-    .catch(error => {
-            console.error('Error fetching data:', error);
-    }
-);
 
 function createProjectModals(data) {
     projectModals = data;
@@ -128,16 +143,6 @@ function createList(array) {
     return list;
 }
 
-let researchCards = null;
-fetch('./research-cards.json')
-    .then(response => response.json())
-    .then(data => {
-            createResearchCards(data);
-        })
-    .catch(error => {
-            console.error('Error fetching data:', error);
-    }
-);
 
 function createResearchCards(data) {
     researchCards = data;
