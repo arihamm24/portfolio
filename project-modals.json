@@ -3,7 +3,7 @@
         "id":"anthropocene",
         "title":"Born in the Anthropocene",
         "image":"./projectPreviewPics/anthropocene.png",
-        "summary":" is a 3-part interactive narrative implemented using Twine and p5.js. Users navigate a society founded on collective welfare, postmodern education, and multigenerational, communal family structures. In each section, they make a series of decisions that determine the structures and objects they can place in their own city map at the end of each stage, demonstrating how ethical decision-making, critical thought, and social cooperation could shape the state of sustainability and its tangible environmental impacts.",
+        "summary":" is a 3-part interactive narrative implemented using Twine and p5.js. Users navigate a society founded on collective welfare, postmodern education, and multigenerational, communal family structures.",
         "demo":"https://youtu.be/n69gkQKcF2Y",
         "team":[["Ari Hammond","Writer, Twine Developer, Graphics Artist"], ["Noah Graff", "p5.js Developer, Graphics Artist"],  ["Case Dinkla", "p5.js Developer"],  ["Caden Terrell", "Writer"],  ["Sowmiyan Nattamai", "Writer"]],
         "role": "Writer, Graphics Artist, Twine Developer, p5.js Developer",
