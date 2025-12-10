@@ -13,7 +13,7 @@
         "id":"museum",
         "title":"AI Museum Dataset Site",
         "image" : "./projectPreviewPics/museum.png",
-        "summary":"",
+        "summary":"is a web-based visualization and landing site for my 2025-2026 independent study with Dr. Abigale Stangl at the Georgia Institute of Technology",
         "demo":"",
         "team": [["Ari Hammond", "Principal Investigator"], ["Dr. Abigale Stangl","Faculty Advisor"]],
         "link":"https://arihamm24.github.io/ai-museum-datasets/"
@@ -23,8 +23,8 @@
         "id":"jampacked",
         "title":"Jam Packed",
         "image":"./projectPreviewPics/jamPacked.png",
-        "summary":"",
-        "demo":"",
+        "summary":"is a fast paced, single-player roller derby game created for the mGBA emulator",
+        "demo":"https://www.youtube.com/watch?v=cjYMJZcziBk",
         "team": [["Ari Hammond", "Developer, Artist"]],
         "link":""
     },
