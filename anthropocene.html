@@ -10,7 +10,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <body>
         <header>
-            <a href="./" style="text-decoration:none; color:white;"><h1>Ari Hammond - Portfolio</h1></a>
+            <a href="./" style="text-decoration:none; color:var(--text-color);"><h1>Ari Hammond - Portfolio</h1></a>
             <div id="headerNavbar">
                 <div id="headerButtons">
                     <button><a href="mailto:ahammmond43@gatech.edu">Contact</a></button>
@@ -59,30 +59,82 @@
                 </div>
             </div>
             <div class="projContent" id="problem">
-                <h3>Problem/Research Question</h3>
-                <h4>Before we can work toward more positive futures, we have to imagine them. Work in a team to imagine a more sustainable future society.</h4>
-                <p>Despite the promising and novel innovations enabled by the advent of artificial intelligence (AI), this development has also had immediate and severe environmental impacts predicted to continue. In the face of rapidly changing climate and this new, ubiquitous environmental pressor, we must find and develop more sustainable structure for future generations.</p>
+                <div id="problemBlurb">
+                    <h3>Problem/Research Question</h3>
+                    <h4>Before we can work toward more positive futures, we have to imagine them. Work in a team to imagine a more sustainable future society.</h4>
+                </div>
+                <div id="problemPara">
+                    <p>Despite the promising and novel innovations enabled by the advent of artificial intelligence (AI), this development has also had immediate and severe environmental impacts predicted to continue. In the face of rapidly changing climate and this new, ubiquitous environmental pressor, we must find and develop more sustainable structure for future generations.</p>
+                </div>
             </div>
             <div class="projContent" id="solution">
                 <h3>Solution</h3>
-                <div id="solSection">
+                <div class="solSection" id="background">
                     <h4>Background and Theoretical Framework</h4>
+                    <div class="theory" id="text">
+                        <h5>UN Sustainable Development Goals</h5>
+                        <p>The UN Sustainable Development Goals incorporated into this project were No Poverty (1), Zero Hunger (2), Quality Education (4), and Sustainable Cities and Communities (11). We decided to focus on the social/cultural elements of sustainability to demonstrate how community, cooperation, skepticism, and education all play pivotal roles in our collective well-being and understanding of sustainability.</p>
+                    </div>
+                    <div class="theory" id="text">
+                        <h5>Post-modernism</h5>
+                    </div>
+                    <div class="theory" id="text">
+                        <h5>Universal Basic Income</h5>
+                    </div>
                 </div>
-                <div id="solSection">
+                <div class="solSection" id="methods">
                     <h4>Methodology</h4>
+                    <div class="processDoc" id="text">
+                        <details>
+                            <summary>Brainstorm: <span class="methodsSummary">blurb here</span></summary>
+                            <img src="./caseStudyFiles/anthropocene/whiteboard.png" width="100%" height="auto"/>
+                            <img src="./caseStudyFiles/anthropocene/whiteboardClose.png" height="auto" width="40%"/>
+                            <p>Brainstorm</p>
+                        </details>
+                    </div>
+                    <div class="processDoc" id="text">
+                        <details>
+                            <summary>Proposed Concept: <span class="methodsSummary">blurb here</span></summary>
+                            <p>We began with a proposal</p>
+                        </details>
+                        
+                    </div>
+                    <div class="processDoc" id="text">
+                        <details>
+                            <summary>Version 1: <span class="methodsSummary">blurb here</span></summary>
+                            <p>v1 sketch screenshot</p>
+                            <p>From the courses instructional team and the director of the Decatur Maker Space</p>
+                        </details>
+                    </div>
+                    <div class="processDoc" id="text">
+                        <details>
+                            <summary>Designing the Interactive Narrative: <span class="methodsSummary">blurb here</span></summary>
+                                <p>Outlining in Notion, 3 sections, Twine Sugarcube</p>
+                                <img src="./caseStudyFiles/anthropocene/twineMap.png" width="300" height="auto" alt="a screenhsot of the twine map for Born in the Anthropocene"/>
+                                <p>Completely migrating outline, awaiting p5.js sketch</p>
+                            <h5>Refining the p5.js sketch</h5>
+                                <p>Process of Integrating p5</p>
+                                <p>Sprites</p>
+                        </details>
+                    </div>
                 </div>
-                <div id="solSection">
-                    <h4>Artifacts</h4>
+                <div class="solSection" id="artifact">
+                    <h4>Artifact(s)</h4>
+                    <div class="artifact" id="embed">
+                        <iframe frameborder="0" src="https://itch.io/embed/4054650?bg_color=dcb6fd&amp;fg_color=272a63&amp;link_color=EACB5F&amp;border_color=272a63" width="208" height="167"><a href="https://arihammond.itch.io/born-in-the-anthropocene">Born in the Anthropocene by ari</a></iframe>
+                    </div>
                 </div>
-                <div id="solSection">
+                <div class="solSection" id="findings">
                     <h4>Findings/Insights</h4>
                 </div>
             </div>
             <div class="projContent" id="reflection">
                 <h3>Reflection</h3>
-                <p>This project received high marks from our instructional team for the course, Introduction to Computational Media, meaning we successfully proposed a sustainable future and designed an interactive artifact that allowed for the exploration of said future. We were also applauded for expanding beyond the constraints of p5.js and incorporating other tools.</p>
-                <p>This project was a valuable opportunity to improve my understanding of Twine as a prototyping/development tool for hypertext narratives. I successfully translated a traditional narrative into hypertext, considering the branches of the narrative and how different choices allowed for the exploration of key themes in our proposed future.</p>
-                <p>As my first foray into design futuring, it was fascinating to see how I may use interactive narratives as sites for speculative fiction. With more time, I would've liked to better establish the world of our proposed future, creating a cohesive and solid background upon which to explore the social and cultural determinants of sustainability.</p>            
+                <div id="refPara">
+                    <p>This project received high marks from our instructional team for the course, Introduction to Computational Media, meaning we successfully proposed a sustainable future and designed an interactive artifact that allowed for the exploration of said future. We were also applauded for expanding beyond the constraints of p5.js and incorporating other tools.</p>
+                    <p>This project was a valuable opportunity to improve my understanding of Twine as a prototyping/development tool for hypertext narratives. I successfully translated a traditional narrative into hypertext, considering the branches of the narrative and how different choices allowed for the exploration of key themes in our proposed future.</p>
+                    <p>As my first foray into design futuring, it was fascinating to see how I may use interactive narratives as sites for speculative fiction. With more time, I would've liked to better establish the world of our proposed future, creating a cohesive and solid background upon which to explore the social and cultural determinants of sustainability.</p>            
+                </div>
             </div>
         </main>
         <footer>
@@ -91,12 +143,3 @@
         </footer>
     </body>
 </html>
-<!--
-Structure (for DM admissions)
-Problem / Research Question
-• Theoretical Framework
-• Methods
-• Prototype / Artifact
-• Findings / Insights
-• Reflection
-• Why this matters for digital media research-->
