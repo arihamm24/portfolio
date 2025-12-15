@@ -1,0 +1,30 @@
+[
+    {
+        "id":"anthropocene",
+        "title":"Born in the Anthropocene",
+        "tagline": "An interactive narrative exploring a sustainable future based in collective welfare and critical thought",
+        "languages": ["Twine", "p5.js"],
+        "genre" : "interactive-narrative"
+    },
+    {
+        "id":"museum",
+        "title":"AI Museum Dataset Site",
+        "tagline":"Web-based visualization/landing page for my AI Museum Dataset independent study in Fall 2025",
+        "languages":["JSON","JavaScript","HTML/CSS"],
+        "genre":"web-dev"
+    },
+    {
+        "id":"jampacked",
+        "title":"Jam Packed",
+        "tagline":"A roller-derby video game developed for the mGBA emulator",
+        "langauges":["C"],
+        "genre":"game-dev"
+    },
+    {
+        "id":"travelmate",
+        "title":"TravelMate",
+        "tagline":"an interactive travel planning web application",
+        "languages":["Django","HTML/CSS", "SQLite"],
+        "genre":"web-dev"
+    }
+]
