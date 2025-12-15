@@ -1,11 +1,55 @@
-const ProjectCard = ({project, onOpen}) => {
+import { createRef, useRef } from "react";
+
+const ProjectCard = ({project}) => {
+    const dialogRef = createRef(null);
+    function toggleDialog() {
+        if (!dialogRef.current) {
+            return;
+        } 
+        (dialogRef.current.hasAttribute("open"))
+            ? dialogRef.current.close()
+            : dialogRef.current.showModal();
+
+    
+    }
     return (
         <>
-        <div className='card'>
+        <div className='card' id={project.id}>
             <h4>{project.title}</h4> 
             <p>{project.tagline}</p>
-            <button onClick={onOpen}>Learn More</button>
+            <button onClick={toggleDialog}>Learn More</button>
         </div>
+        <dialog className="modal" id={project.id} ref={dialogRef}> 
+            <div id="modalHeader">
+                <h3>{project.title}</h3>
+                <button onClick={toggleDialog}>&times;</button>
+            </div>
+            <div id="modalBody">
+                <div className="projDemoSection">
+                    <div className="projSummary">
+                        <div className="projImg">
+                            <img src={project.image} width="375" height="auto" />
+                        </div>
+                        <p><span id="summaryTitle">{project.title}</span>{project.summary}</p>
+                        <div className="projButtons">
+                            <button><a class="modalLink" href={project.link}>See Project</a></button>
+                            <button><a target="_blank" className="modalLink" href={project.demo}>View Demo</a></button>
+                            <button><a href={project.id} className="modalLink">See Case Study</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div className="projRolesSection">
+                    <div className="projTeam">
+                        <h4>Project Team</h4>
+                        <ul>
+                        {project.team.map(teamMember => (
+                            <li><span id="modalTeamName">{teamMember[0]}:</span> {teamMember[1]}</li>
+                        ))}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </dialog>
         </>
     );
 };

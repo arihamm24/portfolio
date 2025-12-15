@@ -15,6 +15,7 @@ h1 {
 }
 h2 {
     font-size: 1.8rem;
+    line-height: 0.7;
 }
 h3 {
   font-size: 1.625rem; 
@@ -41,6 +42,9 @@ h4, #modalTitle, summary {
 p, li, a, button, h5, h6 {
    font-family: "Figtree", sans-serif;
    font-weight:525;
+}
+#modalTeamName {
+    font-weight: 700;
 }
 .card > h4 {
     width: 100%;
@@ -199,10 +203,19 @@ div.contentItem {
     text-align: center;
 }
 #socials {
-    margin-top: 0px;
     display:flex;
     flex-direction: row;
-    gap: 8px;
+    justify-content: center;
+    transform: scale(1.5);
+    gap: 15px;
+}
+#socials > a {
+    color: var(--text-color);
+    transition: 300ms ease-in-out;
+}
+#socials > a:hover {
+    color: var(--link);
+    transform: scale(1.7);
 }
 .cardsContainer {
     display:flex;
@@ -221,27 +234,19 @@ div.contentItem {
     background-color: var(--card-bg);
     color: var(--main-bg);
     margin: 5px;
-    padding:20px;
+    padding:25px;
     width: 275px;
-    height: 225px;
+    height: 250px;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
-#project-cards > .card{
-    padding: 35px;
 }
 button:hover{
     transform: scale(1.2);
     background-color:var(--main-bg);
     color: var(--link);
     text-decoration: none;
-}
-#research-cards > .card{
-    padding: 25px;
-    width: 275px;
-    height: 250px;
 }
 #research-cards > .card > button > a{
     color:var(--main-bg);
@@ -262,45 +267,49 @@ button:hover{
 }
 
 /*FOR PROJECT/RESEARCH MODAL WINDOWS*/
+dialog::backdrop {
+    background-color: rgba(0, 0, 0, 0.5);
+}
 .modal {
     padding: 0px 20px 20px 20px;
-    position: fixed;
-    top:50%;
-    left:50%;
     transition: 200ms ease-in-out;
     border-radius:10px;
     background-color: var(--text-color);
-    z-index:10;
-    max-width:70%;
+    max-width: 50%;
     max-height:70%;
     overflow: scroll;
+    border:none;
 }
-.modalHeader {
-    background-color: var(--text-color);
+#modalHeader {
     position: sticky;
+    background-color: var(--text-color);
+    color:var(--main-bg);
     top:0;
+    height: fit-content;
     margin-bottom: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.modalHeader > button {
+#modalHeader > button {
     cursor: pointer;
     border:none;
     outline: none;
     background:none;
-    font-size:1.25rem;
+    font-size:1.75rem;
     font-weight:bold;
 }
-.modalHeader > a:hover {
-    color:var(--content-bg);
-}
-.modalBody {
-    padding-left: 100px;
-    padding-right: 100px;
+#modalBody {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+    gap: 18%;
     overflow: scroll;
+    color:var(--main-bg);
 }
-#overlay {
+.overlay {
     position: fixed;
     opacity:0;
     transition: 200ms ease-in-out;
@@ -318,12 +327,15 @@ button:hover{
 .projDemoSection {
     display: flex;
     flex-direction: row;
-    margin-bottom: 12px;
+    width: 45%;
+}
+.projRolesSection {
+    margin: 0 10px;
 }
 .projSummary {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 8px;
 }
 .modalLink {
     text-decoration: none;

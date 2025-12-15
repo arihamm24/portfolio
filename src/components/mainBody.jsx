@@ -20,7 +20,7 @@ function About() {
             <p>Under the supervision of Dr. André Brock, I am conducting practice-based research on Black feminist technopractice in interactive documentaries, ultimately culminating in my undergraduate thesis. </p>
             <p>Professionally, I am seeking roles in <span id="about-interests">creative technology, interactive media/design, UI/UX research, and educational technology</span> to better contextualize my research interests and develping technical skills beyond academia.</p>
             <div className="cardsContainer" id="about-cards">
-                <div class="card" id="research-interests">
+                <div className="card" id="research-interests">
                     <h4>Research Interests</h4>
                     <ul>
                         <li>Interactive Narratives</li>
@@ -29,7 +29,7 @@ function About() {
                         <li>New Media</li>
                     </ul>
                 </div>
-                <div class="card" id="languages">
+                <div className="card" id="languages">
                     <h4>Programming Languages</h4>
                     <ul>
                         <li>Java</li>
@@ -38,7 +38,7 @@ function About() {
                         <li>C</li>
                     </ul>
                 </div>
-                <div class="card" id="technologies">
+                <div className="card" id="technologies">
                     <h4>Technologies/Software</h4>
                     <ul>
                         <li>Figma</li>
