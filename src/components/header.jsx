@@ -1,17 +1,13 @@
-import Navbar from './navbar'
+import ActionButtons from './actionButtons'
+import { Link } from 'react-router';
 
 function Header() {
     return (
         <header>
-        <h1>Ari Hammond - Portfolio</h1>
-        <div id="headerNavbar">
-            <Navbar />
-        </div>
-        <div id="headerButtons">
-            <button><a href="mailto:ahammmond43@gatech.edu">Contact</a></button>
-            <button><a href="././public/documents/Hammond_Ari_Resume.pdf" type="application.pdf" download>Download Resume</a></button>
-            <button><a href="#" type="application.pdf" download>Download Academic CV</a></button>
-        </div>
+        <Link to="/" style={
+           {textDecoration: 'none', color:"#F5F5FA"}
+        }><h1>Ari Hammond</h1></Link>
+        <ActionButtons />
         </header>
     );
 }

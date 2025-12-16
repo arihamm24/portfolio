@@ -20,6 +20,7 @@
         "summary":" is a web-based visualization and landing site for my 2025-2026 independent study with Dr. Abigale Stangl at the Georgia Institute of Technology",
         "demo":"",
         "team": [["Ari Hammond", "Principal Investigator"], ["Dr. Abigale Stangl","Faculty Advisor"]],
+        "role":"Principal Investigator, Web Developer",
         "link":"https://arihamm24.github.io/ai-museum-datasets/",
         "languages":["JSON","JavaScript","HTML/CSS"],
         "genre":"web-dev"
@@ -32,6 +33,7 @@
         "summary":" is a fast paced, single-player roller derby game created for the mGBA emulator",
         "demo":"https://www.youtube.com/watch?v=cjYMJZcziBk",
         "team": [["Ari Hammond", "Developer, Artist"]],
+        "role": "Developer, Artist",
         "link": "https://arihamm24.github.io/jam-packed/",
         "langauges":["C"],
         "genre":"game-dev"
@@ -40,7 +42,7 @@
         "id":"travelmate",
         "title":"TravelMate",
         "tagline":"an interactive travel planning web application",
-         "image" : "./projectPreviewPics/travelmate.png",
+        "image" : "./projectPreviewPics/travelmate.png",
         "summary":" is an interactive travel planning web application built with Django and HTML. Users input their dates, destination, and activities to receive custom AI and API powered weather forecasts, packing lists, and additional travel tips. ",
         "demo":"https://youtu.be/Bw96BV2pxgg",
         "team":[["Ari Hammond", "Full Stack Developer, Front-end Designer"],["Mithil Cherkadi", "Full Stack Developer"], ["Jason Li","Product Manager, Back End Developer"], ["Neha Kunche","Scrum Master, Front End Developer"], ["Deepthi Munagapati", "Full Stack Developer"]],

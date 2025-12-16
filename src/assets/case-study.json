@@ -1,0 +1,126 @@
+[
+    {
+        "id":"anthropocene",
+        "title":"Born in the Anthropocene",
+        "tagline": "An interactive narrative exploring a sustainable future based in collective welfare and critical thought",
+        "image":"./projectPreviewPics/anthropocene.png",
+        "date":"November 2025, 2 week timeline",
+        "type":"Class Project",
+        "team":[["Ari Hammond","Writer, Twine Developer, Graphics Artist"], ["Noah Graff", "p5.js Developer, Graphics Artist"],  ["Case Dinkla", "p5.js Developer"],  ["Caden Terrell", "Writer"],  ["Sowmiyan Nattamai", "Writer"]],
+        "problem":{
+            "blurb":"",
+            "paragraph":""
+        },
+        "overview":{
+            "summary":"",
+            "goals":[],
+            "tasks":[],
+            "tools":[]
+        },
+        "process":{
+            "background":"",
+            "methods":"",
+            "artifact": {
+                "link":"",
+                "blurb":""
+            },
+            "findings":""
+        },
+        "reflection":{
+            "paragraph":""
+        }
+    },
+    {
+        "id":"museum",
+        "title":"AI Museum Dataset",
+        "tagline":"Web-based visualization/landing page for my AI Museum Dataset independent study in Fall 2025",
+        "image" : "./projectPreviewPics/museum.png",
+        "date":"November 2025",
+        "type":"Research Artifact",
+        "team": [["Ari Hammond", "Principal Investigator"], ["Dr. Abigale Stangl","Faculty Advisor"]],
+        "problem":{
+            "blurb":"",
+            "paragraph":""
+        },
+        "overview":{
+            "summary":"",
+            "goals":[],
+            "tasks":[],
+            "tools":[]
+        },
+        "process":{
+            "background":"",
+            "methods":"",
+            "artifact": {
+                "link":"",
+                "blurb":""
+            },
+            "findings":""
+        },
+        "reflection":{
+            "paragraph":""
+        }
+    },
+    {
+        "id":"jampacked",
+        "title":"Jam Packed",
+        "tagline":"A roller-derby video game developed for the mGBA emulator",
+        "image":"./projectPreviewPics/jamPacked.png",
+        "date":"October - December 2025, 7 week timeline",
+        "type":"Class Project",
+        "team": [["Ari Hammond", "Developer, Artist"]],
+        "problem":{
+            "blurb": "",
+            "paragraph":""
+        },
+        "overview":{
+            "summary":"",
+            "goals":[],
+            "tasks":[],
+            "tools":[]
+        },
+        "process":{
+            "background":"",
+            "methods":"",
+            "artifact": {
+                "link":"",
+                "blurb":""
+            },
+            "findings":""
+        },
+        "reflection":{
+            "paragraph":""
+        }
+    },
+    {
+        "id":"travelmate",
+        "title":"TravelMate",
+        "tagline":"an interactive travel planning web application",
+        "image" : "./projectPreviewPics/travelmate.png",
+        "date":"April 2025, 3 week timeline",
+        "type":"Class Project",
+        "team":[["Ari Hammond", "Full Stack Developer, Front-end Designer"],["Mithil Cherkadi", "Full Stack Developer"], ["Jason Li","Product Manager, Back End Developer"], ["Neha Kunche","Scrum Master, Front End Developer"], ["Deepthi Munagapati", "Full Stack Developer"]],
+        "problem":{
+            "blurb":"",
+            "paragraph":""
+        },
+        "overview":{
+            "summary":"",
+            "goals":[],
+            "tasks":[],
+            "tools":[]
+        },
+        "process":{
+            "background":"",
+            "methods":"",
+            "artifact": {
+                "link":"",
+                "blurb":""
+            },
+            "findings":""
+        },
+        "reflection":{
+            "paragraph":""
+        }
+    }
+]

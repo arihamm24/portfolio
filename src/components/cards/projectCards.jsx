@@ -1,4 +1,5 @@
 import { createRef, useRef } from "react";
+import { Link } from "react-router";
 
 const ProjectCard = ({project}) => {
     const dialogRef = createRef(null);
@@ -32,9 +33,9 @@ const ProjectCard = ({project}) => {
                         </div>
                         <p><span id="summaryTitle">{project.title}</span>{project.summary}</p>
                         <div className="projButtons">
-                            <button><a class="modalLink" href={project.link}>See Project</a></button>
-                            <button><a target="_blank" className="modalLink" href={project.demo}>View Demo</a></button>
-                            <button><a href={project.id} className="modalLink">See Case Study</a></button>
+                           <a class="modalLink" href={project.link} target="_blank"><button>See Project</button></a>
+                            <a target="_blank" className="modalLink" href={project.demo}><button>View Demo</button></a>
+                           <Link to={`/${project.id}`} className="modalLink"><button>See Case Study</button></Link>
                         </div>
                     </div>
                 </div>
