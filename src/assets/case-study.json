@@ -35,7 +35,7 @@
         "title":"AI Museum Dataset",
         "tagline":"Web-based visualization/landing page for my AI Museum Dataset independent study in Fall 2025",
         "image" : "./projectPreviewPics/museum.png",
-        "date":"November 2025",
+        "date":"November 2025, 48 hour timeline",
         "type":"Research Artifact",
         "team": [["Ari Hammond", "Principal Investigator"], ["Dr. Abigale Stangl","Faculty Advisor"]],
         "problem":{

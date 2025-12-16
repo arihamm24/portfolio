@@ -8,8 +8,9 @@ const CaseStudy = () => {
     const {id} = useParams();
     const study = caseStudies.find((p) => p.id === id);
     const studyIndex = caseStudies.indexOf(study);
-    const nextProject = caseStudies.at((studyIndex + 1) % caseStudies.length)
-    console.log(nextProject);
+    const nextProject = caseStudies.at((studyIndex + 1) % caseStudies.length);
+    const prevProject = caseStudies.at((studyIndex + caseStudies.length - 1) % caseStudies.length);
+
 
     if (!study) {
         return (
@@ -31,7 +32,8 @@ const CaseStudy = () => {
                 <a href="/"><button>Return Home</button></a>
                 <StudyNav/>
                 <NextProjButton 
-                    project = {nextProject}
+                    next = {nextProject}
+                    prev = {prevProject}
                 />
             </div>
             <div className="caseStudy">
@@ -78,9 +80,16 @@ function StudyNav() {
     );
 }
 
-function NextProjButton({project}) {
+function NextProjButton({next, prev}) {
     return (
-        <Link to={`/${project.id}`}><button>Next Project &rarr;</button></Link>
+        <div id="navStudyButtons">
+        <Link to={`/${prev.id}`}><button style={
+            {fontSize:"0.8rem"}
+        }>&larr; Previous</button></Link>
+        <Link to={`/${next.id}`}><button style={
+            {fontSize:"0.8rem"}
+        }>Next &rarr;</button></Link>
+        </div>
     );
 }
 
