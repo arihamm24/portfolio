@@ -1,5 +1,6 @@
 import ProjectSection from "./cards/projectSection.jsx"
 import ResearchCard from "./cards/researchCards"
+import MediaQuery from "react-responsive";
 
 function Main() {
     return (
@@ -19,6 +20,7 @@ function About() {
             <p>Hello! My name is <strong>Ari Hammond</strong> (they/them). I am a <strong>Computational Media</strong> student at Georgia Tech, with concentrations in People and Film & Media Studies. My research interests include <span id="about-interests">interactive narratives, non-fiction media, digital humanities, and new media technologies.</span></p>  
             <p>Under the supervision of Dr. André Brock, I am conducting practice-based research on Black feminist technopractice in interactive documentaries, ultimately culminating in my undergraduate thesis. </p>
             <p>Professionally, I am seeking roles in <span id="about-interests">creative technology, interactive media/design, UI/UX research, and educational technology</span> to better contextualize my research interests and develping technical skills beyond academia.</p>
+            <MediaQuery minWidth={1335}>
             <div className="cardsContainer" id="about-cards">
                 <div className="card" id="research-interests">
                     <h4>Research Interests</h4>
@@ -38,9 +40,9 @@ function About() {
                         <li>C</li>
                     </ul>
                 </div>
-                <div className="card" id="technologies">
-                    <h4>Technologies/Software</h4>
-                    <ul>
+                 <div className="card" id="technologies">
+                    <h4>Technical Skills</h4>
+                     <ul>
                         <li>Figma</li>
                         <li>Twine</li>
                         <li>Arduino</li>
@@ -48,6 +50,36 @@ function About() {
                     </ul>
                 </div>
             </div>
+            </MediaQuery>
+            <MediaQuery maxWidth={1334}>
+                <details>
+                    <summary>Research Interests</summary>
+                    <ul>
+                        <li>Interactive Narratives</li>
+                        <li>Digital Humanities</li>
+                        <li>Black Media Studies</li>
+                        <li>New Media</li>
+                    </ul>
+                </details>
+                <details>
+                    <summary>Programming Langauges</summary>
+                    <ul>
+                        <li>Java</li>
+                        <li>JavaScript</li>
+                        <li>Python</li>
+                        <li>C</li>
+                    </ul>
+                </details>
+                <details>
+                    <summary>Technical Skills</summary>
+                     <ul>
+                        <li>Figma</li>
+                        <li>Twine</li>
+                        <li>Arduino</li>
+                        <li>Procreate</li>
+                    </ul>
+                </details>
+            </MediaQuery>
         </div>
     );
 }

@@ -1,9 +1,9 @@
 import { useParams, Link } from "react-router";
-import { createRef } from "react";
+import MediaQuery from "react-responsive";
 import caseStudies from '../../assets/case-study.json'
 import Header from "../header";
 import Footer from "../footer";
-
+import MobileHeader from "../mobileHeader";
 const CaseStudy = () => {
     const {id} = useParams();
     const study = caseStudies.find((p) => p.id === id);
@@ -23,9 +23,9 @@ const CaseStudy = () => {
             </alert>
         );
     }
-
     return (
         <>
+        <MediaQuery minWidth={1024}>
         <Header />
         <div id="projPage">
             <div id="studyNavbar">
@@ -54,6 +54,29 @@ const CaseStudy = () => {
                 />
             </div>
         </div>
+        </MediaQuery>
+        <MediaQuery maxWidth={1023}>
+            <MobileHeader />
+            <div id="projPage">
+                <div className="caseStudy">
+                    <Hero 
+                        project = {study}
+                    />
+                    <Overview 
+                        project = {study}
+                    />
+                    <Problem 
+                        project = {study}
+                    />
+                    <Process
+                        project = {study}
+                    />
+                    <Reflection 
+                        project = {study}
+                    />
+                </div>
+            </div>
+        </MediaQuery>
         <Footer />
         </>
     );
@@ -96,21 +119,20 @@ function NextProjButton({next, prev}) {
 function Hero({project}) {
     return(
         <div className="projContent" id="hero">
-        <div className="details">
-            <h2>{project.title}</h2>
-            <p>{project.tagline}</p>
-            <h4>{project.date}</h4>
-            <h4>{project.type}</h4>
-            <h4>Project Team</h4>
-            <ul>
-                {project.team.map(teamMember => (
-                    <li><span id="modalTeamName">{teamMember[0]}:</span> {teamMember[1]}</li>
-                ))}
-            </ul>
-        </div>
-        <div className="image">
-            <img src={project.image} alt="" width="350" height="auto"/>
-        </div>
+            <div className="details">
+                <h2>{project.title}</h2>
+                <img src={project.image} alt=""/>
+            </div>
+            <div className="tldr">
+                <h4>{project.date}</h4>
+                <h4>{project.type}</h4>
+                <h4>Project Team</h4>
+                <ul>
+                    {project.team.map(teamMember => (
+                        <li><span id="modalTeamName">{teamMember[0]}:</span> {teamMember[1]}</li>
+                    ))}
+                </ul>
+            </div>
         </div>
     );
 }
