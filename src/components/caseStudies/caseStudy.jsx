@@ -198,7 +198,7 @@ function Process({project}) {
                 </div>
                 <div className="processSection" id="artifact">
                     <h4>Artifact & Implementation</h4>
-                    <a href={project.process.artifact} target="_blank"><img src={project.image} width={400}/></a>
+                    <a href={project.process.artifact} target="_blank"><img src={project.image} width={200}/></a>
                     <h5>Click the Image to Access the Live Artifact or Demo</h5>
                 </div>
                 <div className="processSection">
