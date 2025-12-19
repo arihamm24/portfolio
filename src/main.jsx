@@ -12,7 +12,6 @@ createRoot(document.getElementById('root')).render(
       <Route index element={<App />}></Route>
       <Route path='/:id' element={<CaseStudy/>}/>
     </Routes>
-    
   </BrowserRouter>
   </StrictMode>
 )

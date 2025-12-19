@@ -23,7 +23,7 @@ h3 {
 }
 h4, summary {
   font-size: 1.25rem;
-  line-height: 1.4;
+  line-height: 1.2;
 }
 body {
     background-color: var(--page-bg);
@@ -288,11 +288,14 @@ button:hover{
 }
 .projContent#overview {
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: flex-start;
 }
 .projContent#overview > div {
-    width: 40%;
+    width: 30%;
+}
+#goalVerb {
+    color: var(--link);
 }
 .projContent#problem, .projContent#reflection {
     width:100%;
@@ -427,8 +430,14 @@ dialog::backdrop {
     h1 {
         font-size: 2rem;
     }
-    h2,h3 {
+    h2 {
         font-size: 1.5rem;
+    }
+    h3 {
+        font-size: 1.3rem;
+    }
+    h4 {
+        font-size: 1.2rem;
     }
     footer {
         text-align: center;
@@ -488,5 +497,8 @@ dialog::backdrop {
         margin: 0 1rem;
         padding: auto;
         width: 40%;
+    }
+    .projContent#hero > .details {
+        width: 70%;
     }
 }

@@ -14,13 +14,13 @@ const CaseStudy = () => {
 
     if (!study) {
         return (
-            <alert style={
-                {backgroundColor:'#AB81cd', color:"#272a63"}
+            <div style={
+                {backgroundColor:'#272a63', color:"#F5F5FA", padding:"40px", margin:"40px", borderRadius:"20px", width:"fit-content"}
             }>
                 <h1>Project Unavailable</h1>
-                <p>This project does not exist, has been removed, or is otherwise unavailable</p>
+                <h3>This project does not exist, has been removed, or is otherwise unavailable</h3>
                 <Link to="/"><button>Return Home</button></Link>
-            </alert>
+            </div>
         );
     }
     return (
@@ -93,9 +93,9 @@ function StudyNav() {
             <a href="#process"><p>Research & Design Process</p></a>
             <ul>
                 <a><li>Background</li></a>
-                <a><li>Methods</li></a>
+                <a><li>Approach</li></a>
                 <a><li>Artifact</li></a>
-                <a><li>Findings</li></a>
+                <a><li>Outcomes</li></a>
             </ul>
             <a href="#reflection"><p>Reflection</p></a>
         </nav>
@@ -144,21 +144,21 @@ function Overview({project}) {
                 <p>{project.overview.summary}</p>
             </div>
             <div>
-                <h5>Goals</h5>
-                <ul>
+                <div>
+                <h4>Goals</h4>
                     {project.overview.goals.map(goal => (
-                        <li>{goal}</li>
+                        <p><span id="goalVerb">{goal[0]}</span>{goal[1]}</p>
                     ))}
-                </ul>
-                <h5>Tasks</h5>
-                <ul>
-                    {project.overview.tasks.map(task => (
-                        <li>{task}</li>
+                </div>
+                <div>
+                <h4>Results</h4>
+                    {project.overview.results.map(result => (
+                        <p>{result}</p>
                     ))}
-                </ul>
+                </div>
             </div>
             <div>
-                <h5>Tools</h5>
+                <h4>Tools</h4>
                 <ul>
                     {project.overview.tools.map(tool => (
                         <li>{tool}</li>
@@ -190,19 +190,23 @@ function Process({project}) {
             <div id="processGrid">
                 <div className="processSection">
                     <h4>Background & Theoretical Framework</h4>
+                    <p>{project.process.background}</p>
                 </div>
                 <div className="processSection">
-                    <h4>Methods</h4>
+                    <h4>Approach</h4>
+                    <p>{project.process.methods}</p>
                 </div>
-                <div className="processSection">
+                <div className="processSection" id="artifact">
                     <h4>Artifact & Implementation</h4>
-                    <p>Reiterate tools and hosting</p>
+                    <a href={project.process.artifact} target="_blank"><img src={project.image} width={400}/></a>
+                    <h5>Click the Image to Access the Live Artifact or Demo</h5>
                 </div>
                 <div className="processSection">
-                    <h4>Findings and Insights</h4>
-                    <p>Was the question answered? What did you find? Why this matters?</p>
+                    <h4>Outcomes</h4>
+                    <p>{project.process.findings}</p>
                 </div>
             </div>
+            <hr />
         </div>
     );
 }
@@ -212,6 +216,7 @@ function Reflection({project}) {
             <h3>Reflection</h3>
             <div id="reflectionParagraph">
                 <p>{project.reflection.paragraph}</p>
+                <p>{project.reflection.futureWork}</p>
             </div>
         </div>
     );

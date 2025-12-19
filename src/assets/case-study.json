@@ -8,26 +8,24 @@
         "type":"Class Project",
         "team":[["Ari Hammond","Writer, Twine Developer, Graphics Artist"], ["Noah Graff", "p5.js Developer, Graphics Artist"],  ["Case Dinkla", "p5.js Developer"],  ["Caden Terrell", "Writer"],  ["Sowmiyan Nattamai", "Writer"]],
         "problem":{
-            "blurb":"",
-            "paragraph":""
+            "blurb":"Before we can work toward more positive futures, we have to imagine them. Work in a team to imagine a more sustainable future society.",
+            "paragraph":"Despite the promising and novel innovations enabled by the advent of artificial intelligence (AI), this development has also had immediate and severe environmental impacts predicted to continue. In the face of rapidly changing climate and this new, ubiquitous environmental pressor, we must find and develop more sustainable structure for future generations"
         },
         "overview":{
-            "summary":"",
-            "goals":[],
-            "tasks":[],
-            "tools":[]
+            "summary":"This is a design futuring project assigned to demonstrate competencies in p5.js and with key concepts of computational media and design. We collaborated to employ these skillsets and design a sustainable future aligned with one or more UN Sustainable Development Goals, using fabulation as our main approach.",
+            "goals":[["Propose ", "a sustainable future society"], ["Develop ", "an interactive program exploring the proposed society"]],
+            "results":["An interactive narrative and integrated p5.js sketch where users make social/cultural decisions in the proposed future"],
+            "tools":["Twine", "p5.js"]
         },
         "process":{
             "background":"",
             "methods":"",
-            "artifact": {
-                "link":"",
-                "blurb":""
-            },
+            "artifact": "https://arihammond.itch.io/born-in-the-anthropocene",
             "findings":""
         },
         "reflection":{
-            "paragraph":""
+            "paragraph":"This project was a valuable opportunity to improve my understanding of Twine as a prototyping/development tool for hypertext narratives. I successfully translated a traditional narrative into hypertext, considering the branches of the narrative and how different choices allowed for the exploration of key themes in our proposed future.",
+            "futureWork":"As my first foray into design futuring, it was fascinating to see how I may use interactive narratives as sites for speculative fiction. With more time, I would've liked to better establish the world of our proposed future, creating a cohesive and solid background upon which to explore the social and cultural determinants of sustainability."
         }
     },
     {
@@ -36,29 +34,27 @@
         "tagline":"Web-based visualization/landing page for my AI Museum Dataset independent study in Fall 2025",
         "image" : "./projectPreviewPics/museum.png",
         "date":"November 2025, 48 hour timeline",
-        "type":"Research Artifact",
+        "type":"Research Tool",
         "team": [["Ari Hammond", "Principal Investigator"], ["Dr. Abigale Stangl","Faculty Advisor"]],
         "problem":{
-            "blurb":"",
-            "paragraph":""
+            "blurb":"How can we visualize a multimodal AI dataset for collaborative use and study design?",
+            "paragraph":"This site is a visualization of 56-item dataset of artifact descriptions used in a design research study. When created, the dataset was not intended for research use and upon joining MultiSense.Studio and working under Dr. Stangl, I identified a need to better visualize and centralize the dataset so it could be referenced during the study and shared among my colleagues in the lab."
         },
         "overview":{
-            "summary":"",
-            "goals":[],
-            "tasks":[],
-            "tools":[]
+            "summary":"This is a web visualization of a multimodal dataset of mueseum artifacts and their descriptions to support an independent study on AI-mediated museum practices. The dataset includes images, label copy, LLM-generated and human-edited descriptions.",
+            "goals":[["Visualize ", "a multimodal dataset, including text and images"],["Support ", "study design and inquiry for design research endeavors"]],
+            "results":["A simple HTML site backed by JSON data that displays the experimental dataset as a table and has accompanying pages and content that act as a landing site for the core independent study"],
+            "tools":["JSON", "HTML"]
         },
         "process":{
-            "background":"",
-            "methods":"",
-            "artifact": {
-                "link":"",
-                "blurb":""
-            },
-            "findings":""
+            "background":"where dataset came from, how need arose, summary of intended study",
+            "methods":"why JSON, why HTML, how multi-modality was handled, The resulting artifact is a browser-based visualization that allows researchers to compare original label copy, LLM-generated descriptions, and human-edited text alongside artifact imagery.",
+            "artifact":"https://arihamm24.github.io/ai-museum-datasets/",
+            "findings":"observed benefits"
         },
         "reflection":{
-            "paragraph":""
+            "paragraph":"This site enabled remote sharing and access to the dataset during the study design and execution process, and using JSON allows for modularity and adaptability as new insights on AI-generated museum content arise throughout this study and future work. One major limitation of the site is the lack of querying and interactivity, as it is a static table of the dataset and its composite parts. This was a deliberate choice: the dataset was intended to be viewed as a complete corpus and applied to areas like model training and ethical evaluations, meaning preserving its integrity was prioritized over the usability benefits of a querying mechanism.",
+            "futureWork":"This dataset was foundational to my independent study and connected to several other studies conducted by my fellow lab members. This simple, accessible visualization facilitated use and distribution of the dataset, suggesting that similar implementations for other experimental datasets would be an effective and necessary choice. Moreover, the decision to use this site as a central page for the independent study by including my abstract and linking to the publication enhances its functionality beyond data visualization to a scientific communication tool. These two uses could likely be replicated in future projects that center specific datasets."
         }
     },
     {
@@ -70,26 +66,24 @@
         "type":"Class Project",
         "team": [["Ari Hammond", "Developer, Artist"]],
         "problem":{
-            "blurb": "",
-            "paragraph":""
+            "blurb": "Take what you’ve learned this semester and turn it into a one-of-a-kind playable game!",
+            "paragraph":"This course taught general low-level computing concepts like memory management, circuits, and Von Neumann Architecture, as well as game development concepts like sprites, interfacing with hardware, backgrounds, and animation. To demonstrate and solidify my grasp of the content, I must develop an original, playable video game for the GameBoy Advanced, the chosen hardware interface for the course."
         },
         "overview":{
-            "summary":"",
-            "goals":[],
-            "tasks":[],
-            "tools":[]
+            "summary":"This is a final project for CS2261 (Media Device Architecture) at Georgia Tech. The course taught programming in C and essential low-level computing concepts via the GameBoy Advanced (GBA). For the final project, I designed and developed and original game on the GBA",
+            "goals":[["Apply ", "concepts of Von Neumman Architecture, low-level computing, and fundamentals of C"], ["Demonstrate ", "creativity and understanding of GBA architecture"]],
+            "results":["A playable, well-designed, original game developed in C"],
+            "tools":["mGBA", "Tiled", "Usenti Sprite Editor"]
         },
         "process":{
             "background":"",
             "methods":"",
-            "artifact": {
-                "link":"",
-                "blurb":""
-            },
+            "artifact": "https://arihamm24.github.io/jam-packed/",
             "findings":""
         },
         "reflection":{
-            "paragraph":""
+            "paragraph":"This project helped me develop skills in creative debugging, asset creation, code architecture, and adaptability as a developer. At several points, either due to time or resource constraints, I revisited my original proposal and made changes to ensure I could realize my idea to the best of my ability and make a functional, enjoyable game.",
+            "futureWork":"Game development, and in a larger sense media devices, are integral areas of creative computing/technology, and this project/course laid the foundation of my exploration in the field. I am eager to see how I may use these langauges, tools, and concepts in later research and creative endeavors."
         }
     },
     {
@@ -101,26 +95,24 @@
         "type":"Class Project",
         "team":[["Ari Hammond", "Full Stack Developer, Front-end Designer"],["Mithil Cherkadi", "Full Stack Developer"], ["Jason Li","Product Manager, Back End Developer"], ["Neha Kunche","Scrum Master, Front End Developer"], ["Deepthi Munagapati", "Full Stack Developer"]],
         "problem":{
-            "blurb":"",
-            "paragraph":""
+            "blurb":"Use Agile development methodologies to create a travel planning web application in Django.",
+            "paragraph":"This course focused on teaching Agile software development through collaborative projects. For this project, we were tasked with developing a travel planning application that incorporated external APIs to give users responsive advice based on weather, desired activities, and location. In development, we used the extreme programming (XP) Agile methodology."
         },
         "overview":{
-            "summary":"",
-            "goals":[],
-            "tasks":[],
-            "tools":[]
+            "summary":"Using extreme programming (XP), an Agile software development methodology, my team and I developed a Django web-app for travel planning that incoporates external APIs for a custom, adaptive user experience. My primary role was with front-end design and back-end development.",
+            "goals":[["Develop ", "web applications using Agile software methodologies"],["Incorporate ", "external APIs to create desired functionalities"], ["Demonstrate ", "competencies in web development"]],
+            "results":["A multi-page responsive site with integrated Deepseek AI and Open Weather APIs for a customized, engaging travel planning experience"],
+            "tools":["Django", "HTML", "Trello and MS Teams (for Scrum communication)"]
         },
-        "process":{
+       "process":{
             "background":"",
             "methods":"",
-            "artifact": {
-                "link":"",
-                "blurb":""
-            },
+            "artifact": "https://youtu.be/Bw96BV2pxgg",
             "findings":""
         },
         "reflection":{
-            "paragraph":""
+            "paragraph":"This project introduced me to industry standard approaches to collaborative, user-focused software development by exposing me to Agile methodologies, API integrations, and simulating real-world client feedback. As I continue to develop as a computer scientist, this kind of structured collaboration and public-facing co-creation will help me develop more complex, complete, and coherent creative and academic computing projects.",
+            "futureWork":"In the future, I may try other Scrum roles or contribute exlcusively to front- or back-end processes, as this project provided foundational knowledge for collaboration industry and academic software engineering contexts."    
         }
     }
 ]
