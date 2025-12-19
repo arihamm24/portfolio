@@ -18,10 +18,31 @@
             "tools":["Twine", "p5.js"]
         },
         "process":{
-            "background":"",
-            "methods":"",
+            "background":["UN SDGs", "Postmodernism", "Social Sustainability"],
+            "methods":[
+                {
+                    "title":"Brainstorming",
+                    "summary":"",
+                    "description":"",
+                    "media":[]
+                },{
+                    "title":"Proposed Concept",
+                    "summary":"",
+                    "description":"",
+                    "media":[]
+                },{
+                    "title":"Version 1",
+                    "summary":"",
+                    "description":"",
+                    "media":[]
+                },{
+                    "title":"Mapping the Interactive Narrative",
+                    "summary":"",
+                    "description":"",
+                    "media":[["./assets/caseStudyFiles/anthropocene/twineMap.png","Twine node map for the interactive narrative"]]
+                }],
             "artifact": "https://arihammond.itch.io/born-in-the-anthropocene",
-            "findings":""
+            "findings":"Describe final deliverable, demo, successes and failures"
         },
         "reflection":{
             "paragraph":"This project was a valuable opportunity to improve my understanding of Twine as a prototyping/development tool for hypertext narratives. I successfully translated a traditional narrative into hypertext, considering the branches of the narrative and how different choices allowed for the exploration of key themes in our proposed future.",
@@ -33,8 +54,8 @@
         "title":"AI Museum Dataset",
         "tagline":"Web-based visualization/landing page for my AI Museum Dataset independent study in Fall 2025",
         "image" : "./projectPreviewPics/museum.png",
-        "date":"November 2025, 48 hour timeline",
-        "type":"Research Tool",
+        "date":"November 2025",
+        "type":"Research Supplement",
         "team": [["Ari Hammond", "Principal Investigator"], ["Dr. Abigale Stangl","Faculty Advisor"]],
         "problem":{
             "blurb":"How can we visualize a multimodal AI dataset for collaborative use and study design?",
@@ -44,11 +65,27 @@
             "summary":"This is a web visualization of a multimodal dataset of mueseum artifacts and their descriptions to support an independent study on AI-mediated museum practices. The dataset includes images, label copy, LLM-generated and human-edited descriptions.",
             "goals":[["Visualize ", "a multimodal dataset, including text and images"],["Support ", "study design and inquiry for design research endeavors"]],
             "results":["A simple HTML site backed by JSON data that displays the experimental dataset as a table and has accompanying pages and content that act as a landing site for the core independent study"],
-            "tools":["JSON", "HTML"]
+            "tools":["JSON", "HTML", "JavaScript"]
         },
         "process":{
-            "background":"where dataset came from, how need arose, summary of intended study",
-            "methods":"why JSON, why HTML, how multi-modality was handled, The resulting artifact is a browser-based visualization that allows researchers to compare original label copy, LLM-generated descriptions, and human-edited text alongside artifact imagery.",
+            "background":["where dataset came from", "how need arose", "summary of intended study"],
+            "methods":[
+                {
+                    "title":"Structuring the Dataset for Usability",
+                    "summary":"Why JSON",
+                    "description":"",
+                    "media":[]
+                },{
+                    "title":"Web Visualization as a Research Interface",
+                    "summary":"Why HTML",
+                    "description":"",
+                    "media":[]
+                },{
+                    "title":"Balancing Completeness and Readability in a Multimodal Dataset",
+                    "summary":"Why No Querying",
+                    "description":"",
+                    "media":[]
+                }],
             "artifact":"https://arihamm24.github.io/ai-museum-datasets/",
             "findings":"observed benefits"
         },
@@ -76,10 +113,31 @@
             "tools":["mGBA", "Tiled", "Usenti Sprite Editor"]
         },
         "process":{
-            "background":"",
-            "methods":"",
+            "background":["Love of Derby", "Course Concepts"],
+            "methods":[
+                {
+                    "title":"Game Proposal",
+                    "summary":"",
+                    "description":"",
+                    "media":[]
+                },{
+                    "title":"State Machine and Basic Mechanics",
+                    "summary":"",
+                    "description":"",
+                    "media":[]
+                },{
+                    "title":"Graphics, Sound, and Additional Features",
+                    "summary":"",
+                    "description":"",
+                    "media":[]
+                },{
+                    "title":"Launching to Web",
+                    "summary":"",
+                    "description":"",
+                    "media":[]
+                }],
             "artifact": "https://arihamm24.github.io/jam-packed/",
-            "findings":""
+            "findings":"Describe final deliverable, demo, successes and failures"
         },
         "reflection":{
             "paragraph":"This project helped me develop skills in creative debugging, asset creation, code architecture, and adaptability as a developer. At several points, either due to time or resource constraints, I revisited my original proposal and made changes to ensure I could realize my idea to the best of my ability and make a functional, enjoyable game.",
@@ -105,10 +163,31 @@
             "tools":["Django", "HTML", "Trello and MS Teams (for Scrum communication)"]
         },
        "process":{
-            "background":"",
-            "methods":"",
+            "background":["Explanation of XP process", "assigned task"],
+            "methods":[
+                {
+                    "title":"User Stories and Prototyping",
+                    "summary":"",
+                    "description":"",
+                    "media":[]
+                },{
+                    "title":"Sprint Planning",
+                    "summary":"",
+                    "description":"",
+                    "media":[]
+                },{
+                    "title":"Sprint 1",
+                    "summary":"",
+                    "description":"",
+                    "media":[]
+                },{
+                    "title":"Sprint 2",
+                    "summary":"",
+                    "description":"",
+                    "media":[]
+                }],
             "artifact": "https://youtu.be/Bw96BV2pxgg",
-            "findings":""
+            "findings":"Describe final deliverable, demo, successes and failures"
         },
         "reflection":{
             "paragraph":"This project introduced me to industry standard approaches to collaborative, user-focused software development by exposing me to Agile methodologies, API integrations, and simulating real-world client feedback. As I continue to develop as a computer scientist, this kind of structured collaboration and public-facing co-creation will help me develop more complex, complete, and coherent creative and academic computing projects.",

@@ -10,8 +10,6 @@ const ProjectCard = ({project}) => {
         (dialogRef.current.hasAttribute("open"))
             ? dialogRef.current.close()
             : dialogRef.current.showModal();
-
-    
     }
     return (
         <>

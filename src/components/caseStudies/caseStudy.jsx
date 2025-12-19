@@ -4,6 +4,8 @@ import caseStudies from '../../assets/case-study.json'
 import Header from "../header";
 import Footer from "../footer";
 import MobileHeader from "../mobileHeader";
+
+
 const CaseStudy = () => {
     const {id} = useParams();
     const study = caseStudies.find((p) => p.id === id);
@@ -129,8 +131,8 @@ function Hero({project}) {
                 <h4>{project.type}</h4>
                 <h4>Project Team</h4>
                 <ul>
-                    {project.team.map(teamMember => (
-                        <li><span id="modalTeamName">{teamMember[0]}:</span> {teamMember[1]}</li>
+                    {project.team.map((teamMember,index) => (
+                        <li key={index}><span id="modalTeamName">{teamMember[0]}:</span> {teamMember[1]}</li>
                     ))}
                 </ul>
             </div>
@@ -147,22 +149,22 @@ function Overview({project}) {
             <div>
                 <div>
                 <h4>Goals</h4>
-                    {project.overview.goals.map(goal => (
-                        <p><span id="goalVerb">{goal[0]}</span>{goal[1]}</p>
+                    {project.overview.goals.map((goal, index) => (
+                        <p key={index}><span id="goalVerb">{goal[0]}</span>{goal[1]}</p>
                     ))}
                 </div>
                 <div>
                 <h4>Results</h4>
-                    {project.overview.results.map(result => (
-                        <p>{result}</p>
+                    {project.overview.results.map((result, index) => (
+                        <p key={index}>{result}</p>
                     ))}
                 </div>
             </div>
             <div>
                 <h4>Tools</h4>
                 <ul>
-                    {project.overview.tools.map(tool => (
-                        <li>{tool}</li>
+                    {project.overview.tools.map((tool, index) => (
+                        <li key={index}>{tool}</li>
                     ))}
                 </ul>
             </div>
@@ -191,11 +193,28 @@ function Process({project}) {
             <div id="processGrid">
                 <div className="processSection">
                     <h4>Background & Theoretical Framework</h4>
-                    <p>{project.process.background}</p>
+                    <>
+                    {project.process.background.map((paragraph, index) => (
+                        <p key={index}>{paragraph}</p>
+                    ))}
+                    </>
+                    
                 </div>
                 <div className="processSection">
-                    <h4>Approach</h4>
-                    <p>{project.process.methods}</p>
+                    <h4>Methodology</h4>
+                    <p>Expand each section to view process documents and extended explanations</p>
+                    {project.process.methods.map((method, id) => (
+                        <details key={id} className="approach">
+                            <summary id="methodTitle">{method.title}: <span id="methodSummary">{method.summary}</span></summary>
+                            <p>{method.description}</p>
+                            {method.media.map((media, i)=>(
+                                <>
+                                <img key={i} src={media[0]}/>
+                                <p>{media[1]}</p>
+                                </>
+                            ))}
+                        </details>
+                    ))}
                 </div>
                 <div className="processSection" id="artifact">
                     <h4>Artifact & Implementation</h4>

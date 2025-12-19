@@ -2,9 +2,10 @@
 import Navbar from './navbar'
 import ActionButtons from './buttons/actionButtons';
 import Socials from './buttons/socials';
-import { useState } from 'react';
+import { Component, createRef, useRef, useState } from 'react';
 
-function Sidebar() {
+ class Sidebar extends Component {
+    render() {
         return (
             <div id="sidebar">
                 <div id="sidebarContent">
@@ -23,5 +24,6 @@ function Sidebar() {
                 </div>
             </div>
         );
+    }
 }
 export default Sidebar;

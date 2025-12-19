@@ -5,7 +5,6 @@ import Main from './components/mainBody'
 import Footer from './components/footer'
 import "./styles.css"
 import {MediaQuery} from 'react-responsive'
-import { useState } from 'react'
 
 function App() {
   return (
