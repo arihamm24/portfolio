@@ -4,7 +4,8 @@ import Sidebar from './components/sidebar'
 import Main from './components/mainBody'
 import Footer from './components/footer'
 import "./styles.css"
-import {MediaQuery } from 'react-responsive'
+import {MediaQuery} from 'react-responsive'
+import { useState } from 'react'
 
 function App() {
   return (
@@ -16,9 +17,10 @@ function App() {
           <Main />
         </div>
       </MediaQuery>
-      <MediaQuery maxWidth={1023}>
+      <MediaQuery maxWidth={1024}>
         <MobileHeader />
         <div id="gridContainer">
+          <Sidebar />
           <Main/>
         </div>  
       </MediaQuery>

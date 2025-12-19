@@ -57,6 +57,7 @@ const CaseStudy = () => {
         </MediaQuery>
         <MediaQuery maxWidth={1023}>
             <MobileHeader />
+            
             <div id="projPage">
                 <div className="caseStudy">
                     <Hero 
