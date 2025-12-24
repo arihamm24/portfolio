@@ -2,7 +2,6 @@ import Header from './components/header'
 import { IoMenu, IoClose } from "react-icons/io5";
 import Main from './components/mainBody'
 import Footer from './components/footer'
-import Navbar from './components/navbar'
 import ActionButtons from './components/buttons/actionButtons';
 import Socials from './components/buttons/socials';
 import "./styles.css"
@@ -17,17 +16,17 @@ function App() {
 
   return (
     <>
-      <MediaQuery minWidth={1024}>
+      <MediaQuery minWidth={900}>
         <Header />
         <div id="gridContainer">
-          <Sidebar />
+          <Sidebar deviceMode={"desktop"}/>
           <Main />
         </div>
       </MediaQuery>
-      <MediaQuery maxWidth={1024}>
+      <MediaQuery maxWidth={900}>
         <MobileHeader />
         <div id="gridContainer">
-          <Sidebar />
+          <Sidebar deviceMode={"mobile"}/>
           <Main/>
         </div>  
       </MediaQuery>
@@ -35,7 +34,7 @@ function App() {
     </>
   );
 
-  function MobileHeader({isOpen}) {
+  function MobileHeader() {
     return(
         <header id="mobileHeader">
             <button id="menuToggle" onClick={() => setSidebarOpen(!sidebarOpen)}>
@@ -51,10 +50,25 @@ function App() {
     );
   }
 
-  function Sidebar(){
+  function Navbar() {
+    return (
+        <nav>
+            <a href="#content" onClick={() => setSidebarOpen(!sidebarOpen)}>About</a>
+            <a href="#projects" onClick={() => setSidebarOpen(!sidebarOpen)}>Projects</a>
+            <a href="#research" onClick={() => setSidebarOpen(!sidebarOpen)}>Research</a>
+        </nav>
+    );
+}
+
+  function Sidebar({deviceMode}){
+
+    if (deviceMode == "desktop") {
+      setSidebarOpen(true);
+    }
 
     if (sidebarOpen) {
         return (
+          <>
             <div id="sidebar">
                 <div id="sidebarContent">
                     <div id="profile">
@@ -71,6 +85,8 @@ function App() {
                     <ActionButtons/>
                 </div>
             </div>
+            <div className="overlay"></div>
+          </>
         );
     }
   }
