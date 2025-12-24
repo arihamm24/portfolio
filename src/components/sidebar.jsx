@@ -1,11 +1,14 @@
 //may only be in mobile
-import Navbar from './navbar'
-import ActionButtons from './buttons/actionButtons';
-import Socials from './buttons/socials';
-import { Component, createRef, useRef, useState } from 'react';
+import {React, useState} from 'react';
 
- class Sidebar extends Component {
-    render() {
+
+function Sidebar({isOpen}){
+
+    function toggleSidebar() {
+        setSidebarOpen(!sidebarOpen);
+    }
+
+    if (sidebarOpen) {
         return (
             <div id="sidebar">
                 <div id="sidebarContent">
@@ -25,5 +28,5 @@ import { Component, createRef, useRef, useState } from 'react';
             </div>
         );
     }
-}
+};
 export default Sidebar;

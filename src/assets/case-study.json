@@ -39,7 +39,7 @@
                     "title":"Mapping the Interactive Narrative",
                     "summary":"",
                     "description":"",
-                    "media":[["./assets/caseStudyFiles/anthropocene/twineMap.png","Twine node map for the interactive narrative"]]
+                    "media":[["twineMap.png","Twine node map for the interactive narrative"]]
                 }],
             "artifact": "https://arihammond.itch.io/born-in-the-anthropocene",
             "findings":"Describe final deliverable, demo, successes and failures"
@@ -160,7 +160,7 @@
             "summary":"Using extreme programming (XP), an Agile software development methodology, my team and I developed a Django web-app for travel planning that incoporates external APIs for a custom, adaptive user experience. My primary role was with front-end design and back-end development.",
             "goals":[["Develop ", "web applications using Agile software methodologies"],["Incorporate ", "external APIs to create desired functionalities"], ["Demonstrate ", "competencies in web development"]],
             "results":["A multi-page responsive site with integrated Deepseek AI and Open Weather APIs for a customized, engaging travel planning experience"],
-            "tools":["Django", "HTML", "Trello and MS Teams (for Scrum communication)"]
+            "tools":["Django", "HTML", "Trello and MS Teams"]
         },
        "process":{
             "background":["Explanation of XP process", "assigned task"],

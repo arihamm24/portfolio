@@ -1,18 +1,20 @@
 import { useParams, Link } from "react-router";
 import MediaQuery from "react-responsive";
+import { IoMenu, IoClose } from "react-icons/io5";
 import caseStudies from '../../assets/case-study.json'
 import Header from "../header";
 import Footer from "../footer";
-import MobileHeader from "../mobileHeader";
-
+import { useState } from "react";
 
 const CaseStudy = () => {
+
     const {id} = useParams();
     const study = caseStudies.find((p) => p.id === id);
     const studyIndex = caseStudies.indexOf(study);
     const nextProject = caseStudies.at((studyIndex + 1) % caseStudies.length);
     const prevProject = caseStudies.at((studyIndex + caseStudies.length - 1) % caseStudies.length);
 
+    const [studyNavOpen, setStudyNavOpen] = useState(null);
 
     if (!study) {
         return (
@@ -25,14 +27,31 @@ const CaseStudy = () => {
             </div>
         );
     }
+
+    function MobileHeader() {
+        return(
+            <header id="mobileHeader">
+                <button id="menuToggle" onClick={() => setStudyNavOpen(!studyNavOpen)}>
+                    {studyNavOpen ?
+                        (<IoClose/>) :
+                        (<IoMenu/>)
+                    }
+                </button>
+                <Link to="/" style={
+                {textDecoration: 'none', color:"#F5F5FA", alignSelf:"center"}
+                }><h1>Ari Hammond</h1></Link>
+            </header>
+        );
+    }
+
     return (
         <>
         <MediaQuery minWidth={1024}>
         <Header />
         <div id="projPage">
-            <div id="studyNavbar">
+            <div id="studyNavbar" >
                 <a href="/"><button>Return Home</button></a>
-                <StudyNav/>
+                <StudyNav />
                 <NextProjButton 
                     next = {nextProject}
                     prev = {prevProject}
@@ -59,7 +78,21 @@ const CaseStudy = () => {
         </MediaQuery>
         <MediaQuery maxWidth={1023}>
             <MobileHeader />
-            
+            {studyNavOpen ?
+                (<>
+                <div id="studyNavbar" >
+                    <a href="/"><button>Return Home</button></a>
+                    <StudyNav />
+                    <NextProjButton 
+                        next = {nextProject}
+                        prev = {prevProject}
+                    />
+                </div>
+                <div className="overlay"></div>
+                </>
+            ) :
+                (<></>)
+            }
             <div id="projPage">
                 <div className="caseStudy">
                     <Hero 
