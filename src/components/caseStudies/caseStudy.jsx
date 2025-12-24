@@ -67,10 +67,10 @@ const CaseStudy = () => {
 function NextProjButton({next, prev}) {
     return (
         <div id="navStudyButtons">
-        <Link to={`/${prev.id}`}><button onClick={()=>setStudyNavOpen(!studyNavOpen)} style={
+        <Link to={`/${prev.id}`}><button style={
             {fontSize:"0.8rem"}
         }>&larr; Previous</button></Link>
-        <Link to={`/${next.id}`}><button onClick={()=>setStudyNavOpen(!studyNavOpen)} style={
+        <Link to={`/${next.id}`}><button style={
             {fontSize:"0.8rem"}
         }>Next &rarr;</button></Link>
         </div>
