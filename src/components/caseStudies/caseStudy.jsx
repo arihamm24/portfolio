@@ -231,20 +231,28 @@ function Process({project}) {
                     {project.process.background.map((paragraph, index) => (
                         <p key={index}>{paragraph}</p>
                     ))}
+                    <div id="bgCitations">
+                        <h5>References</h5>
+                        <ul>
+                        {project.process.citations.map((source, index) => (
+                            <li key={index}><cite><a href={source[1]}>{source[0]}</a> </cite> by {source[2]}</li>
+                        ))}
+                        </ul>
+                    </div>
                     </>
                     
                 </div>
                 <div className="processSection">
                     <h4>Methodology</h4>
-                    <p>Expand each section to view process documents and extended explanations</p>
+                    <p><strong>Expand each section to view process documents and extended explanations</strong></p>
                     {project.process.methods.map((method, id) => (
                         <details key={id} className="approach">
                             <summary id="methodTitle">{method.title}: <span id="methodSummary">{method.summary}</span></summary>
                             <p>{method.description}</p>
                             {method.media.map((media, i)=>(
                                 <>
-                                <img key={i} src={media[0]}/>
-                                <p>{media[1]}</p>
+                                <p><em>{media[1]}</em></p>
+                                <embed className="processMedia" type={media[2]} key={i} src={media[0]}/>
                                 </>
                             ))}
                         </details>
@@ -257,7 +265,11 @@ function Process({project}) {
                 </div>
                 <div className="processSection">
                     <h4>Outcomes</h4>
-                    <p>{project.process.findings}</p>
+                    <ul>
+                        {project.process.findings.map((outcome, j) =>(
+                            <li>{outcome}</li>
+                        ))}
+                    </ul>
                 </div>
             </div>
             <hr />

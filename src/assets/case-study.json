@@ -19,30 +19,31 @@
         },
         "process":{
             "background":["UN SDGs", "Postmodernism", "Social Sustainability"],
+            "citations":[["United Nations Sustainable Development Goals","https://sdgs.un.org/goals","United Nations Department of Economic and Social Affairs"],["Postmodern Education: Critiques and Alternatives to Traditional Schooling","https://sociology.institute/sociology-of-education/postmodern-education-critiques-alternatives/#what-is-postmodernism-in-education","Sociology.Institute"],["What is social sustainability?","https://instituteofsustainabilitystudies.com/insights/lexicon/what-is-social-sustainability/","The Institute of Sustainability Studies"]],
             "methods":[
                 {
                     "title":"Brainstorming",
-                    "summary":"",
+                    "summary":"We began with a 40 minute brainstorming session where we suggested different issues, societal structures, or narratives we might explore",
                     "description":"",
-                    "media":[]
+                    "media":[["./caseStudyFiles/anthropocene/whiteboard.png","Brainstorming Session of Microsoft Whiteboard"], ["./caseStudyFiles/anthropocene/whiteboardClose.png","We settled on exploring culture and society since that's where we had the most ideas and common ground"]]
                 },{
                     "title":"Proposed Concept",
-                    "summary":"",
+                    "summary":"After brainstorming, we met to discuss and draft a proposal for our future world and interactive program",
                     "description":"",
-                    "media":[]
+                    "media":[["./caseStudyFiles/anthropocene/projectProposal.pdf", "The proposal presentation, designed to be about 2 minutes long", "application/pdf"]]
                 },{
                     "title":"Version 1",
-                    "summary":"",
+                    "summary":"Our first version was only a p5.js sketch, which we submitted for feedback upon which to improve",
                     "description":"",
                     "media":[]
                 },{
-                    "title":"Mapping the Interactive Narrative",
-                    "summary":"",
+                    "title":"Creating the Interactive Narrative",
+                    "summary":"Based on feedback from version 1, we re-evaluated our proposal and decided an interactive narrative would be better fit for exploring our proposed society",
                     "description":"",
-                    "media":[["twineMap.png","Twine node map for the interactive narrative"]]
+                    "media":[["./caseStudyFiles/anthropocene/twineMap.png","Twine node map for the interactive narrative"]]
                 }],
             "artifact": "https://arihammond.itch.io/born-in-the-anthropocene",
-            "findings":"Describe final deliverable, demo, successes and failures"
+            "findings":["Describe final deliverable, demo, successes and failures"]
         },
         "reflection":{
             "paragraph":"This project was a valuable opportunity to improve my understanding of Twine as a prototyping/development tool for hypertext narratives. I successfully translated a traditional narrative into hypertext, considering the branches of the narrative and how different choices allowed for the exploration of key themes in our proposed future.",
@@ -68,26 +69,27 @@
             "tools":["JSON", "HTML", "JavaScript"]
         },
         "process":{
-            "background":["where dataset came from", "how need arose", "summary of intended study"],
+            "background":["I created this dataset during my time as an accessibility intern at the Robert C. Williams Museum of Papermaking in summer 2025. Through an iterative process, I collected images of museum artifacts and accompanying label text, consulted museum and accessibility experts to develop skills in authoring alt text for museums, and prompted a large language model to generate descriptive text designed to function as both interpretive description and alt text for accessibility.", "This dataset will be used primarily in a design research study investigating how to design and evaluate documentation methods that promote critical reflection among museum professionals as they engage with AI-driven interpretive and accessibility systems. By framing dataset documentation as both a methodological and pedagogical practice, this study situates AI systems as collaborators in interpretive and ethical reflection and proposes alternative text as context documentation that reflects the interpretive, ethical, and communicative decisions embedded in multimodal museum data."],
+            "citations":[["Datasheets for Datasets", "http://arxiv.org/abs/1803.09010","Timnit Gebru, et al."],["Datasheets for Digital Cultural Hertiage Datasets", "http://openhumanitiesdata.metajnl.com/articles/10.5334/johd.124/", "Henk Alkemade, et al."], ["Research on the Application of Artificial Intelligence to Accessibility Services in Science Museums","https://dl.acm.org/doi/10.1145/3736426.3736491","Pengfei Li, et al."]],
             "methods":[
                 {
                     "title":"Structuring the Dataset for Usability",
-                    "summary":"Why JSON",
+                    "summary":"The dataset as created in the internship was stored as a PowerPoint presentation for internal use at the museum, but JSON offered a scaleable, structured, readable format that optimized the dataset for research contexts.",
                     "description":"",
                     "media":[]
                 },{
                     "title":"Web Visualization as a Research Interface",
-                    "summary":"Why HTML",
-                    "description":"",
+                    "summary":"Building on the idea of prioritizing structure and scalability, translating the JSON dataset to an HTML webpage allowed a succinct and clear visualization of both the compiled text and image data.",
+                    "description":" The webpage allowed quick sharing and referencing of the dataset among myself, Dr. Stangl, and other lab members.",
                     "media":[]
                 },{
                     "title":"Balancing Completeness and Readability in a Multimodal Dataset",
-                    "summary":"Why No Querying",
-                    "description":"",
+                    "summary":"For my particular study, the data is intended to be examined as a complete corpus, meaning the web visualization prioritized completeness and readability over interaction design.",
+                    "description":"In this case, because the entire dataset needed to be viewed, I did not include a querying or search function for the HTML table. This did not, however, detract from readability because the strucutred table created clear separation between artifacts.",
                     "media":[]
                 }],
             "artifact":"https://arihamm24.github.io/ai-museum-datasets/",
-            "findings":"observed benefits"
+            "findings":["observed benefits"]
         },
         "reflection":{
             "paragraph":"This site enabled remote sharing and access to the dataset during the study design and execution process, and using JSON allows for modularity and adaptability as new insights on AI-generated museum content arise throughout this study and future work. One major limitation of the site is the lack of querying and interactivity, as it is a static table of the dataset and its composite parts. This was a deliberate choice: the dataset was intended to be viewed as a complete corpus and applied to areas like model training and ethical evaluations, meaning preserving its integrity was prioritized over the usability benefits of a querying mechanism.",
@@ -114,30 +116,31 @@
         },
         "process":{
             "background":["Love of Derby", "Course Concepts"],
+            "citations":[["TONC", "https://www.coranac.com/tonc/text/","Jasper Vijn"]],
             "methods":[
                 {
                     "title":"Game Proposal",
-                    "summary":"",
+                    "summary":"The project began at Milestone 0, a brief proposal of the game to be submitted for review",
                     "description":"",
                     "media":[]
                 },{
                     "title":"State Machine and Basic Mechanics",
-                    "summary":"",
+                    "summary":"Milestone 1 and 2 were implementing the state machine and mechanics of the game. There was about 2 weeks between each milestone",
                     "description":"",
-                    "media":[]
+                    "media":[["./caseStudyFiles/jampacked/trackCollision.png","The collision map of the track was key to the movement for computerized sprites (opponents, referees, allied tripod).","image/png"]]
                 },{
                     "title":"Graphics, Sound, and Additional Features",
-                    "summary":"",
+                    "summary":"Milestone 3 was a beta version of the game, including complete sound and graphics and gameplay that could lead to the win/lose states",
                     "description":"",
-                    "media":[]
+                    "media":[["./caseStudyFiles/jampacked/spritesheet.png","4-bit Tile Spritesheet","image/png"], ["./caseStudyFiles/jampacked/instruct.bmp","Tileset for Splash Screen and Instructional Page"]]
                 },{
                     "title":"Launching to Web",
-                    "summary":"",
+                    "summary":"Upon completing the project, I forked a repository from my instructor to host the game on the web.",
                     "description":"",
                     "media":[]
                 }],
             "artifact": "https://arihamm24.github.io/jam-packed/",
-            "findings":"Describe final deliverable, demo, successes and failures"
+            "findings":["Describe final deliverable, demo, successes and failures"]
         },
         "reflection":{
             "paragraph":"This project helped me develop skills in creative debugging, asset creation, code architecture, and adaptability as a developer. At several points, either due to time or resource constraints, I revisited my original proposal and made changes to ensure I could realize my idea to the best of my ability and make a functional, enjoyable game.",
@@ -163,31 +166,32 @@
             "tools":["Django", "HTML", "Trello and MS Teams"]
         },
        "process":{
-            "background":["Explanation of XP process", "assigned task"],
+            "background":["Explanation of XP process"],
+            "citations":[["Agile Software Development","https://www.geeksforgeeks.org/software-engineering/software-engineering-agile-software-development/","GeeksForGeeks"]],
             "methods":[
                 {
                     "title":"User Stories and Prototyping",
-                    "summary":"",
+                    "summary":"To begin, we individually wrote user stories and created low-fidelity paper prototypes for the TravelMate Web App.",
                     "description":"",
                     "media":[]
                 },{
                     "title":"Sprint Planning",
-                    "summary":"",
+                    "summary":"We met to assess and consolidate user stories, assign roles, and plan what to accomplish in each sprint.",
                     "description":"",
-                    "media":[]
+                    "media":[["./caseStudyFiles/travelmate/projectDesc.pdf", "The final project description","application/pdf"]]
                 },{
                     "title":"Sprint 1",
-                    "summary":"",
+                    "summary":"Sprint 1 focused on developing the database that would store trip and user data, key features like account registration, and the core travel planning form.",
                     "description":"",
-                    "media":[]
+                    "media":[["./caseStudyFiles/travelmate/wireframe1.png", "Wireframe for Trip Planning pages","image/png"], ["./caseStudyFiles/travelmate/wireframe2.png","Wireframe for Home and Login/SignUp pages", "image/png"]]
                 },{
                     "title":"Sprint 2",
-                    "summary":"",
+                    "summary":"In Sprint 2, we refined the features implemented in Sprint 1, implemented our chosen APIs, refactored for good architecture, and solidified the front-end design.",
                     "description":"",
                     "media":[]
                 }],
             "artifact": "https://youtu.be/Bw96BV2pxgg",
-            "findings":"Describe final deliverable, demo, successes and failures"
+            "findings":["Describe final deliverable, demo, successes and failures"]
         },
         "reflection":{
             "paragraph":"This project introduced me to industry standard approaches to collaborative, user-focused software development by exposing me to Agile methodologies, API integrations, and simulating real-world client feedback. As I continue to develop as a computer scientist, this kind of structured collaboration and public-facing co-creation will help me develop more complex, complete, and coherent creative and academic computing projects.",

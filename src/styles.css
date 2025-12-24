@@ -55,6 +55,12 @@ p, li, a, button, h5, h6 {
 .card > h4 {
     width: 100%;
 }
+details:hover {
+    cursor: pointer;
+}
+details {
+    margin-bottom: 1rem;
+}
 a {
     color: var(--link);
 }
@@ -221,14 +227,14 @@ div.contentItem {
     transform: scale(1.5);
     gap: 1rem;
 }
-#socials > a, nav > a {
+#socials > a, nav > a, cite > a {
     color: var(--link);
     font-style: italic;
     text-decoration: none;
-    font-weight: 700; 
+    font-weight: 650; 
     transition: 300ms ease-in-out;
 }
-#socials > a:hover, nav > a:hover {
+#socials > a:hover, nav > a:hover, cite > a:hover {
     color: var(--text-color);
     transform: scale(1.55);
 }
@@ -334,7 +340,7 @@ dialog::backdrop {
     transition: 200ms ease-in-out;
     border-radius:10px;
     background-color: var(--text-color);
-    max-width: 60%;
+    max-width: 70%;
     max-height:70%;
     overflow: scroll;
     border:none;
@@ -368,6 +374,13 @@ dialog::backdrop {
     gap: 2rem;
     overflow: scroll;
     color:var(--main-bg);
+}
+.processMedia {
+    width: 50%;
+}
+embed[type="application/pdf"]{
+    width: 400px;
+    height: 350px;
 }
 .projImg {
     display: flex;
@@ -473,7 +486,11 @@ dialog::backdrop {
     left:0;
     position:fixed;
     z-index:1;
-}
+    }
+    #processGrid {
+        display:flex;
+        flex-direction: column;
+    }
     #content, .caseStudy {
         width: 90%;
     }
