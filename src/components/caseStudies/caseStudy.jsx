@@ -44,9 +44,42 @@ const CaseStudy = () => {
         );
     }
 
+    function StudyNav() {
     return (
         <>
-        <MediaQuery minWidth={1024}>
+        <nav>
+            <h3>Contents</h3>
+            <a href="#hero" onClick={()=>setStudyNavOpen(!studyNavOpen)}><p>Project Synopsis</p></a>
+            <a href="#problem" onClick={()=>setStudyNavOpen(!studyNavOpen)}><p>Problem Statement</p></a>
+            <a href="#process" onClick={()=>setStudyNavOpen(!studyNavOpen)}><p>Research & Design Process</p></a>
+            <ul>
+                <a><li>Background</li></a>
+                <a><li>Approach</li></a>
+                <a><li>Artifact</li></a>
+                <a><li>Outcomes</li></a>
+            </ul>
+            <a href="#reflection" onClick={()=>setStudyNavOpen(!studyNavOpen)}><p>Reflection</p></a>
+        </nav>
+        </>
+    );
+}
+
+function NextProjButton({next, prev}) {
+    return (
+        <div id="navStudyButtons">
+        <Link to={`/${prev.id}`}><button onClick={()=>setStudyNavOpen(!studyNavOpen)} style={
+            {fontSize:"0.8rem"}
+        }>&larr; Previous</button></Link>
+        <Link to={`/${next.id}`}><button onClick={()=>setStudyNavOpen(!studyNavOpen)} style={
+            {fontSize:"0.8rem"}
+        }>Next &rarr;</button></Link>
+        </div>
+    );
+}
+
+    return (
+        <>
+        <MediaQuery minWidth={900}>
         <Header />
         <div id="projPage">
             <div id="studyNavbar" >
@@ -76,7 +109,7 @@ const CaseStudy = () => {
             </div>
         </div>
         </MediaQuery>
-        <MediaQuery maxWidth={1023}>
+        <MediaQuery maxWidth={900}>
             <MobileHeader />
             {studyNavOpen ?
                 (<>
@@ -119,38 +152,6 @@ const CaseStudy = () => {
 }
 export default CaseStudy;
 
-function StudyNav() {
-    return (
-        <>
-        <nav>
-            <h3>Contents</h3>
-            <a href="#hero"><p>Project Synopsis</p></a>
-            <a href="#problem"><p>Problem Statement</p></a>
-            <a href="#process"><p>Research & Design Process</p></a>
-            <ul>
-                <a><li>Background</li></a>
-                <a><li>Approach</li></a>
-                <a><li>Artifact</li></a>
-                <a><li>Outcomes</li></a>
-            </ul>
-            <a href="#reflection"><p>Reflection</p></a>
-        </nav>
-        </>
-    );
-}
-
-function NextProjButton({next, prev}) {
-    return (
-        <div id="navStudyButtons">
-        <Link to={`/${prev.id}`}><button style={
-            {fontSize:"0.8rem"}
-        }>&larr; Previous</button></Link>
-        <Link to={`/${next.id}`}><button style={
-            {fontSize:"0.8rem"}
-        }>Next &rarr;</button></Link>
-        </div>
-    );
-}
 
 function Hero({project}) {
     return(

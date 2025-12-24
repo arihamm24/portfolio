@@ -97,6 +97,7 @@ header {
 footer {
     justify-content: space-evenly;
     position:sticky;
+    z-index: 0;
 }
 footer > a {
     color:var(--link);
@@ -147,7 +148,7 @@ footer > a:hover {
     border-radius:20px;
 }
 #sidebar{
-    width: min-content;
+    width:min-content;
     top:3rem;
     margin: 0.75rem 0;
     position: sticky;
@@ -159,7 +160,7 @@ footer > a:hover {
     width: max-content;
     top:1rem;
     gap: 1.35rem;
-    margin: 0.75rem 0;
+    margin: 0.5rem 0;
     padding: 1.75rem;
     position: sticky;
     height: fit-content;
@@ -328,15 +329,6 @@ button:hover{
 dialog::backdrop {
     background-color: rgba(0, 0, 0, 0.5);
 }
-.overlay {
-    background-color: rgba(0, 0, 0, 0.5);
-    width: 100%;
-    height: 100%;
-    top:0;
-    left:0;
-    position:fixed;
-    z-index:0;
-}
 .modal {
     padding: 0 1.25rem 1.25rem 1.25rem;
     transition: 200ms ease-in-out;
@@ -422,7 +414,7 @@ dialog::backdrop {
     text-align: center;
     align-content: center;
     filter: drop-shadow(1rem 0.75rem 1rem var(--page-bg));
-    z-index: 1;
+    z-index: 2;
 }
 #menuToggle {
     padding: 0;
@@ -466,11 +458,22 @@ dialog::backdrop {
     #sidebar {
         top: 8rem;
     }
-    #studyNavbar{
-        top: 10%;
-        left: 20%;
-        z-index: 1;
+    #studyNavbar, #sidebar{
+        width: 30%;
+        position: fixed;
+        top: 15%;
+        left: 30vw;
+        z-index: 2;
     }
+    .overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+    position:fixed;
+    z-index:1;
+}
     #content, .caseStudy {
         width: 90%;
     }
