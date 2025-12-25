@@ -327,8 +327,8 @@ button:hover{
 }
 #processGrid {
     display:grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 1rem;
+    grid-template-columns: 0.5fr 0.5fr;
+    column-gap: 2rem;
     row-gap: 0.75rem;
 }
 /*FOR PROJECT/RESEARCH MODAL WINDOWS*/
@@ -416,6 +416,9 @@ embed[type="application/pdf"]{
 .projButtons {
     display: flex;
     gap: 0.75rem;
+}
+details > p, details > embed {
+    margin-left: 1.5rem;
 }
 /*RESPONSIVE DESIGN*/
 #mobileHeader {

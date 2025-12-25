@@ -23,27 +23,27 @@
             "methods":[
                 {
                     "title":"Brainstorming",
-                    "summary":"We began with a 40 minute brainstorming session where we suggested different issues, societal structures, or narratives we might explore",
+                    "summary":"We began with a 40 minute brainstorming session where we suggested different issues, societal structures, or narratives we might explore.",
                     "description":"",
                     "media":[["./caseStudyFiles/anthropocene/whiteboard.png","Brainstorming Session of Microsoft Whiteboard"], ["./caseStudyFiles/anthropocene/whiteboardClose.png","We settled on exploring culture and society since that's where we had the most ideas and common ground"]]
                 },{
                     "title":"Proposed Concept",
-                    "summary":"After brainstorming, we met to discuss and draft a proposal for our future world and interactive program",
+                    "summary":"After brainstorming, we met to discuss and draft a proposal for our future world and interactive program.",
                     "description":"",
                     "media":[["./caseStudyFiles/anthropocene/projectProposal.pdf", "The proposal presentation, designed to be about 2 minutes long", "application/pdf"]]
                 },{
                     "title":"Version 1",
-                    "summary":"Our first version was only a p5.js sketch, which we submitted for feedback upon which to improve",
+                    "summary":"Our first version was only a p5.js sketch, which we submitted for feedback upon which to improve.",
                     "description":"",
                     "media":[]
                 },{
                     "title":"Creating the Interactive Narrative",
-                    "summary":"Based on feedback from version 1, we re-evaluated our proposal and decided an interactive narrative would be better fit for exploring our proposed society",
+                    "summary":"Based on feedback from version 1, we re-evaluated our proposal and decided an interactive narrative would be better fit for exploring our proposed society.",
                     "description":"",
                     "media":[["./caseStudyFiles/anthropocene/twineMap.png","Twine node map for the interactive narrative"]]
                 }],
             "artifact": "https://arihammond.itch.io/born-in-the-anthropocene",
-            "findings":["Describe final deliverable, demo, successes and failures"]
+            "findings":["Strong introduction to design futuring and speculative design with digital media", "Developed a new research interest/application in using interactive narratives for design futuring","Allowed exposure to and familiarity with Twine for prototyping", "Improved collaborative communication, organization, and task delegation skills"]
         },
         "reflection":{
             "paragraph":"This project was a valuable opportunity to improve my understanding of Twine as a prototyping/development tool for hypertext narratives. I successfully translated a traditional narrative into hypertext, considering the branches of the narrative and how different choices allowed for the exploration of key themes in our proposed future.",
@@ -85,11 +85,11 @@
                 },{
                     "title":"Balancing Completeness and Readability in a Multimodal Dataset",
                     "summary":"For my particular study, the data is intended to be examined as a complete corpus, meaning the web visualization prioritized completeness and readability over interaction design.",
-                    "description":"In this case, because the entire dataset needed to be viewed, I did not include a querying or search function for the HTML table. This did not, however, detract from readability because the strucutred table created clear separation between artifacts.",
+                    "description":"In this case, because the entire dataset needed to be viewed, I did not include a querying or search function for the HTML table. This did not, however, detract from readability because the structured table created clear separation between artifacts.",
                     "media":[]
                 }],
             "artifact":"https://arihamm24.github.io/ai-museum-datasets/",
-            "findings":["observed benefits"]
+            "findings":["Centralized dataset and facilitated access, sharing, and reuse among lab members", "Introduced extended functionality by serving as a landing page for the independent study project", "Supported dataset evaluation, analysis, and study design by enabling external access to dataset", "Established a reusable model for lightweight web-based visualization of multimodal research datasets"]
         },
         "reflection":{
             "paragraph":"This site enabled remote sharing and access to the dataset during the study design and execution process, and using JSON allows for modularity and adaptability as new insights on AI-generated museum content arise throughout this study and future work. One major limitation of the site is the lack of querying and interactivity, as it is a static table of the dataset and its composite parts. This was a deliberate choice: the dataset was intended to be viewed as a complete corpus and applied to areas like model training and ethical evaluations, meaning preserving its integrity was prioritized over the usability benefits of a querying mechanism.",
@@ -106,45 +106,40 @@
         "team": [["Ari Hammond", "Developer, Artist"]],
         "problem":{
             "blurb": "Take what you’ve learned this semester and turn it into a one-of-a-kind playable game!",
-            "paragraph":"This course taught general low-level computing concepts like memory management, circuits, and Von Neumann Architecture, as well as game development concepts like sprites, interfacing with hardware, backgrounds, and animation. To demonstrate and solidify my grasp of the content, I must develop an original, playable video game for the GameBoy Advanced, the chosen hardware interface for the course."
+            "paragraph":"This course taught general high-level computing concepts like memory management, circuits, and Von Neumann Architecture, as well as game development concepts like sprites, interfacing with hardware, backgrounds, and animation. To demonstrate and solidify my grasp of the content, I developed an original, playable video game for the GameBoy Advanced, the chosen hardware interface for the course."
         },
         "overview":{
-            "summary":"This is a final project for CS2261 (Media Device Architecture) at Georgia Tech. The course taught programming in C and essential low-level computing concepts via the GameBoy Advanced (GBA). For the final project, I designed and developed and original game on the GBA",
-            "goals":[["Apply ", "concepts of Von Neumman Architecture, low-level computing, and fundamentals of C"], ["Demonstrate ", "creativity and understanding of GBA architecture"]],
+            "summary":"This is a final project for CS2261 (Media Device Architecture) at Georgia Tech. The course taught high-level computing in C via the GameBoy Advanced (GBA). For the final project, I designed and developed a roller derby video game for the GBA",
+            "goals":[["Apply ", "concepts of high-level computing and fundamentals of C"], ["Demonstrate ", "creativity and understanding of GBA architecture"]],
             "results":["A playable, well-designed, original game developed in C"],
             "tools":["mGBA", "Tiled", "Usenti Sprite Editor"]
         },
         "process":{
-            "background":["Love of Derby", "Course Concepts"],
-            "citations":[["TONC", "https://www.coranac.com/tonc/text/","Jasper Vijn"]],
+            "background":["This course taught high-level programming in C and software and hardware interfacing, using the GameBoyAdvanced (GBA) as a medium to apply concepts like logical implementation and hardware manipulation. To demonstrate strong grasp of these concepts, the final project was to individual ideate, design, and develop a video game for the GBA for the final 6 weeks of class.", "To better sustain my interest and investment in the project beyond simply completing the course, I proposed a game tied to my favorite hobby: roller derby. Derby is a contact sport played with 5 skaters from each team. There is 1 scoring player, a jammer, and 4 defensive players, called blockers. It is fast-paced, dynamic, and wildly entertaining and has been a major part of my life since August 2024, so creating this game felt like a natural extension of this passion."],
+            "citations":[["TONC", "https://www.coranac.com/tonc/text/","Jasper Vijn"],["Welcome to Roller Derby", "https://wftda.com/roller-derby-basics/","Women's Flat Track Derby Association (WFTDA)"]],
             "methods":[
                 {
                     "title":"Game Proposal",
-                    "summary":"The project began at Milestone 0, a brief proposal of the game to be submitted for review",
-                    "description":"",
-                    "media":[]
+                    "summary":"The project began at Milestone 0, a brief proposal of the game to be submitted for review.",
+                    "description":"In the proposal, I gave a synopsis of my game idea, a sports-genre roller derby game, and laid out basic controls, sound effects and background music, ideas/sketches for graphics, and possible ways to implement the concepts explored during the course, like parallax backgrounds and complex movement.",
+                    "media":[["./caseStudyFiles/jampacked/proposal.pdf","The full proposal document","application/pdf"]]
                 },{
                     "title":"State Machine and Basic Mechanics",
-                    "summary":"Milestone 1 and 2 were implementing the state machine and mechanics of the game. There was about 2 weeks between each milestone",
-                    "description":"",
+                    "summary":"Milestone 1 and 2 were implementing the architecture, state machine, and mechanics of the game.",
+                    "description":"Based on the feedback from my grading TA, I revisited my proposal and began scaffolding the structure of my code, particularly the different files for different game states and objects, and implementing the basic movement mechanics with placeholder sprites (simple rectangles). I got feedback between each of these milestones, and by the end of this stage, I had fully implemented user controls, all of the game states, and reduced the scope of the project to make completion more plausible.",
                     "media":[["./caseStudyFiles/jampacked/trackCollision.png","The collision map of the track was key to the movement for computerized sprites (opponents, referees, allied tripod).","image/png"]]
                 },{
                     "title":"Graphics, Sound, and Additional Features",
-                    "summary":"Milestone 3 was a beta version of the game, including complete sound and graphics and gameplay that could lead to the win/lose states",
-                    "description":"",
+                    "summary":"Milestone 3 was a beta version of the game, including complete sound and graphics and gameplay that could lead to the win/lose states.",
+                    "description":"The beta version of the game was a completely playable prototype, complete with sprites, instructional graphics, scoring for both the player and opponent, background music and sound effects. Though changes were made up until the deadline for completion and full realization of my ideas, this was an acceptable deliverable for the project.",
                     "media":[["./caseStudyFiles/jampacked/spritesheet.png","4-bit Tile Spritesheet","image/png"], ["./caseStudyFiles/jampacked/instruct.bmp","Tileset for Splash Screen and Instructional Page"]]
-                },{
-                    "title":"Launching to Web",
-                    "summary":"Upon completing the project, I forked a repository from my instructor to host the game on the web.",
-                    "description":"",
-                    "media":[]
                 }],
             "artifact": "https://arihamm24.github.io/jam-packed/",
-            "findings":["Describe final deliverable, demo, successes and failures"]
+            "findings":["Familiarized myself with iterative design, adapting to feedback, and adjusting to time/resource constraints as a developer", "Solidified grasp of course concepts, allowing for abstraction with other hardware and software systems", "Creative, functional, and engaging video game for resume/portfolio"]
         },
         "reflection":{
             "paragraph":"This project helped me develop skills in creative debugging, asset creation, code architecture, and adaptability as a developer. At several points, either due to time or resource constraints, I revisited my original proposal and made changes to ensure I could realize my idea to the best of my ability and make a functional, enjoyable game.",
-            "futureWork":"Game development, and in a larger sense media devices, are integral areas of creative computing/technology, and this project/course laid the foundation of my exploration in the field. I am eager to see how I may use these langauges, tools, and concepts in later research and creative endeavors."
+            "futureWork":"Game development, and in a larger sense media devices, are integral areas of creative computing/technology, and this project/course laid the foundation of my exploration in the field. Though the course did not make me a full-fledged C developer, I gained useful technical, theoretical, and organizational skills as well as an interesting portfolio piece. I am eager to see how I may use these langauges, tools, and concepts in later research and creative endeavors."
         }
     },
     {
@@ -155,7 +150,7 @@
         "date":"April 2025, 3 week timeline",
         "type":"Class Project",
         "team":[["Ari Hammond", "Full Stack Developer, Front-end Designer"],["Mithil Cherkadi", "Full Stack Developer"], ["Jason Li","Product Manager, Back End Developer"], ["Neha Kunche","Scrum Master, Front End Developer"], ["Deepthi Munagapati", "Full Stack Developer"]],
-        "problem":{
+        "problem": {
             "blurb":"Use Agile development methodologies to create a travel planning web application in Django.",
             "paragraph":"This course focused on teaching Agile software development through collaborative projects. For this project, we were tasked with developing a travel planning application that incorporated external APIs to give users responsive advice based on weather, desired activities, and location. In development, we used the extreme programming (XP) Agile methodology."
         },
@@ -191,7 +186,7 @@
                     "media":[]
                 }],
             "artifact": "https://youtu.be/Bw96BV2pxgg",
-            "findings":["Describe final deliverable, demo, successes and failures"]
+            "findings":["Prepared me for industry by familiarizing me with Scrum dynamics and procedures", "Gained meaningful back-end web development experience with Django and SQLite", "Improved collaborative communication, organization, and task delegation skills"]
         },
         "reflection":{
             "paragraph":"This project introduced me to industry standard approaches to collaborative, user-focused software development by exposing me to Agile methodologies, API integrations, and simulating real-world client feedback. As I continue to develop as a computer scientist, this kind of structured collaboration and public-facing co-creation will help me develop more complex, complete, and coherent creative and academic computing projects.",

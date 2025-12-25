@@ -235,7 +235,7 @@ function Process({project}) {
                         <h5>References</h5>
                         <ul>
                         {project.process.citations.map((source, index) => (
-                            <li key={index}><cite><a href={source[1]}>{source[0]}</a> </cite> by {source[2]}</li>
+                            <li key={index}><cite><a href={source[1]} target="_blank">{source[0]}</a> </cite> by {source[2]}</li>
                         ))}
                         </ul>
                     </div>
