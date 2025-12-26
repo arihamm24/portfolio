@@ -24,23 +24,23 @@
                 {
                     "title":"Brainstorming",
                     "summary":"We began with a 40 minute brainstorming session where we suggested different issues, societal structures, or narratives we might explore.",
-                    "description":"",
+                    "description":"Our goal was to have at least 50 unique ideas by the end of the session to sort into clusters and direct our design process. Our ideas initially focused on speculating the future of AI and its environmental impacts, but we soon expanded to more sociocultural ideas involving future relationships, power structures, economies, political systems, and more. By the end of the session we had 5 clusters of ideas: AI/LLMs, Conciousness, Infrastructure, Culture and Society, and Public Health",
                     "media":[["./caseStudyFiles/anthropocene/whiteboard.png","Brainstorming Session of Microsoft Whiteboard"], ["./caseStudyFiles/anthropocene/whiteboardClose.png","We settled on exploring culture and society since that's where we had the most ideas and common ground"]]
                 },{
                     "title":"Proposed Concept",
                     "summary":"After brainstorming, we met to discuss and draft a proposal for our future world and interactive program.",
-                    "description":"",
-                    "media":[["./caseStudyFiles/anthropocene/projectProposal.pdf", "The proposal presentation, designed to be about 2 minutes long", "application/pdf"]]
+                    "description":"We found that many of our ideas imagined novel educational systems that differed from our current education model in structure, length, content, delivery, or some combination of the four. From there, we consulted our background research on postmodern education to extrapolate the social structures and political and economic systems of our proposed society.",
+                    "media":[["./caseStudyFiles/anthropocene/projectProposal.pdf", "In the presentation, we emphasized our society as 'people first', noting how an emphasis on critical and creative thought would create a more connected, empathetic society", "application/pdf"]]
                 },{
                     "title":"Version 1",
                     "summary":"Our first version was only a p5.js sketch, which we submitted for feedback upon which to improve.",
-                    "description":"",
-                    "media":[]
+                    "description":"The critical feedback we received on version 1 was that our city builder concept did not adequately explore the robust sociocultural, educational, or economic dynamics we had proposed. Instead, several classmates, TAs, and community stakeholders suggested that an interactive narrative would better situated for exploration of these ideas.",
+                    "media":[["./caseStudyFiles/anthropocene/version1.gif","Though we did not keep the city builder concept as a standalone product, we were still able to further develop and incorporate this prototype into the final narrative.","image/gif"]]
                 },{
                     "title":"Creating the Interactive Narrative",
                     "summary":"Based on feedback from version 1, we re-evaluated our proposal and decided an interactive narrative would be better fit for exploring our proposed society.",
-                    "description":"",
-                    "media":[["./caseStudyFiles/anthropocene/twineMap.png","Twine node map for the interactive narrative"]]
+                    "description":"We outlined a short, 3-part narrative and corresponding decision tree, where users would play through childhood, young adulthood, and old age as members of our proposed society. Upon the start of the game, players are assigned a sustainability score of 10 and as they navigate the narrative, different decisions increase or decrease that score. This score is revealed at our checkpoints, where we were able to still incoporate the initial p5.js sketch.",
+                    "media":[["./caseStudyFiles/anthropocene/twineMap.png","After writing the outline and decision tree in a Word document, we translated our story to Twine","image/png"],["./caseStudyFiles/anthropocene/p5embed.png","We decided to embed the city builder sketch as a checkpoint between the three parts of the narrative","image/png"]]
                 }],
             "artifact": "https://arihammond.itch.io/born-in-the-anthropocene",
             "findings":["Strong introduction to design futuring and speculative design with digital media", "Developed a new research interest/application in using interactive narratives for design futuring","Allowed exposure to and familiarity with Twine for prototyping", "Improved collaborative communication, organization, and task delegation skills"]

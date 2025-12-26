@@ -52,12 +52,6 @@ const CaseStudy = () => {
             <a href="#hero" onClick={()=>setStudyNavOpen(!studyNavOpen)}><p>Project Synopsis</p></a>
             <a href="#problem" onClick={()=>setStudyNavOpen(!studyNavOpen)}><p>Problem Statement</p></a>
             <a href="#process" onClick={()=>setStudyNavOpen(!studyNavOpen)}><p>Research & Design Process</p></a>
-            <ul>
-                <a><li>Background</li></a>
-                <a><li>Approach</li></a>
-                <a><li>Artifact</li></a>
-                <a><li>Outcomes</li></a>
-            </ul>
             <a href="#reflection" onClick={()=>setStudyNavOpen(!studyNavOpen)}><p>Reflection</p></a>
         </nav>
         </>
@@ -243,7 +237,7 @@ function Process({project}) {
                     
                 </div>
                 <div className="processSection">
-                    <h4>Methodology</h4>
+                    <h4>Approach</h4>
                     <p><strong>Expand each section to view process documents and extended explanations</strong></p>
                     {project.process.methods.map((method, id) => (
                         <details key={id} className="approach">
