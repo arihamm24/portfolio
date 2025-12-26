@@ -18,8 +18,8 @@
             "tools":["Twine", "p5.js"]
         },
         "process":{
-            "background":["UN SDGs", "Postmodernism", "Social Sustainability"],
-            "citations":[["United Nations Sustainable Development Goals","https://sdgs.un.org/goals","United Nations Department of Economic and Social Affairs"],["Postmodern Education: Critiques and Alternatives to Traditional Schooling","https://sociology.institute/sociology-of-education/postmodern-education-critiques-alternatives/#what-is-postmodernism-in-education","Sociology.Institute"],["What is social sustainability?","https://instituteofsustainabilitystudies.com/insights/lexicon/what-is-social-sustainability/","The Institute of Sustainability Studies"]],
+            "background":["During this course, sustainability was discussed under the lens of the UN Sustainable Development Goals (SDGs). These 17 goals are integral to the 2030 Agenda for Sustainable Development, and call all countries of the world into partnership to address systemic deprivations like hunger and poverty and improve health, safety, education and economic growth while also addressing direct climate change and conservation concerns. In proposing a sustainable future society, we turned to the SDGs to determine how we could amplify one of these dimensions.","Our speculative narrative explored sociocultural aspects of sustainability, addressing poverty, hunger, education, and sustainable communities (SDGs 1,2,4, and 11, respectively). We hope to suggest that by focusing on creativity, critical thought, community values, and collective welfare, we could raise generations of more ethical, sustainably minded individuals. To do this, we devised a society with free healthcare, subsidized housing, universal basic income, and most importantly, a postmodern education that encouraged skepticism, curisoity, and creativity from early education."],
+            "citations":[["United Nations Sustainable Development Goals","https://sdgs.un.org/goals","United Nations Department of Economic and Social Affairs"]],
             "methods":[
                 {
                     "title":"Brainstorming",
