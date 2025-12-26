@@ -148,16 +148,15 @@ footer > a:hover {
     /*center content*/
     display:flex;
     flex-direction: column;
-    margin:0.75%;
+    margin:0.25rem;
     padding: 1.5%;
     align-items: center;
     background-color: var(--main-bg);
     border-radius:20px;
 }
 #sidebar{
-    width:30%;
+    width:22%;
     top:3rem;
-    margin: 0.75rem 0;
     position: sticky;
     height: fit-content;
     text-align: center;
@@ -377,11 +376,11 @@ dialog::backdrop {
     color:var(--main-bg);
 }
 .processMedia {
-    width: 50%;
+    width: 60%;
 }
 embed[type="application/pdf"]{
-    width: 400px;
-    height: 350px;
+    width: 95%;
+    height: 300px;
 }
 .projImg {
     display: flex;
@@ -419,7 +418,7 @@ embed[type="application/pdf"]{
     gap: 0.75rem;
 }
 details > p, details > embed {
-    margin-left: 1.5rem;
+    margin-left: 1rem;
 }
 /*RESPONSIVE DESIGN*/
 #mobileHeader {
