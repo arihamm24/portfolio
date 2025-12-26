@@ -70,18 +70,18 @@
         },
         "process":{
             "background":["I created this dataset during my time as an accessibility intern at the Robert C. Williams Museum of Papermaking in summer 2025. Through an iterative process, I collected images of museum artifacts and accompanying label text, consulted museum and accessibility experts to develop skills in authoring alt text for museums, and prompted a large language model to generate descriptive text designed to function as both interpretive description and alt text for accessibility.", "This dataset will be used primarily in a design research study investigating how to design and evaluate documentation methods that promote critical reflection among museum professionals as they engage with AI-driven interpretive and accessibility systems. By framing dataset documentation as both a methodological and pedagogical practice, this study situates AI systems as collaborators in interpretive and ethical reflection and proposes alternative text as context documentation that reflects the interpretive, ethical, and communicative decisions embedded in multimodal museum data."],
-            "citations":[["Datasheets for Datasets", "http://arxiv.org/abs/1803.09010","Timnit Gebru, et al."],["Datasheets for Digital Cultural Hertiage Datasets", "http://openhumanitiesdata.metajnl.com/articles/10.5334/johd.124/", "Henk Alkemade, et al."], ["Research on the Application of Artificial Intelligence to Accessibility Services in Science Museums","https://dl.acm.org/doi/10.1145/3736426.3736491","Pengfei Li, et al."]],
+            "citations":[["Datasheets for Datasets", "http://arxiv.org/abs/1803.09010","Timnit Gebru, et al."],["Datasheets for Digital Cultural Heritage Datasets", "http://openhumanitiesdata.metajnl.com/articles/10.5334/johd.124/", "Henk Alkemade, et al."], ["Research on the Application of Artificial Intelligence to Accessibility Services in Science Museums","https://dl.acm.org/doi/10.1145/3736426.3736491","Pengfei Li, et al."]],
             "methods":[
                 {
                     "title":"Structuring the Dataset for Usability",
                     "summary":"The dataset as created in the internship was stored as a PowerPoint presentation for internal use at the museum, but JSON offered a scaleable, structured, readable format that optimized the dataset for research contexts.",
                     "description":"",
-                    "media":[]
+                    "media":[["./caseStudyFiles/museum/powerPoint.png","A sample of the dataset as delivered at the end of the internship. This PowerPoint contained an additional 50 human-authored descriptions that were not included in the study and therefore not translated to JSON","image/png"],["./caseStudyFiles/museum/jsonData.png","Structuring the dataset as a JSON array allowed for multi-platform use, enhanced readbility, and prepared the dataset for use in digital contexts","image/png"]]
                 },{
                     "title":"Web Visualization as a Research Interface",
                     "summary":"Building on the idea of prioritizing structure and scalability, translating the JSON dataset to an HTML webpage allowed a succinct and clear visualization of both the compiled text and image data.",
                     "description":" The webpage allowed quick sharing and referencing of the dataset among myself, Dr. Stangl, and other lab members.",
-                    "media":[]
+                    "media":[["./caseStudyFiles/museum/fetchScreencap.png","Using Fetch API and JavaScript, I was able to generate an HTML Table of the JSON Dataset","image/png"],["./caseStudyFiles/museum/site.gif", "The dataset as rendered on the finished webpage","image/gif"]]
                 },{
                     "title":"Balancing Completeness and Readability in a Multimodal Dataset",
                     "summary":"For my particular study, the data is intended to be examined as a complete corpus, meaning the web visualization prioritized completeness and readability over interaction design.",
