@@ -112,11 +112,12 @@ footer > a:hover {
     color:var(--card-bg);
 }
 #actionButtons {
-    display: flex;
-    gap: 1rem;
+    display: inline;
+    margin-bottom: 3rem;
 }
 #actionButtons > button {
     height: fit-content;
+    margin: 0.25rem;
     padding:0.5rem;
 }
 #actionButtons > button > a {
@@ -154,7 +155,7 @@ footer > a:hover {
     border-radius:20px;
 }
 #sidebar{
-    width:min-content;
+    width:30%;
     top:3rem;
     margin: 0.75rem 0;
     position: sticky;
@@ -472,23 +473,26 @@ details > p, details > embed {
         padding: 0.25rem;
     }
     #sidebar {
-        top: 8rem;
+        top: 6.75rem;
     }
     #studyNavbar, #sidebar{
-        width: 30%;
+        width: 18rem;
         position: fixed;
-        top: 15%;
-        left: 30vw;
+        margin: 0 auto;
         z-index: 2;
     }
+    #studyNavbar {
+        top: 8rem;
+        left: 11.5vw;
+    }
     .overlay {
-    background-color: rgba(0, 0, 0, 0.5);
-    width: 100%;
-    height: 100%;
-    top:0;
-    left:0;
-    position:fixed;
-    z-index:1;
+        background-color: rgba(0, 0, 0, 0.5);
+        width: 100%;
+        height: 100%;
+        top:0;
+        left:0;
+        position:fixed;
+        z-index:1;
     }
     #processGrid {
         display:flex;
