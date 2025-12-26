@@ -168,12 +168,12 @@
                     "title":"User Stories and Prototyping",
                     "summary":"To begin, we individually wrote user stories and created low-fidelity paper prototypes for the TravelMate Web App.",
                     "description":"",
-                    "media":[]
+                    "media":[["./caseStudyFiles/travelmate/paperProto1.gif","The paper prototypes helped quickly visualize the implementation of different features and user stories", "image/gif"]]
                 },{
                     "title":"Sprint Planning",
                     "summary":"We met to assess and consolidate user stories, assign roles, and plan what to accomplish in each sprint.",
                     "description":"",
-                    "media":[["./caseStudyFiles/travelmate/projectDesc.pdf", "The final project description","application/pdf"]]
+                    "media":[["./caseStudyFiles/travelmate/projectDesc.pdf", "The final project description pulled user stories from our individual proposals","application/pdf"]]
                 },{
                     "title":"Sprint 1",
                     "summary":"Sprint 1 focused on developing the database that would store trip and user data, key features like account registration, and the core travel planning form.",
@@ -183,7 +183,7 @@
                     "title":"Sprint 2",
                     "summary":"In Sprint 2, we refined the features implemented in Sprint 1, implemented our chosen APIs, refactored for good architecture, and solidified the front-end design.",
                     "description":"",
-                    "media":[]
+                    "media":[["./caseStudyFiles/travelmate/main.png","The landing page of the finalized site", "image/png"],["./caseStudyFiles/travelmate/apis.png","Trip planning page rendered including API calls", "image/png"]]
                 }],
             "artifact": "https://youtu.be/Bw96BV2pxgg",
             "findings":["Prepared me for industry by familiarizing me with Scrum dynamics and procedures", "Gained meaningful back-end web development experience with Django and SQLite", "Improved collaborative communication, organization, and task delegation skills"]
