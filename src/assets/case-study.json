@@ -28,13 +28,13 @@
                     "media":[["./caseStudyFiles/anthropocene/whiteboard.png","Brainstorming Session of Microsoft Whiteboard"], ["./caseStudyFiles/anthropocene/whiteboardClose.png","We settled on exploring culture and society since that's where we had the most ideas and common ground"]]
                 },{
                     "title":"Proposed Concept",
-                    "summary":"After brainstorming, we met to discuss and draft a proposal for our future world and interactive program.",
+                    "summary":"We settled on exploring sociocultural aspects of our sustainable future, focusing particularly on education and community. Our initial idea for the interactive program was a city builder game developed in p5.js",
                     "description":"We found that many of our ideas imagined novel educational systems that differed from our current education model in structure, length, content, delivery, or some combination of the four. From there, we consulted our background research on postmodern education to extrapolate the social structures and political and economic systems of our proposed society.",
                     "media":[["./caseStudyFiles/anthropocene/projectProposal.pdf", "In the presentation, we emphasized our society as 'people first', noting how an emphasis on critical and creative thought would create a more connected, empathetic society", "application/pdf"]]
                 },{
                     "title":"Version 1",
-                    "summary":"Our first version was only a p5.js sketch, which we submitted for feedback upon which to improve.",
-                    "description":"The critical feedback we received on version 1 was that our city builder concept did not adequately explore the robust sociocultural, educational, or economic dynamics we had proposed. Instead, several classmates, TAs, and community stakeholders suggested that an interactive narrative would better situated for exploration of these ideas.",
+                    "summary":"We submitted a functional prototype of the grid system for our city builder game, and received feedback from classmates, TAs, and community stakeholders based on our proposal and prototype.",
+                    "description":"The critical feedback we received on version 1 was that our city builder concept did not adequately explore the robust sociocultural, educational, or economic dynamics we had proposed. Instead, it was suggested that an interactive narrative would better situated for exploration of these ideas.",
                     "media":[["./caseStudyFiles/anthropocene/version1.gif","Though we did not keep the city builder concept as a standalone product, we were still able to further develop and incorporate this prototype into the final narrative.","image/gif"]]
                 },{
                     "title":"Creating the Interactive Narrative",
@@ -161,27 +161,27 @@
             "tools":["Django", "HTML", "Trello and MS Teams"]
         },
        "process":{
-            "background":["Explanation of XP process"],
-            "citations":[["Agile Software Development","https://www.geeksforgeeks.org/software-engineering/software-engineering-agile-software-development/","GeeksForGeeks"]],
+            "background":["Agile is a development approach that emphasizes flexibility, collaboration, and customer satisfaction. Several methodologies implement Agile approaches and share a few common values/principles. Agile methodologies are iterative, incremental, and people-centric, creating a more involved relationship with the client and prioritizing strong code outcomes over cost concerns. For this project, we used the extreme programming (XP) methodology, which uses shorter development cycles and minimal documentation.", "There are 8 set practices in XP: incremental planning, small releases, simple design, test-first development, refactoring, pair programming, continus integration, and an on-site customer. Adhering to these principles in the short development cycles (in our case, we had 7-day sprints) allowed us to quickly implement features, request feedback, and revise our code accordingly. It is an industry standard methodology for companies like Ford, Chrysler, and IBM."],
+            "citations":[["Agile Software Development","https://www.geeksforgeeks.org/software-engineering/software-engineering-agile-software-development/","GeeksForGeeks"], ["Lecture 2: Software Methodologies","https://drive.google.com/file/d/1mMHul-D8Sb6c-0l7WyWH4Pf4rCJPfTsQ/view?usp=drive_link", "Dr. Pedro Guillermo Feijoo Garcia"]],
             "methods":[
                 {
                     "title":"User Stories and Prototyping",
-                    "summary":"To begin, we individually wrote user stories and created low-fidelity paper prototypes for the TravelMate Web App.",
-                    "description":"",
+                    "summary":"Though the class was provided with the same brief concept of the TravelMate app, the specific implementation differed from team to team. We individually developed user stories and low-fidelity prototypes to later present to our teams",
+                    "description":"User stories are a key part of requirements engineering and critical to the incremental plannig practice in extreme programming. Given the one-paragraph concept, I wrote 2 user profiles and 18 user stories describing how those categories of users would interact with the site. These were written in sentence form, first establishing the profile –'As a user'– then describing the feature –'I want to X'– and how the user benefits from the feature –'so that Y'.",
                     "media":[["./caseStudyFiles/travelmate/paperProto1.gif","The paper prototypes helped quickly visualize the implementation of different features and user stories", "image/gif"]]
                 },{
                     "title":"Sprint Planning",
-                    "summary":"We met to assess and consolidate user stories, assign roles, and plan what to accomplish in each sprint.",
-                    "description":"",
+                    "summary":"We met to assess and consolidate user stories, assign roles, and plan what to accomplish in each sprint. During the project, we performed daily standups of our progress and met weekly with our client/TA to ensure we were satifying the requested features and our user stories.",
+                    "description":"Having established the user stories and desired end product, we met as a team to assign tasks based on strength, interest, and background. Given my previous experience in web design, my team elected me to oversee the design of the app. However, I also requested some back-end development responsibilities to develop more skills in Django and better translate back-end functionalities to front-end designs.",
                     "media":[["./caseStudyFiles/travelmate/projectDesc.pdf", "The final project description pulled user stories from our individual proposals","application/pdf"]]
                 },{
                     "title":"Sprint 1",
-                    "summary":"Sprint 1 focused on developing the database that would store trip and user data, key features like account registration, and the core travel planning form.",
-                    "description":"",
+                    "summary":"To lay a strong foundation for more complex features, Sprint 1 focused on user stories that connected to multiple features, such as developing the database that would store trip and user data, key features like account registration, and the core travel planning form.",
+                    "description":" For instance, the account registration system (where users can sign up, log in, and reset their account details) was crucial to later user stories like sharing trips between users, saving trips to accounts, and emailing trips externally. We also made sure to implement the trip planning form and fallback pre-determined options to give us adequate time to troubleshoot any issues we had with the SQLite database.",
                     "media":[["./caseStudyFiles/travelmate/wireframe1.png", "Wireframe for Trip Planning pages","image/png"], ["./caseStudyFiles/travelmate/wireframe2.png","Wireframe for Home and Login/SignUp pages", "image/png"]]
                 },{
                     "title":"Sprint 2",
-                    "summary":"In Sprint 2, we refined the features implemented in Sprint 1, implemented our chosen APIs, refactored for good architecture, and solidified the front-end design.",
+                    "summary":"In Sprint 2, we refined the features implemented in Sprint 1, implemented our chosen APIs, refactored for good architecture, and prepared for deployment.",
                     "description":"",
                     "media":[["./caseStudyFiles/travelmate/main.png","The landing page of the finalized site", "image/png"],["./caseStudyFiles/travelmate/apis.png","Trip planning page rendered including API calls", "image/png"]]
                 }],
