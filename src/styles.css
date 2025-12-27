@@ -331,7 +331,7 @@ button:hover{
     justify-content: space-between;
 }
 .projContent#problem > #problemBlurb, .projContent#reflection > h3 {
-    width: 35%;
+    width: 30%;
 }
 
 #problemParagraph, #reflectionParagraph {
@@ -419,11 +419,6 @@ embed[type="application/pdf"]{
 .modalLink {
     text-decoration: none;
     color: var(--main-bg);
-}
-.projReflection {
-    margin: 1.25rem;
-    padding: 0.25rem;
-    border: solid black 2px;
 }
 #summaryTitle {
     font-style: oblique;
