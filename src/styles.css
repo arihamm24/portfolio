@@ -75,6 +75,9 @@ p, li, a, button, h5, h6 {
 details:hover {
     cursor: pointer;
 }
+summary:hover{
+    color:var(--accent);
+}
 details {
     margin-bottom: 1rem;
 }
@@ -167,12 +170,12 @@ footer > a:hover {
     display:flex;
     flex-direction: column;
     margin:0.25rem;
-    padding: 1.5%;
+    padding: 2.5%;
     align-items: center;
     background-color: var(--main-bg);
     border-radius:20px;
 }
-#sidebar{
+#sidebar, #studyNavbar {
     width:22%;
     top:3rem;
     position: sticky;
@@ -180,15 +183,8 @@ footer > a:hover {
     text-align: center;
     justify-content: space-between;
 }
-#studyNavbar{
-    width: max-content;
-    top:1rem;
-    gap: 1.35rem;
-    margin: 0.5rem 0;
-    padding: 1.75rem;
-    position: sticky;
-    height: fit-content;
-    justify-content: space-between;
+#studyNavbar {
+    text-align: left;
 }
 #studyNavbar > nav > h3 {
     text-align: center;
@@ -323,7 +319,8 @@ button:hover{
     align-items: flex-start;
 }
 .projContent#overview > div {
-    width: 30%;
+    width: 100%;
+    padding:0 1rem;
 }
 #goalVerb {
     color: var(--link);
@@ -490,18 +487,14 @@ details > p, details > embed {
         justify-content: center;
         padding: 0.25rem;
     }
-    #sidebar {
-        top: 6.75rem;
-    }
     #studyNavbar, #sidebar{
+        position:fixed;
+        top: 7rem;
         width: 18rem;
-        position: fixed;
-        margin: 0 auto;
+        margin: auto;
+        left:0;
+        right:0;
         z-index: 2;
-    }
-    #studyNavbar {
-        top: 8rem;
-        left: 22.5%;
     }
     .overlay {
         background-color: rgba(0, 0, 0, 0.5);
@@ -528,8 +521,9 @@ details > p, details > embed {
     .projRolesSection {
         width: 100%;
     }
-    .projContent#hero {
+    .projContent#hero{
         flex-direction: column;
+        line-height: 0.25rem;
     }
     .details {
         text-align: center;

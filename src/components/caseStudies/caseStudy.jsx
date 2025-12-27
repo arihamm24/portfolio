@@ -50,7 +50,7 @@ const CaseStudy = () => {
         <nav>
             <h3>Contents</h3>
             <a href="#hero" onClick={()=>setStudyNavOpen(!studyNavOpen)}><p>Project Synopsis</p></a>
-            <a href="#problem" onClick={()=>setStudyNavOpen(!studyNavOpen)}><p>Problem Statement</p></a>
+            <a href="#problem" onClick={()=>setStudyNavOpen(!studyNavOpen)}><p>Research Statement/Question</p></a>
             <a href="#process" onClick={()=>setStudyNavOpen(!studyNavOpen)}><p>Research & Design Process</p></a>
             <a href="#reflection" onClick={()=>setStudyNavOpen(!studyNavOpen)}><p>Reflection</p></a>
         </nav>
@@ -181,20 +181,23 @@ function Overview({project}) {
                         <p key={index}><span id="goalVerb">{goal[0]}</span>{goal[1]}</p>
                     ))}
                 </div>
+               
+            </div>
+            <div>
                 <div>
                 <h4>Results</h4>
                     {project.overview.results.map((result, index) => (
                         <p key={index}>{result}</p>
                     ))}
                 </div>
-            </div>
-            <div>
-                <h4>Tools</h4>
+                <div>
+                    <h4>Tools</h4>
                 <ul>
                     {project.overview.tools.map((tool, index) => (
                         <li key={index}>{tool}</li>
                     ))}
                 </ul>
+                </div>
             </div>
         </div>
         <hr></hr>
@@ -205,7 +208,7 @@ function Problem({project}) {
     return (
         <div className="projContent" id="problem">
             <div id="problemBlurb">
-                <h3>Problem Statement/Research Question</h3>
+                <h3>Research Statement/Question</h3>
                 <h4>{project.problem.blurb}</h4>
             </div>
             <div id="problemParagraph">
