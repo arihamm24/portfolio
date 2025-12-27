@@ -25,6 +25,9 @@ h4, summary {
   font-size: 1.25rem;
   line-height: 1.2;
 }
+html {
+    scroll-behavior: smooth;
+}
 body {
     background-color: var(--page-bg);
     color:var(--text-color);
@@ -38,6 +41,20 @@ h1, h2, h3 {
 h4, #modalTitle, summary {
     font-family: "Figtree", sans-serif;
     font-weight: 650;
+}
+summary {
+    list-style: none;
+    align-items: center;
+    cursor: pointer;
+}
+summary::before {
+    content:"+  ";
+}
+details[open] summary::before {
+  content: "–  "; /* Open icon */
+}
+summary::-webkit-details-marker {
+  display: none;
 }
 #methodTitle {
     font-size: 1.05rem;
@@ -325,6 +342,7 @@ button:hover{
 }
 .projContent#process {
     flex-direction: column;
+    gap: 0px;
 }
 #processGrid {
     display:grid;
@@ -483,7 +501,7 @@ details > p, details > embed {
     }
     #studyNavbar {
         top: 8rem;
-        left: 11.5vw;
+        left: 22.5%;
     }
     .overlay {
         background-color: rgba(0, 0, 0, 0.5);
@@ -515,6 +533,9 @@ details > p, details > embed {
     }
     .details {
         text-align: center;
+    }
+   #problemBlurb > h3 {
+        width: 30%;
     }
     #reflectionParagraph {
         width: 80%;
