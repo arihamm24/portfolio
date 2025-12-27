@@ -320,7 +320,7 @@ button:hover{
 }
 .projContent#overview > div {
     width: 30%;
-    padding:0 1rem;
+    padding:0 0.25rem;
 }
 #goalVerb {
     color: var(--link);
