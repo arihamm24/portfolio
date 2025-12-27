@@ -12,9 +12,9 @@
             "paragraph":"Despite the promising and novel innovations enabled by the advent of artificial intelligence (AI), this development has also had immediate and severe environmental impacts predicted to continue. In the face of rapidly changing climate and this new, ubiquitous environmental pressor, we must find and develop more sustainable structure for future generations"
         },
         "overview":{
-            "summary":"This is a design futuring project assigned to demonstrate competencies in p5.js and with key concepts of computational media and design. We collaborated to employ these skillsets and design a sustainable future aligned with one or more UN Sustainable Development Goals, using fabulation as our main approach.",
+            "summary":"This is a design futuring project where fabulation was used to imagine, propose, and explore a sustainable future world with an interactive program.",
             "goals":[["Propose ", "a sustainable future society"], ["Develop ", "an interactive program exploring the proposed society"]],
-            "results":["An interactive narrative and integrated p5.js sketch where users make social/cultural decisions in the proposed future"],
+            "results":["An interactive narrative and integrated p5.js sketch allowing users to explore our proposed future"],
             "tools":["Twine", "p5.js"]
         },
         "process":{
@@ -63,9 +63,9 @@
             "paragraph":"This site is a visualization of 56-item dataset of artifact descriptions used in a design research study. When created, the dataset was not intended for research use and upon joining MultiSense.Studio and working under Dr. Stangl, I identified a need to better visualize and centralize the dataset so it could be referenced during the study and shared among my colleagues in the lab."
         },
         "overview":{
-            "summary":"This is a web visualization of a multimodal dataset of mueseum artifacts and their descriptions to support an independent study on AI-mediated museum practices. The dataset includes images, label copy, LLM-generated and human-edited descriptions.",
+            "summary":"This is a web visualization of a multimodal cultural heritage dataset to support research activities in the field of multimodal AI and cultural heritage.",
             "goals":[["Visualize ", "a multimodal dataset, including text and images"],["Support ", "study design and inquiry for design research endeavors"]],
-            "results":["A simple HTML site backed by JSON data that displays the experimental dataset as a table and has accompanying pages and content that act as a landing site for the core independent study"],
+            "results":["A publicly-accessible HTML site backed by JSON data that displays the multimodal dataset as a table for reference and distribution in research contexts."],
             "tools":["JSON", "HTML", "JavaScript"]
         },
         "process":{
@@ -104,7 +104,7 @@
             "paragraph":"This course taught general high-level computing concepts like memory management, circuits, and Von Neumann Architecture, as well as game development concepts like sprites, interfacing with hardware, backgrounds, and animation. To demonstrate and solidify my grasp of the content, I developed an original, playable video game for the GameBoy Advanced, the chosen hardware interface for the course."
         },
         "overview":{
-            "summary":"This is a final project for CS2261 (Media Device Architecture) at Georgia Tech. The course taught high-level computing in C via the GameBoy Advanced (GBA). For the final project, I designed and developed a roller derby video game for the GBA",
+            "summary": "I designed and developed a roller derby video game for the GBA to demonstrate compentency in C programming and apply key course concepts about high level computing.",
             "goals":[["Apply ", "concepts of high-level computing and fundamentals of C"], ["Demonstrate ", "creativity and understanding of GBA architecture"]],
             "results":["A playable, well-designed, original game developed in C"],
             "tools":["mGBA", "Tiled", "Usenti Sprite Editor"]
@@ -150,7 +150,7 @@
             "paragraph":"This course focused on teaching Agile software development through collaborative projects. For this project, we were tasked with developing a travel planning application that incorporated external APIs to give users responsive advice based on weather, desired activities, and location. In development, we used the extreme programming (XP) Agile methodology."
         },
         "overview":{
-            "summary":"Using extreme programming (XP), an Agile software development methodology, my team and I developed a Django web-app for travel planning that incoporates external APIs for a custom, adaptive user experience. My primary role was with front-end design and back-end development.",
+            "summary":"Using extreme programming (XP), an Agile software development methodology, my team and I developed a Django web-app for travel planning.",
             "goals":[["Develop ", "web applications using Agile software methodologies"],["Incorporate ", "external APIs to create desired functionalities"], ["Demonstrate ", "competencies in web development"]],
             "results":["A multi-page responsive site with integrated Deepseek AI and Open Weather APIs for a customized, engaging travel planning experience"],
             "tools":["Django", "HTML", "Trello and MS Teams"]
