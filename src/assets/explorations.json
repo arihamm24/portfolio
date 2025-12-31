@@ -1,0 +1,20 @@
+[
+    {
+        "id":"1",
+        "title":"NYT Top Story Visualization",
+        "tagline":"An animated word cloud created in p5.js",
+        "link":"./explorations/nyt.gif",
+        "code":"https://editor.p5js.org/arihamm24/sketches/IHxFlK97P",
+        "framing":"This sketch is an interpretive visualization of the New York Times Top Stories API. It uses randomized fonts, colors, and animation to to illustrate the chaotic nature with which topics are forced into public attention by the media.",
+        "constraint":"The sketch intentionally limits interaction to only the spacebar and enter key to prioritize the creative focus on chaos and lost control."
+    },
+    {
+        "id":"2",
+        "title":"ml5.js Handpose Experimentation",
+        "tagline":"An experiment with the ml5.js library",
+        "link":"./explorations/ml5.gif",
+        "code":"https://editor.p5js.org/arihamm24/sketches/_WVwx2hUJ",
+        "framing":"This sketch was an exploration of machine learning with ml5.js. It visualizes the connections of the hand using the web camera and the HandPose Model and when users pinch the thumb and forefinger, there is a textbox that appears.",
+        "constraint":"The sketch limits interaction too avoid exceeding the processing speed of the browser-based p5.js editor."
+    }
+]

@@ -357,9 +357,28 @@ dialog::backdrop {
     border-radius:10px;
     background-color: var(--text-color);
     max-width: 70%;
-    max-height:70%;
+    max-height:75%;
     overflow: scroll;
     border:none;
+}
+#explorationModal {
+    width: fit-content;
+}
+.exploContent {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 0.5rem;
+}
+.exploContent, .exploDesc {
+    width:100%;
+}
+.explorationEmbed {
+    margin: 0.25rem;
+}
+#explorationCode {
+    text-decoration: none;
+    margin: 0.125rem;
 }
 #modalHeader {
     position: sticky;
@@ -481,6 +500,10 @@ details > p, details > embed {
         flex-direction: column;
         justify-content: center;
         padding: 0.25rem;
+    }
+    .explorationEmbed {
+        width: 60%;
+        height: auto;
     }
     #studyNavbar, #sidebar{
         position:fixed;

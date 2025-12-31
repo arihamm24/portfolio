@@ -27,7 +27,7 @@ function App() {
         <MobileHeader />
         <div id="gridContainer">
           <Sidebar deviceMode={"mobile"}/>
-          <Main/>
+          <Main />
         </div>  
       </MediaQuery>
       <Footer />
@@ -55,7 +55,8 @@ function App() {
         <nav>
             <a href="#content" onClick={() => setSidebarOpen(!sidebarOpen)}>About</a>
             <a href="#projects" onClick={() => setSidebarOpen(!sidebarOpen)}>Projects</a>
-            <a href="#research" onClick={() => setSidebarOpen(!sidebarOpen)}>Research</a>
+            <a href="#research" onClick={() => setSidebarOpen(!sidebarOpen)}>Research Output</a>
+            <a href="#explorations" onClick={() => setSidebarOpen(!sidebarOpen)}>Explorations</a>
         </nav>
     );
 }

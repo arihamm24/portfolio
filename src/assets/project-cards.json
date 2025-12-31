@@ -1,5 +1,17 @@
 [
     {
+        "id":"museum",
+        "title":"AI Museum Dataset Site",
+        "tagline":"Web-based visualization AI Museum Dataset independent study in Fall 2025",
+        "image" : "./projectPreviewPics/museum.png",
+        "summary":" is a research artifact supporting a 2025-2026 independent study on multimodal AI and cultural heritage sites.",
+        "demo":"",
+        "team": [["Ari Hammond", "Principal Investigator"], ["Dr. Abigale Stangl","Faculty Advisor"]],
+        "role":"Principal Investigator, Web Developer",
+        "link":"https://arihamm24.github.io/ai-museum-datasets/",
+        "languages":["JSON","JavaScript","HTML/CSS"],
+        "genre":"web-dev"
+    },{
         "id":"anthropocene",
         "title":"Born in the Anthropocene",
         "tagline": "An interactive narrative exploring a sustainable future based in collective welfare and critical thought",
@@ -13,32 +25,6 @@
         "genre" : "interactive-narrative"
     },
     {
-        "id":"museum",
-        "title":"AI Museum Dataset Site",
-        "tagline":"Web-based visualization/landing page for my AI Museum Dataset independent study in Fall 2025",
-        "image" : "./projectPreviewPics/museum.png",
-        "summary":" is a web-based visualization and landing site for my 2025-2026 independent study with Dr. Abigale Stangl at the Georgia Institute of Technology",
-        "demo":"",
-        "team": [["Ari Hammond", "Principal Investigator"], ["Dr. Abigale Stangl","Faculty Advisor"]],
-        "role":"Principal Investigator, Web Developer",
-        "link":"https://arihamm24.github.io/ai-museum-datasets/",
-        "languages":["JSON","JavaScript","HTML/CSS"],
-        "genre":"web-dev"
-    },
-    {
-        "id":"jampacked",
-        "title":"Jam Packed",
-        "tagline":"A roller-derby video game developed for the mGBA emulator",
-        "image":"./projectPreviewPics/jamPacked.png",
-        "summary":" is a fast paced, single-player roller derby game created for the mGBA emulator",
-        "demo":"https://www.youtube.com/watch?v=cjYMJZcziBk",
-        "team": [["Ari Hammond", "Developer, Artist"]],
-        "role": "Developer, Artist",
-        "link": "https://arihamm24.github.io/jam-packed/",
-        "langauges":["C"],
-        "genre":"game-dev"
-    },
-    {
         "id":"travelmate",
         "title":"TravelMate",
         "tagline":"an interactive travel planning web application",
@@ -50,5 +36,17 @@
         "link": "",
         "languages":["Django","HTML/CSS", "SQLite"],
         "genre":"web-dev"
+    },{
+        "id":"jampacked",
+        "title":"Jam Packed",
+        "tagline":"A roller-derby video game developed for the mGBA emulator",
+        "image":"./projectPreviewPics/jamPacked.png",
+        "summary":" is a fast paced, single-player roller derby game created for the mGBA emulator",
+        "demo":"https://www.youtube.com/watch?v=cjYMJZcziBk",
+        "team": [["Ari Hammond", "Developer, Artist"]],
+        "role": "Developer, Artist",
+        "link": "https://arihamm24.github.io/jam-packed/",
+        "langauges":["C"],
+        "genre":"game-dev"
     }
 ]

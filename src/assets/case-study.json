@@ -1,5 +1,45 @@
 [
     {
+        "id":"museum",
+        "title":"AI Museum Dataset",
+        "tagline":"Web-based visualization/landing page for my AI Museum Dataset independent study in Fall 2025",
+        "image" : "./projectPreviewPics/museum.png",
+        "date":"November 2025",
+        "type":"Research Supplement",
+        "team": [["Ari Hammond", "Principal Investigator"], ["Dr. Abigale Stangl","Faculty Advisor"]],
+        "problem":{
+            "blurb":"How can we visualize a multimodal AI dataset for collaborative use and study design?",
+            "paragraph":"This site is a visualization of 56-item dataset of artifact descriptions used in a design research study. When created, the dataset was not intended for research use and upon joining MultiSense.Studio and working under Dr. Stangl, I identified a need to better visualize and centralize the dataset so it could be referenced during the study and shared among my colleagues in the lab."
+        },
+        "overview":{
+            "summary":"This is a web visualization of a multimodal cultural heritage dataset to support research activities in the field of multimodal AI and cultural heritage.",
+            "goals":[["Visualize ", "a multimodal dataset, including text and images"],["Support ", "study design and inquiry for design research endeavors"]],
+            "results":["A publicly-accessible HTML site backed by JSON data that displays the multimodal dataset as a table for reference and distribution in research contexts."],
+            "tools":["JSON", "HTML", "JavaScript"]
+        },
+        "process":{
+            "background":["I created this dataset during my time as an accessibility intern at the Robert C. Williams Museum of Papermaking in summer 2025. Through an iterative process, I collected images of museum artifacts and accompanying label text, consulted museum and accessibility experts to develop skills in authoring alt text for museums, and prompted a large language model to generate descriptive text designed to function as both interpretive description and alt text for accessibility.", "This dataset will be used primarily in a design research study investigating how to design and evaluate documentation methods that promote critical reflection among museum professionals as they engage with AI-driven interpretive and accessibility systems. By framing dataset documentation as both a methodological and pedagogical practice, this study situates AI systems as collaborators in interpretive and ethical reflection and proposes alternative text as context documentation that reflects the interpretive, ethical, and communicative decisions embedded in multimodal museum data."],
+            "citations":[["Datasheets for Datasets", "http://arxiv.org/abs/1803.09010","Timnit Gebru, et al."],["Datasheets for Digital Cultural Heritage Datasets", "http://openhumanitiesdata.metajnl.com/articles/10.5334/johd.124/", "Henk Alkemade, et al."], ["Research on the Application of Artificial Intelligence to Accessibility Services in Science Museums","https://dl.acm.org/doi/10.1145/3736426.3736491","Pengfei Li, et al."]],
+            "methods":[
+                {
+                    "title":"Structuring the Dataset for Usability",
+                    "summary":"The dataset as created in the internship was stored as a PowerPoint presentation for internal use at the museum, but JSON offered a scaleable, structured, readable format that optimized the dataset for research contexts.",
+                    "description":"The dataset's initial PowerPoint format was effective in museum contexts for succinctly visualizing the artifact and its accompanying description, but the inquiry of this study required underlying metadata to better consider authorship, provenance, decision-making, and process. Incorporating this granularity in slide format would render the dataset illegible and difficult to navigate for researchers, as well as created a file far too large for the frequent and iterative LLM usage in the study. JSON mitigated these issues by structuring the data in an array of objects with key-value pairs for each metadata attribute. This consistent, machine-readable, and compact file more explicity paired artifacts and label copy with their accompanying descriptions and preserved the content of the original dataset while optimizing it for human use and LLM co-design for varying research contexts.",
+                    "media":[["./caseStudyFiles/museum/powerPoint.png","A sample of the dataset as delivered at the end of the internship. This PowerPoint contained an additional 50 human-authored descriptions that were not included in the study and therefore not translated to JSON","image/png"],["./caseStudyFiles/museum/jsonData.png","Structuring the dataset as a JSON array allowed for multi-platform use, enhanced readbility, and prepared the dataset for use in digital contexts","image/png"]]
+                },{
+                    "title":"Balancing Completeness and Readability in a Multimodal Dataset",
+                    "summary":"Using Fetch API and JavaScript, the JSON data was rendered as a static HTML Table and hosted with GitHub Pages. The data is intended to be examined as a complete corpus, meaning the web visualization prioritized completeness and readability over interaction design.",
+                    "description":"Because the dataset needed to be viewed in full, the visualization did not offer a querying or search function for navigation. This prevented filtering or selective viewing of data, maintaining the operational integrity originally preserved by converting the PowerPoint to a JSON array. Similarly, the page has no CSS styling to avoid detracting focus from the visual elements of the dataset or jeopardizing the legibility of the textual elements. These decisions, though contradictory to conventional design principles, optimized this visualization for the desired research contexts and encourage the careful review and critical consideration being explored in the independent study.",
+                    "media":[]
+                }],
+            "artifact":"https://arihamm24.github.io/ai-museum-datasets/",
+            "findings":["Centralized dataset and facilitated access, sharing, and reuse among lab members", "Introduced extended functionality by serving as a landing page for the independent study project", "Supported dataset evaluation, analysis, and study design by enabling external access to dataset", "Established a reusable model for lightweight web-based visualization of multimodal research datasets"]
+        },
+        "reflection":{
+            "paragraph":"This site enabled remote sharing and access to the dataset during the study design and execution process, and using JSON allows for modularity and adaptability as new insights on AI-generated museum content arise throughout this study and future work. One major limitation of the site is the lack of querying and interactivity, as it is a static table of the dataset and its composite parts. This was a deliberate choice: the dataset was intended to be viewed as a complete corpus and applied to areas like model training and ethical evaluations, meaning preserving its integrity was prioritized over the usability benefits of a querying mechanism.",
+            "futureWork":"This dataset was foundational to my independent study and connected to several other studies conducted by my fellow lab members. This simple, accessible visualization facilitated use and distribution of the dataset, suggesting that similar implementations for other experimental datasets would be an effective and necessary choice. Moreover, the decision to use this site as a central page for the independent study by including my abstract and linking to the publication enhances its functionality beyond data visualization to a scientific communication tool. These two uses could likely be replicated in future projects that center specific datasets."
+        }
+    },{
         "id":"anthropocene",
         "title":"Born in the Anthropocene",
         "tagline": "An interactive narrative exploring a sustainable future based in collective welfare and critical thought",
@@ -51,93 +91,6 @@
         }
     },
     {
-        "id":"museum",
-        "title":"AI Museum Dataset",
-        "tagline":"Web-based visualization/landing page for my AI Museum Dataset independent study in Fall 2025",
-        "image" : "./projectPreviewPics/museum.png",
-        "date":"November 2025",
-        "type":"Research Supplement",
-        "team": [["Ari Hammond", "Principal Investigator"], ["Dr. Abigale Stangl","Faculty Advisor"]],
-        "problem":{
-            "blurb":"How can we visualize a multimodal AI dataset for collaborative use and study design?",
-            "paragraph":"This site is a visualization of 56-item dataset of artifact descriptions used in a design research study. When created, the dataset was not intended for research use and upon joining MultiSense.Studio and working under Dr. Stangl, I identified a need to better visualize and centralize the dataset so it could be referenced during the study and shared among my colleagues in the lab."
-        },
-        "overview":{
-            "summary":"This is a web visualization of a multimodal cultural heritage dataset to support research activities in the field of multimodal AI and cultural heritage.",
-            "goals":[["Visualize ", "a multimodal dataset, including text and images"],["Support ", "study design and inquiry for design research endeavors"]],
-            "results":["A publicly-accessible HTML site backed by JSON data that displays the multimodal dataset as a table for reference and distribution in research contexts."],
-            "tools":["JSON", "HTML", "JavaScript"]
-        },
-        "process":{
-            "background":["I created this dataset during my time as an accessibility intern at the Robert C. Williams Museum of Papermaking in summer 2025. Through an iterative process, I collected images of museum artifacts and accompanying label text, consulted museum and accessibility experts to develop skills in authoring alt text for museums, and prompted a large language model to generate descriptive text designed to function as both interpretive description and alt text for accessibility.", "This dataset will be used primarily in a design research study investigating how to design and evaluate documentation methods that promote critical reflection among museum professionals as they engage with AI-driven interpretive and accessibility systems. By framing dataset documentation as both a methodological and pedagogical practice, this study situates AI systems as collaborators in interpretive and ethical reflection and proposes alternative text as context documentation that reflects the interpretive, ethical, and communicative decisions embedded in multimodal museum data."],
-            "citations":[["Datasheets for Datasets", "http://arxiv.org/abs/1803.09010","Timnit Gebru, et al."],["Datasheets for Digital Cultural Heritage Datasets", "http://openhumanitiesdata.metajnl.com/articles/10.5334/johd.124/", "Henk Alkemade, et al."], ["Research on the Application of Artificial Intelligence to Accessibility Services in Science Museums","https://dl.acm.org/doi/10.1145/3736426.3736491","Pengfei Li, et al."]],
-            "methods":[
-                {
-                    "title":"Structuring the Dataset for Usability",
-                    "summary":"The dataset as created in the internship was stored as a PowerPoint presentation for internal use at the museum, but JSON offered a scaleable, structured, readable format that optimized the dataset for research contexts.",
-                    "description":"The dataset's initial PowerPoint format was effective in museum contexts for succinctly visualizing the artifact and its accompanying description, but the inquiry of this study required underlying metadata to better consider authorship, provenance, decision-making, and process. Incorporating this granularity in slide format would render the dataset illegible and difficult to navigate for researchers, as well as created a file far too large for the frequent and iterative LLM usage in the study. JSON mitigated these issues by structuring the data in an array of objects with key-value pairs for each metadata attribute. This consistent, machine-readable, and compact file more explicity paired artifacts and label copy with their accompanying descriptions and preserved the content of the original dataset while optimizing it for human use and LLM co-design for varying research contexts.",
-                    "media":[["./caseStudyFiles/museum/powerPoint.png","A sample of the dataset as delivered at the end of the internship. This PowerPoint contained an additional 50 human-authored descriptions that were not included in the study and therefore not translated to JSON","image/png"],["./caseStudyFiles/museum/jsonData.png","Structuring the dataset as a JSON array allowed for multi-platform use, enhanced readbility, and prepared the dataset for use in digital contexts","image/png"]]
-                },{
-                    "title":"Balancing Completeness and Readability in a Multimodal Dataset",
-                    "summary":"Using Fetch API and JavaScript, the JSON data was rendered as a static HTML Table and hosted with GitHub Pages. The data is intended to be examined as a complete corpus, meaning the web visualization prioritized completeness and readability over interaction design.",
-                    "description":"Because the dataset needed to be viewed in full, the visualization did not offer a querying or search function for navigation. This prevented filtering or selective viewing of data, maintaining the operational integrity originally preserved by converting the PowerPoint to a JSON array. Similarly, the page has no CSS styling to avoid detracting focus from the visual elements of the dataset or jeopardizing the legibility of the textual elements. These decisions, though contradictory to conventional design principles, optimized this visualization for the desired research contexts and encourage the careful review and critical consideration being explored in the independent study.",
-                    "media":[]
-                }],
-            "artifact":"https://arihamm24.github.io/ai-museum-datasets/",
-            "findings":["Centralized dataset and facilitated access, sharing, and reuse among lab members", "Introduced extended functionality by serving as a landing page for the independent study project", "Supported dataset evaluation, analysis, and study design by enabling external access to dataset", "Established a reusable model for lightweight web-based visualization of multimodal research datasets"]
-        },
-        "reflection":{
-            "paragraph":"This site enabled remote sharing and access to the dataset during the study design and execution process, and using JSON allows for modularity and adaptability as new insights on AI-generated museum content arise throughout this study and future work. One major limitation of the site is the lack of querying and interactivity, as it is a static table of the dataset and its composite parts. This was a deliberate choice: the dataset was intended to be viewed as a complete corpus and applied to areas like model training and ethical evaluations, meaning preserving its integrity was prioritized over the usability benefits of a querying mechanism.",
-            "futureWork":"This dataset was foundational to my independent study and connected to several other studies conducted by my fellow lab members. This simple, accessible visualization facilitated use and distribution of the dataset, suggesting that similar implementations for other experimental datasets would be an effective and necessary choice. Moreover, the decision to use this site as a central page for the independent study by including my abstract and linking to the publication enhances its functionality beyond data visualization to a scientific communication tool. These two uses could likely be replicated in future projects that center specific datasets."
-        }
-    },
-    {
-        "id":"jampacked",
-        "title":"Jam Packed",
-        "tagline":"A roller-derby video game developed for the mGBA emulator",
-        "image":"./projectPreviewPics/jamPacked.png",
-        "date":"October - December 2025, 7 week timeline",
-        "type":"Class Project",
-        "team": [["Ari Hammond", "Developer, Artist"]],
-        "problem":{
-            "blurb": "Take what you’ve learned this semester and turn it into a one-of-a-kind playable game!",
-            "paragraph":"This course taught general high-level computing concepts like memory management, circuits, and Von Neumann Architecture, as well as game development concepts like sprites, interfacing with hardware, backgrounds, and animation. To demonstrate and solidify my grasp of the content, I developed an original, playable video game for the GameBoy Advanced, the chosen hardware interface for the course."
-        },
-        "overview":{
-            "summary": "I designed and developed a roller derby video game for the GBA to demonstrate compentency in C programming and apply key course concepts about high level computing.",
-            "goals":[["Apply ", "concepts of high-level computing and fundamentals of C"], ["Demonstrate ", "creativity and understanding of GBA architecture"]],
-            "results":["A playable, well-designed, original game developed in C"],
-            "tools":["mGBA", "Tiled", "Usenti Sprite Editor"]
-        },
-        "process":{
-            "background":["This course taught high-level programming in C and software and hardware interfacing, using the GameBoyAdvanced (GBA) as a medium to apply concepts like logical implementation and hardware manipulation. To demonstrate strong grasp of these concepts, the final project was to individual ideate, design, and develop a video game for the GBA for the final 6 weeks of class.", "To better sustain my interest and investment in the project beyond simply completing the course, I proposed a game tied to my favorite hobby: roller derby. Derby is a contact sport played with 5 skaters from each team. There is 1 scoring player, a jammer, and 4 defensive players, called blockers. It is fast-paced, dynamic, and wildly entertaining and has been a major part of my life since August 2024, so creating this game felt like a natural extension of this passion."],
-            "citations":[["TONC", "https://www.coranac.com/tonc/text/","Jasper Vijn"],["Welcome to Roller Derby", "https://wftda.com/roller-derby-basics/","Women's Flat Track Derby Association (WFTDA)"]],
-            "methods":[
-                {
-                    "title":"Game Proposal",
-                    "summary":"The project began at Milestone 0, a brief proposal of the game to be submitted for review.",
-                    "description":"In the proposal, I gave a synopsis of my game idea, a sports-genre roller derby game, and laid out basic controls, sound effects and background music, ideas/sketches for graphics, and possible ways to implement the concepts explored during the course, like parallax backgrounds and complex movement.",
-                    "media":[["./caseStudyFiles/jampacked/proposal.pdf","The full proposal document","application/pdf"]]
-                },{
-                    "title":"State Machine and Basic Mechanics",
-                    "summary":"Milestone 1 and 2 were implementing the architecture, state machine, and mechanics of the game.",
-                    "description":"Based on the feedback from my grading TA, I revisited my proposal and began scaffolding the structure of my code, particularly the different files for different game states and objects, and implementing the basic movement mechanics with placeholder sprites (simple rectangles). I got feedback between each of these milestones, and by the end of this stage, I had fully implemented user controls, all of the game states, and reduced the scope of the project to make completion more plausible.",
-                    "media":[["./caseStudyFiles/jampacked/trackCollision.png","The collision map of the track was key to the movement for computerized sprites (opponents, referees, allied tripod).","image/png"]]
-                },{
-                    "title":"Graphics, Sound, and Additional Features",
-                    "summary":"Milestone 3 was a beta version of the game, including complete sound and graphics and gameplay that could lead to the win/lose states.",
-                    "description":"The beta version of the game was a completely playable prototype, complete with sprites, instructional graphics, scoring for both the player and opponent, background music and sound effects. Though changes were made up until the deadline for completion and full realization of my ideas, this was an acceptable deliverable for the project.",
-                    "media":[["./caseStudyFiles/jampacked/spritesheet.png","4-bit Tile Spritesheet","image/png"], ["./caseStudyFiles/jampacked/instruct.bmp","Tileset for Splash Screen and Instructional Page"]]
-                }],
-            "artifact": "https://arihamm24.github.io/jam-packed/",
-            "findings":["Familiarized myself with iterative design, adapting to feedback, and adjusting to time/resource constraints as a developer", "Solidified grasp of course concepts, allowing for abstraction with other hardware and software systems", "Creative, functional, and engaging video game for resume/portfolio"]
-        },
-        "reflection":{
-            "paragraph":"This project helped me develop skills in creative debugging, asset creation, code architecture, and adaptability as a developer. At several points, either due to time or resource constraints, I revisited my original proposal and made changes to ensure I could realize my idea to the best of my ability and make a functional, enjoyable game.",
-            "futureWork":"Game development, and in a larger sense media devices, are integral areas of creative computing/technology, and this project/course laid the foundation of my exploration in the field. Though the course did not make me a full-fledged C developer, I gained useful technical, theoretical, and organizational skills as well as an interesting portfolio piece. I am eager to see how I may use these langauges, tools, and concepts in later research and creative endeavors."
-        }
-    },
-    {
         "id":"travelmate",
         "title":"TravelMate",
         "tagline":"an interactive travel planning web application",
@@ -186,6 +139,51 @@
         "reflection":{
             "paragraph":"This project introduced me to industry standard approaches to collaborative, user-focused software development by exposing me to Agile methodologies, API integrations, and simulating real-world client feedback. As I continue to develop as a computer scientist, this kind of structured collaboration and public-facing co-creation will help me develop more complex, complete, and coherent creative and academic computing projects.",
             "futureWork":"In the future, I may try other Scrum roles or contribute exlcusively to front- or back-end processes, as this project provided foundational knowledge for collaboration industry and academic software engineering contexts."    
+        }
+    },{
+        "id":"jampacked",
+        "title":"Jam Packed",
+        "tagline":"A roller-derby video game developed for the mGBA emulator",
+        "image":"./projectPreviewPics/jamPacked.png",
+        "date":"October - December 2025, 7 week timeline",
+        "type":"Class Project",
+        "team": [["Ari Hammond", "Developer, Artist"]],
+        "problem":{
+            "blurb": "Take what you’ve learned this semester and turn it into a one-of-a-kind playable game!",
+            "paragraph":"This course taught general high-level computing concepts like memory management, circuits, and Von Neumann Architecture, as well as game development concepts like sprites, interfacing with hardware, backgrounds, and animation. To demonstrate and solidify my grasp of the content, I developed an original, playable video game for the GameBoy Advanced, the chosen hardware interface for the course."
+        },
+        "overview":{
+            "summary": "I designed and developed a roller derby video game for the GBA to demonstrate compentency in C programming and apply key course concepts about high level computing.",
+            "goals":[["Apply ", "concepts of high-level computing and fundamentals of C"], ["Demonstrate ", "creativity and understanding of GBA architecture"]],
+            "results":["A playable, well-designed, original game developed in C"],
+            "tools":["mGBA", "Tiled", "Usenti Sprite Editor"]
+        },
+        "process":{
+            "background":["This course taught high-level programming in C and software and hardware interfacing, using the GameBoyAdvanced (GBA) as a medium to apply concepts like logical implementation and hardware manipulation. To demonstrate strong grasp of these concepts, the final project was to individual ideate, design, and develop a video game for the GBA for the final 6 weeks of class.", "To better sustain my interest and investment in the project beyond simply completing the course, I proposed a game tied to my favorite hobby: roller derby. Derby is a contact sport played with 5 skaters from each team. There is 1 scoring player, a jammer, and 4 defensive players, called blockers. It is fast-paced, dynamic, and wildly entertaining and has been a major part of my life since August 2024, so creating this game felt like a natural extension of this passion."],
+            "citations":[["TONC", "https://www.coranac.com/tonc/text/","Jasper Vijn"],["Welcome to Roller Derby", "https://wftda.com/roller-derby-basics/","Women's Flat Track Derby Association (WFTDA)"]],
+            "methods":[
+                {
+                    "title":"Game Proposal",
+                    "summary":"The project began at Milestone 0, a brief proposal of the game to be submitted for review.",
+                    "description":"In the proposal, I gave a synopsis of my game idea, a sports-genre roller derby game, and laid out basic controls, sound effects and background music, ideas/sketches for graphics, and possible ways to implement the concepts explored during the course, like parallax backgrounds and complex movement.",
+                    "media":[["./caseStudyFiles/jampacked/proposal.pdf","The full proposal document","application/pdf"]]
+                },{
+                    "title":"State Machine and Basic Mechanics",
+                    "summary":"Milestone 1 and 2 were implementing the architecture, state machine, and mechanics of the game.",
+                    "description":"Based on the feedback from my grading TA, I revisited my proposal and began scaffolding the structure of my code, particularly the different files for different game states and objects, and implementing the basic movement mechanics with placeholder sprites (simple rectangles). I got feedback between each of these milestones, and by the end of this stage, I had fully implemented user controls, all of the game states, and reduced the scope of the project to make completion more plausible.",
+                    "media":[["./caseStudyFiles/jampacked/trackCollision.png","The collision map of the track was key to the movement for computerized sprites (opponents, referees, allied tripod).","image/png"]]
+                },{
+                    "title":"Graphics, Sound, and Additional Features",
+                    "summary":"Milestone 3 was a beta version of the game, including complete sound and graphics and gameplay that could lead to the win/lose states.",
+                    "description":"The beta version of the game was a completely playable prototype, complete with sprites, instructional graphics, scoring for both the player and opponent, background music and sound effects. Though changes were made up until the deadline for completion and full realization of my ideas, this was an acceptable deliverable for the project.",
+                    "media":[["./caseStudyFiles/jampacked/spritesheet.png","4-bit Tile Spritesheet","image/png"], ["./caseStudyFiles/jampacked/instruct.bmp","Tileset for Splash Screen and Instructional Page"]]
+                }],
+            "artifact": "https://arihamm24.github.io/jam-packed/",
+            "findings":["Familiarized myself with iterative design, adapting to feedback, and adjusting to time/resource constraints as a developer", "Solidified grasp of course concepts, allowing for abstraction with other hardware and software systems", "Creative, functional, and engaging video game for resume/portfolio"]
+        },
+        "reflection":{
+            "paragraph":"This project helped me develop skills in creative debugging, asset creation, code architecture, and adaptability as a developer. At several points, either due to time or resource constraints, I revisited my original proposal and made changes to ensure I could realize my idea to the best of my ability and make a functional, enjoyable game.",
+            "futureWork":"Game development, and in a larger sense media devices, are integral areas of creative computing/technology, and this project/course laid the foundation of my exploration in the field. Though the course did not make me a full-fledged C developer, I gained useful technical, theoretical, and organizational skills as well as an interesting portfolio piece. I am eager to see how I may use these langauges, tools, and concepts in later research and creative endeavors."
         }
     }
 ]

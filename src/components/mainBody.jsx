@@ -1,5 +1,6 @@
 import ProjectSection from "./cards/projectSection.jsx"
 import ResearchCard from "./cards/researchCards"
+import ExplorationCards from "./cards/explorations.jsx";
 import MediaQuery from "react-responsive";
 
 function Main() {
@@ -8,6 +9,7 @@ function Main() {
         <About />
         <Projects />
         <Research />
+        <Exploration />
         </div>
     );
 }
@@ -17,18 +19,18 @@ function About() {
     return (
         <div className="contentItem" id="about">
             <h2>About</h2>
-            <p>Hello! My name is <strong>Ari Hammond</strong> (they/them). I am a <strong>Computational Media</strong> student at Georgia Tech, with concentrations in People and Film & Media Studies. My research interests include <span id="about-interests">interactive narratives, non-fiction media, digital humanities, and new media technologies.</span></p>  
-            <p>Under the supervision of Dr. André Brock, I am conducting practice-based research on Black feminist technopractice in interactive documentaries, ultimately culminating in my undergraduate thesis. </p>
-            <p>Professionally, I am seeking roles in <span id="about-interests">creative technology, interactive media/design, UI/UX research, and educational technology</span> to better contextualize my research interests and develping technical skills beyond academia.</p>
+            <p>Hello! My name is <strong>Ari Hammond</strong> (they/them). I am a <strong>Computational Media</strong> student at Georgia Tech, with concentrations in People and Film & Media Studies. Through my academic and professional work I have developed skills in <span id="about-interests">software development, UI/UX design, design research, and human-computer interaction</span> that I apply to critical technical practice.</p>  
+            <p>Under the supervision of Dr. André Brock, I am conducting practice-based research on Black feminist technopractice in interactive documentaries, ultimately culminating in my undergraduate thesis. My broader research experiences and interests include accessibility, public history/culutral heritage, and multimodal AI.</p>
+            <p>I am currently seeking part-time/internship roles in <span id="about-interests">creative technology, interactive media/design, UI/UX research, and educational technology</span> to further contextualize my research interests and develop my technical and design skills beyond academic settings.</p>
             <MediaQuery minWidth={1335}>
             <div className="cardsContainer" id="about-cards">
                 <div className="card" id="research-interests">
                     <h4>Research Interests</h4>
                     <ul>
                         <li>Interactive Narratives</li>
-                        <li>Digital Humanities</li>
+                        <li>Educational Technology</li>
                         <li>Black Media Studies</li>
-                        <li>New Media</li>
+                        <li>Feminism and Queer Theory in Media</li>
                     </ul>
                 </div>
                 <div className="card" id="languages">
@@ -56,9 +58,9 @@ function About() {
                     <summary>Research Interests</summary>
                     <ul>
                         <li>Interactive Narratives</li>
-                        <li>Digital Humanities</li>
+                        <li>Educational Technology</li>
                         <li>Black Media Studies</li>
-                        <li>New Media</li>
+                        <li>Feminism and Queer Theory in Media</li>
                     </ul>
                 </details>
                 <details>
@@ -95,11 +97,20 @@ function Projects() {
 function Research() {
     return (
         <div className="contentItem" id="research">
-            <h2>Publications and Research</h2>
-            <p>I have published works including essays, journal articles, and conference papers, as well as poster presentations.</p>
+            <h2>Research Output</h2>
+            <p>My academic and professional research activities have resulted in articles, posters, conference presentations, and other materials.</p>
             <div className="cardsContainer" id="research-cards">
                 <ResearchCard />
             </div>
         </div>
+    );
+}
+function Exploration() {
+    return (
+    <div className="contentItem" id="explorations">
+        <h2>Explorations</h2>
+        <p>These are short-term, intentionally scoped experiments with various technologies, techniques, and tools.</p>
+        <ExplorationCards />
+    </div>
     );
 }
