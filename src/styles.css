@@ -72,11 +72,29 @@ p, li, a, button, h5, h6 {
 .card > h4 {
     width: 100%;
 }
-details:hover {
-    cursor: pointer;
-}
-summary:hover{
-    color:var(--accent);
+@media (hover: hover) {
+    details:hover {
+        cursor: pointer;
+    }
+    summary:hover{
+        color:var(--accent);
+    }
+    button.filterButton:hover {
+        background-color: var(--link);
+        color:var(--main-bg);
+    }
+    button:hover {
+        cursor: pointer;
+    }
+    button:hover > a {
+        color:var(--link);
+    }
+    #actionButtons> button:hover {
+        transform: scale(1.2);
+        color:var(--main-bg);
+        background-color: var(--text-color);
+        text-decoration: none;
+    }
 }
 details {
     margin-bottom: 1rem;
@@ -96,15 +114,30 @@ button {
     width: fit-content;
     transition: 100ms ease-in;
 }
-button:hover {
-    cursor: pointer;
+#filterButtonContainer {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    color:var(--link);
+}
+button.filterButton {
+    transition: 100ms ease-in;
+    width: fit-content;
+    height: fit-content;
+    padding:0.5rem 1rem;
+    border: 1px solid var(--link);
+    background-color: var(--main-bg);
+    color:var(--link);
+}
+button.filterButton.active {
+    background-color: var(--link);
+    color:var(--main-bg);
 }
 button > a:visited {
     text-decoration: none;
     color: var(--main-bg);
-}
-button:hover > a {
-    color:var(--link);
 }
 header, footer {
     background-color: var(--main-bg);
@@ -145,12 +178,6 @@ footer > a:hover {
     color:var(--main-bg);
     text-decoration: none;
     padding:0.05rem;
-}
-#actionButtons> button:hover {
-    transform: scale(1.2);
-    color:var(--main-bg);
-    background-color: var(--text-color);
-    text-decoration: none;
 }
 #about-interests, strong {
     font-weight: 600;
@@ -247,10 +274,6 @@ div.contentItem {
     text-decoration: none;
     font-weight: 650; 
     transition: 300ms ease-in-out;
-}
-#socials > a:hover, nav > a:hover, cite > a:hover {
-    color: var(--text-color);
-    transform: scale(1.55);
 }
 .cardsContainer {
     display:flex;

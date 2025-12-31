@@ -8,7 +8,7 @@
         "type":"Research Supplement",
         "team": [["Ari Hammond", "Principal Investigator"], ["Dr. Abigale Stangl","Faculty Advisor"]],
         "problem":{
-            "blurb":"How can we visualize a multimodal AI dataset for collaborative use and study design?",
+            "blurb":"Optimize and visualize a multimodal AI dataset for collaborative use and study design",
             "paragraph":"This site is a visualization of 56-item dataset of artifact descriptions used in a design research study. When created, the dataset was not intended for research use and upon joining MultiSense.Studio and working under Dr. Stangl, I identified a need to better visualize and centralize the dataset so it could be referenced during the study and shared among my colleagues in the lab."
         },
         "overview":{

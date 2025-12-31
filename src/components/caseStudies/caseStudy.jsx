@@ -50,7 +50,7 @@ const CaseStudy = () => {
         <nav>
             <h3>Contents</h3>
             <a href="#hero" onClick={()=>setStudyNavOpen(!studyNavOpen)}><p>Project Synopsis</p></a>
-            <a href="#problem" onClick={()=>setStudyNavOpen(!studyNavOpen)}><p>Research Statement/Question</p></a>
+            <a href="#problem" onClick={()=>setStudyNavOpen(!studyNavOpen)}><p>Problem Statement</p></a>
             <a href="#process" onClick={()=>setStudyNavOpen(!studyNavOpen)}><p>Research & Design Process</p></a>
             <a href="#reflection" onClick={()=>setStudyNavOpen(!studyNavOpen)}><p>Reflection</p></a>
         </nav>
@@ -208,7 +208,7 @@ function Problem({project}) {
     return (
         <div className="projContent" id="problem">
             <div id="problemBlurb">
-                <h3>Research Statement/Question</h3>
+                <h3>Problem Statement</h3>
                 <h4>{project.problem.blurb}</h4>
             </div>
             <div id="problemParagraph">

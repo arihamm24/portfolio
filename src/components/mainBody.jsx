@@ -89,7 +89,7 @@ function Projects() {
     return (
         <div className="contentItem" id="projects">
             <h2>Projects</h2>
-            <p>These various projects showcasing my abilities as a researcher, designer, and/or developer. They include web design and development, game development, and interactive narratives. <strong><em>Click any button for a brief overview of the project</em></strong></p>
+            <p>These projects and accompanying case studies reflect my design and development approach, emphasizing decision-making, process, structure, and motivation across a variety of technical and creative media.</p>
             <ProjectSection />
         </div>
     );

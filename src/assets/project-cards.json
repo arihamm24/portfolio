@@ -2,15 +2,14 @@
     {
         "id":"museum",
         "title":"AI Museum Dataset Site",
-        "tagline":"Web-based visualization AI Museum Dataset independent study in Fall 2025",
+        "tagline":"Web-based visualization to support an independent study in Fall 2025",
         "image" : "./projectPreviewPics/museum.png",
         "summary":" is a research artifact supporting a 2025-2026 independent study on multimodal AI and cultural heritage sites.",
         "demo":"",
         "team": [["Ari Hammond", "Principal Investigator"], ["Dr. Abigale Stangl","Faculty Advisor"]],
         "role":"Principal Investigator, Web Developer",
         "link":"https://arihamm24.github.io/ai-museum-datasets/",
-        "languages":["JSON","JavaScript","HTML/CSS"],
-        "genre":"web-dev"
+        "category":["Research","Data","Systems"]
     },{
         "id":"anthropocene",
         "title":"Born in the Anthropocene",
@@ -21,21 +20,19 @@
         "team":[["Ari Hammond","Writer, Twine Developer, Graphics Artist"], ["Noah Graff", "p5.js Developer, Graphics Artist"],  ["Case Dinkla", "p5.js Developer"],  ["Caden Terrell", "Writer"],  ["Sowmiyan Nattamai", "Writer"]],
         "role": "Writer, Graphics Artist, Twine Developer, p5.js Developer",
         "link":"https://arihammond.itch.io/born-in-the-anthropocene",
-        "languages": ["Twine", "p5.js"],
-        "genre" : "interactive-narrative"
+        "category" :["Narrative","Interaction"]
     },
     {
         "id":"travelmate",
         "title":"TravelMate",
-        "tagline":"an interactive travel planning web application",
+        "tagline":"An interactive travel planning web application",
         "image" : "./projectPreviewPics/travelmate.png",
         "summary":" is an interactive travel planning web application built with Django and HTML. Users input their dates, destination, and activities to receive custom AI and API powered weather forecasts, packing lists, and additional travel tips. ",
         "demo":"https://youtu.be/Bw96BV2pxgg",
         "team":[["Ari Hammond", "Full Stack Developer, Front-end Designer"],["Mithil Cherkadi", "Full Stack Developer"], ["Jason Li","Product Manager, Back End Developer"], ["Neha Kunche","Scrum Master, Front End Developer"], ["Deepthi Munagapati", "Full Stack Developer"]],
         "role":"Full Stack Developer",
         "link": "",
-        "languages":["Django","HTML/CSS", "SQLite"],
-        "genre":"web-dev"
+        "category":["Systems","Interaction"]
     },{
         "id":"jampacked",
         "title":"Jam Packed",
@@ -46,7 +43,6 @@
         "team": [["Ari Hammond", "Developer, Artist"]],
         "role": "Developer, Artist",
         "link": "https://arihamm24.github.io/jam-packed/",
-        "langauges":["C"],
-        "genre":"game-dev"
+        "category":["Interaction"]
     }
 ]
