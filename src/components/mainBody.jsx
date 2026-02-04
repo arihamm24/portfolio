@@ -97,11 +97,9 @@ function Projects() {
 function Research() {
     return (
         <div className="contentItem" id="research">
-            <h2>Research Output</h2>
+            <h2>Publications</h2>
             <p>My academic and professional research activities have resulted in articles, posters, conference presentations, and other materials.</p>
-            <div className="cardsContainer" id="research-cards">
-                <ResearchCard />
-            </div>
+            <ResearchCard />
         </div>
     );
 }

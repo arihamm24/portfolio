@@ -6,6 +6,7 @@
         "image" : "./projectPreviewPics/museum.png",
         "summary":" is a research artifact supporting a 2025-2026 independent study on multimodal AI and cultural heritage sites.",
         "demo":"",
+        "skills":["Design thinking", "Web Development", "Academic Research"],
         "team": [["Ari Hammond", "Principal Investigator"], ["Dr. Abigale Stangl","Faculty Advisor"]],
         "role":"Principal Investigator, Web Developer",
         "link":"https://arihamm24.github.io/ai-museum-datasets/",
@@ -17,6 +18,7 @@
         "image":"./projectPreviewPics/anthropocene.png",
         "summary":" is a 3-part interactive narrative implemented using Twine and p5.js. Users navigate a society founded on collective welfare, postmodern education, and multigenerational, communal family structures.",
         "demo":"https://youtu.be/n69gkQKcF2Y",
+        "skills":["Speculative Design", "JavaScript", "Iterative Design"],
         "team":[["Ari Hammond","Writer, Twine Developer, Graphics Artist"], ["Noah Graff", "p5.js Developer, Graphics Artist"],  ["Case Dinkla", "p5.js Developer"],  ["Caden Terrell", "Writer"],  ["Sowmiyan Nattamai", "Writer"]],
         "role": "Writer, Graphics Artist, Twine Developer, p5.js Developer",
         "link":"https://arihammond.itch.io/born-in-the-anthropocene",
@@ -29,6 +31,7 @@
         "image" : "./projectPreviewPics/travelmate.png",
         "summary":" is an interactive travel planning web application built with Django and HTML. Users input their dates, destination, and activities to receive custom AI and API powered weather forecasts, packing lists, and additional travel tips. ",
         "demo":"https://youtu.be/Bw96BV2pxgg",
+        "skills":["UI Design", "Figma", "Web Development"],
         "team":[["Ari Hammond", "Full Stack Developer, Front-end Designer"],["Mithil Cherkadi", "Full Stack Developer"], ["Jason Li","Product Manager, Back End Developer"], ["Neha Kunche","Scrum Master, Front End Developer"], ["Deepthi Munagapati", "Full Stack Developer"]],
         "role":"Full Stack Developer",
         "link": "",
@@ -40,9 +43,22 @@
         "image":"./projectPreviewPics/jamPacked.png",
         "summary":" is a fast paced, single-player roller derby game created for the mGBA emulator",
         "demo":"https://www.youtube.com/watch?v=cjYMJZcziBk",
+        "skills":["Game Development","C","Project Organization", "Iterative Design"],
         "team": [["Ari Hammond", "Developer, Artist"]],
         "role": "Developer, Artist",
         "link": "https://arihamm24.github.io/jam-packed/",
         "category":["Interaction"]
+    }, {
+        "id":"west-end",
+        "title":"West End Academy Arduino Installation",
+        "tagline":"",
+        "image":"",
+        "summary":"",
+        "demo":"",
+        "skills":[],
+        "team":[],
+        "role":"",
+        "link":"",
+        "category":[]
     }
 ]

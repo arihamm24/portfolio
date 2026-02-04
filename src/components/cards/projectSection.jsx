@@ -41,7 +41,7 @@ const ProjectSection = () => {
                 />
             ))}
         </div>
-         </>
+        </>
     );
 }
 export default ProjectSection

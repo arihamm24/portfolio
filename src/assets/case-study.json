@@ -185,5 +185,78 @@
             "paragraph":"This project helped me develop skills in creative debugging, asset creation, code architecture, and adaptability as a developer. At several points, either due to time or resource constraints, I revisited my original proposal and made changes to ensure I could realize my idea to the best of my ability and make a functional, enjoyable game.",
             "futureWork":"Game development, and in a larger sense media devices, are integral areas of creative computing/technology, and this project/course laid the foundation of my exploration in the field. Though the course did not make me a full-fledged C developer, I gained useful technical, theoretical, and organizational skills as well as an interesting portfolio piece. I am eager to see how I may use these langauges, tools, and concepts in later research and creative endeavors."
         }
+    },{
+        "id":"west-end",
+        "title":"West End Academy Arduino Installation",
+        "tagline":"",
+        "image":"",
+        "date":"",
+        "type":"",
+        "team":[],
+        "problem":{
+            "blurb":"",
+            "paragraph":""
+        }, 
+        "overview":{
+            "summary":"",
+            "goals":"",
+            "results":"",
+            "tools":""
+        },
+        "process":{
+            "background":[],
+            "citations":[[]],
+            "methods":[
+                {
+                    "title":"",
+                    "summary":"",
+                    "description":"",
+                    "media":[[]]
+                }
+            ],
+            "artifact":"",
+            "findings":[]
+        },
+        "reflection":{
+            "paragraph":"",
+            "futureWork":""
+        }
+
+    },{
+        "id":"kitchennet",
+        "title":"KitchenNet",
+        "tagline":"A mobile app designed to combat cultural food insecurity and develop culinary skills among marginalized college students",
+        "image":"",
+        "date":"January 2026 - April 2026, 4 month timeline",
+        "type":"Class Project",
+        "team":[],
+        "problem":{
+            "blurb":"",
+            "paragraph":""
+        }, 
+        "overview":{
+            "summary":"",
+            "goals":"",
+            "results":"",
+            "tools":""
+        },
+        "process":{
+            "background":[],
+            "citations":[[]],
+            "methods":[
+                {
+                    "title":"",
+                    "summary":"",
+                    "description":"",
+                    "media":[[]]
+                }
+            ],
+            "artifact":"",
+            "findings":[]
+        },
+        "reflection":{
+            "paragraph":"",
+            "futureWork":""
+        }
     }
 ]

@@ -63,6 +63,15 @@ const ProjectCard = ({project}) => {
                     </div>
                 </div>
                 <div className="projRolesSection">
+                    <div className="projSkills">
+                        <h4>Demonstrated Skills</h4>
+                        <p>In the case study and finished project, I present my abilities in...</p>
+                        <ul> 
+                            {project.skills.map((skill,i)=>(
+                                <li key={i}>{skill}</li>
+                            ))}
+                        </ul>
+                    </div>
                     <div className="projTeam">
                         <h4>Project Team</h4>
                         <ul>

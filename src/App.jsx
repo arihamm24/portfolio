@@ -55,7 +55,7 @@ function App() {
         <nav>
             <a href="#content" onClick={() => setSidebarOpen(!sidebarOpen)}>About</a>
             <a href="#projects" onClick={() => setSidebarOpen(!sidebarOpen)}>Projects</a>
-            <a href="#research" onClick={() => setSidebarOpen(!sidebarOpen)}>Research Output</a>
+            <a href="#research" onClick={() => setSidebarOpen(!sidebarOpen)}>Publications</a>
             <a href="#explorations" onClick={() => setSidebarOpen(!sidebarOpen)}>Explorations</a>
         </nav>
     );
