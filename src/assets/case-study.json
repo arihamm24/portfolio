@@ -258,5 +258,41 @@
             "paragraph":"",
             "futureWork":""
         }
+    },{
+        "id":"edtech",
+        "title":"",
+        "tagline":"",
+        "image":"",
+        "date":"",
+        "type":"Class Project",
+        "team":[],
+        "problem":{
+            "blurb":"",
+            "paragraph":""
+        }, 
+        "overview":{
+            "summary":"",
+            "goals":"",
+            "results":"",
+            "tools":""
+        },
+        "process":{
+            "background":[],
+            "citations":[[]],
+            "methods":[
+                {
+                    "title":"",
+                    "summary":"",
+                    "description":"",
+                    "media":[[]]
+                }
+            ],
+            "artifact":"",
+            "findings":[]
+        },
+        "reflection":{
+            "paragraph":"",
+            "futureWork":""
+        }
     }
 ]

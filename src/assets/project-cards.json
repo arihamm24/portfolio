@@ -55,10 +55,46 @@
         "image":"",
         "summary":"",
         "demo":"",
+        "skills":["Arduino","Fusion 360"],
+        "team":[["Ari Hammond","Developer"]],
+        "role":"Developer",
+        "link":"",
+        "category":["Interaction", "Data","Systems","Research"]
+    }, {
+        "id":"kitchen-net",
+        "title":"KitchenNet",
+        "tagline":"A culturally responsive, food-focused social network",
+        "image":"",
+        "summary":" is a social networking application that connects users from marginalized backgrounds through food. Users share recipes, grocery stores, dinner parties, and more to connect with people of similar cultural background.",
+        "demo":"",
+        "skills":["User Research","Affinity Mapping","Design thinking","Figma"],
+        "team":[["Ari Hammond","Designer"],["Miles Young","Designer"],["Rylan Chapa","Designer"],["Brandon Parker","Designer"],["Mayssam Mazlout","Designer"]],
+        "role":"Designer",
+        "link":"",
+        "category":["Interaction","Research"]
+    }, {
+        "id":"pafl-resource",
+        "title":"Alt Text Resource Build",
+        "tagline":"A digital guide to artistic/poetic alt text built for the Fulton County Public Arts Future Lab",
+        "image":"",
+        "summary":" is a RESOURCE developed to complement the Fulton County Public Arts Future Lab's celebration of the 36th Anniversary of the passing of the Americans with Disabilities Act (ADA).",
+        "demo":"",
         "skills":[],
-        "team":[],
+        "team":[[]],
         "role":"",
         "link":"",
         "category":[]
+    }, {
+        "id":"edtech",
+        "title":"EdTech Accessibility Design",
+        "tagline":"",
+        "image":"",
+        "summary":"",
+        "demo":"",
+        "skills":["User Research","Affinity Mapping","Design thinking","Figma"],
+        "team":[["Ari Hammond","Designer"]],
+        "role":"Designer",
+        "link":"",
+        "category":["Interaction","Research"]
     }
 ]

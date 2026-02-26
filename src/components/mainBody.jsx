@@ -28,7 +28,7 @@ function About() {
                     <h4>Research Interests</h4>
                     <ul>
                         <li>Interactive Narratives</li>
-                        <li>Educational Technology</li>
+                        <li>Critical Making</li>
                         <li>Black Media Studies</li>
                         <li>Feminism and Queer Theory in Media</li>
                     </ul>
