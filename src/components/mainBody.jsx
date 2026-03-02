@@ -20,8 +20,8 @@ function About() {
         <div className="contentItem" id="about">
             <h2>About</h2>
             <p>Hello! My name is <strong>Ari Hammond</strong> (they/them). I am a <strong>Computational Media</strong> student at Georgia Tech, with concentrations in People and Film & Media Studies. Through my academic and professional work I have developed skills in <span id="about-interests">software development, UI/UX design, design research, and human-computer interaction</span> that I apply to critical technical practice.</p>  
-            <p>Under the supervision of Dr. André Brock, I am conducting practice-based research on Black feminist technopractice in interactive documentaries, ultimately culminating in my undergraduate thesis. My broader research experiences and interests include accessibility, public history/culutral heritage, and multimodal AI.</p>
-            <p>I am currently seeking part-time/internship roles in <span id="about-interests">creative technology, interactive media/design, UI/UX research, and educational technology</span> to further contextualize my research interests and develop my technical and design skills beyond academic settings.</p>
+            <p>Under the supervision of Dr. André Brock, I am conducting practice-based research on Black feminist technopractice in interactive documentaries, ultimately culminating in my undergraduate thesis. My research interests sits at the intersection of digital Black feminism, critical cultural studies, Black media studies, speculative art/design, and creative technology.</p>
+            <p>I am currently seeking part-time/internship roles in <span id="about-interests">creative technology, interactive media, and design</span> to further contextualize my research interests and develop my technical and design skills beyond academic settings.</p>
             <MediaQuery minWidth={1335}>
             <div className="cardsContainer" id="about-cards">
                 <div className="card" id="research-interests">
@@ -30,6 +30,7 @@ function About() {
                         <li>Interactive Narratives</li>
                         <li>Critical Making</li>
                         <li>Black Media Studies</li>
+                        <li>Afrofuturism</li>
                         <li>Feminism and Queer Theory in Media</li>
                     </ul>
                 </div>
@@ -58,8 +59,9 @@ function About() {
                     <summary>Research Interests</summary>
                     <ul>
                         <li>Interactive Narratives</li>
-                        <li>Educational Technology</li>
+                        <li>Critical Making</li>
                         <li>Black Media Studies</li>
+                        <li>Afrofuturism</li>
                         <li>Feminism and Queer Theory in Media</li>
                     </ul>
                 </details>
