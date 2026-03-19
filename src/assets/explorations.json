@@ -16,13 +16,5 @@
         "code":"https://editor.p5js.org/arihamm24/sketches/_WVwx2hUJ",
         "framing":"This sketch was an exploration of machine learning with ml5.js. It visualizes the connections of the hand using the web camera and the HandPose Model and when users pinch the thumb and forefinger, there is a textbox that appears.",
         "constraint":"The sketch limits interaction too avoid exceeding the processing speed of the browser-based p5.js editor."
-    }, {
-        "id":"3",
-        "title":"Arduino Harry Potter Prop",
-        "tagline":"Bringing magic to life with physical protoyping",
-        "link":"",
-        "code":"",
-        "framing":"This exploration was an attempt to use electronics and physical prototyping to create a device the could be used in a Harry Potter film, or similar magic-based fantasy franchise. I used an Arduino microcontroller, OLED display, and 3D-printed enclosure to design a real-life time turner, departing slightly from how the device is depicted in the Harry Potter films by incorporating a visual time-travel effect through the animations on the OLED Display.",
-        "constraint":"This was developed with the Arduino UNO R3 microcontroller. It is larger than other Arduino controllers, particularly the Nano, meaning the design of the enclosure and organization of components had to accomodate this size. This was the most pressing constraint of this exploration"
     }
 ]

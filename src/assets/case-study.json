@@ -89,102 +89,6 @@
             "paragraph":"This project was a valuable opportunity to improve my understanding of Twine as a prototyping/development tool for hypertext narratives. I successfully translated a traditional narrative into hypertext, considering the branches of the narrative and how different choices allowed for the exploration of key themes in our proposed future.",
             "futureWork":"As my first foray into design futuring, it was fascinating to see how I may use interactive narratives as sites for speculative fiction. With more time, I would've liked to better establish the world of our proposed future, creating a cohesive and solid background upon which to explore the social and cultural determinants of sustainability."
         }
-    },
-    {
-        "id":"travelmate",
-        "title":"TravelMate",
-        "tagline":"an interactive travel planning web application",
-        "image" : "./projectPreviewPics/travelmate.png",
-        "date":"April 2025, 3 week timeline",
-        "type":"Class Project",
-        "team":[["Ari Hammond", "Full Stack Developer, Front-end Designer"],["Mithil Cherkadi", "Full Stack Developer"], ["Jason Li","Product Manager, Back End Developer"], ["Neha Kunche","Scrum Master, Front End Developer"], ["Deepthi Munagapati", "Full Stack Developer"]],
-        "problem": {
-            "blurb":"Use Agile development methodologies to create a travel planning web application in Django.",
-            "paragraph":"This course focused on teaching Agile software development through collaborative projects. For this project, we were tasked with developing a travel planning application that incorporated external APIs to give users responsive advice based on weather, desired activities, and location. In development, we used the extreme programming (XP) Agile methodology."
-        },
-        "overview":{
-            "summary":"Using extreme programming (XP), an Agile software development methodology, my team and I developed a Django web-app for travel planning.",
-            "goals":[["Develop ", "web applications using Agile software methodologies"],["Incorporate ", "external APIs to create desired functionalities"], ["Demonstrate ", "competencies in web development"]],
-            "results":["A multi-page responsive site with integrated Deepseek AI and Open Weather APIs for a customized, engaging travel planning experience"],
-            "tools":["Django", "HTML", "Trello and MS Teams"]
-        },
-       "process":{
-            "background":["Agile is a development approach that emphasizes flexibility, collaboration, and customer satisfaction. Several methodologies implement Agile approaches and share a few common values/principles. Agile methodologies are iterative, incremental, and people-centric, creating a more involved relationship with the client and prioritizing strong code outcomes over cost concerns. For this project, we used the extreme programming (XP) methodology, which uses shorter development cycles and minimal documentation.", "There are 8 set practices in XP: incremental planning, small releases, simple design, test-first development, refactoring, pair programming, continus integration, and an on-site customer. Adhering to these principles in the short development cycles (in our case, we had 7-day sprints) allowed us to quickly implement features, request feedback, and revise our code accordingly. It is an industry standard methodology for companies like Ford, Chrysler, and IBM."],
-            "citations":[["Agile Software Development","https://www.geeksforgeeks.org/software-engineering/software-engineering-agile-software-development/","GeeksForGeeks"], ["Lecture 2: Software Methodologies","https://drive.google.com/file/d/1mMHul-D8Sb6c-0l7WyWH4Pf4rCJPfTsQ/view?usp=drive_link", "Dr. Pedro Guillermo Feijoo Garcia"]],
-            "methods":[
-                {
-                    "title":"User Stories and Prototyping",
-                    "summary":"Though the class was provided with the same brief concept of the TravelMate app, the specific implementation differed from team to team. We individually developed user stories and low-fidelity prototypes to later present to our teams",
-                    "description":"User stories are a key part of requirements engineering and critical to the incremental plannig practice in extreme programming. Given the one-paragraph concept, I wrote 2 user profiles and 18 user stories describing how those categories of users would interact with the site. These were written in sentence form, first establishing the profile –'As a user'– then describing the feature –'I want to X'– and how the user benefits from the feature –'so that Y'.",
-                    "media":[["./caseStudyFiles/travelmate/paperProto1.gif","The paper prototypes helped quickly visualize the implementation of different features and user stories", "image/gif"]]
-                },{
-                    "title":"Sprint Planning",
-                    "summary":"We met to assess and consolidate user stories, assign roles, and plan what to accomplish in each sprint. During the project, we performed daily standups of our progress and met weekly with our client/TA to ensure we were satifying the requested features and our user stories.",
-                    "description":"Having established the user stories and desired end product, we met as a team to assign tasks based on strength, interest, and background. Given my previous experience in web design, my team elected me to oversee the design of the app. However, I also requested some back-end development responsibilities to develop more skills in Django and better translate back-end functionalities to front-end designs.",
-                    "media":[["./caseStudyFiles/travelmate/projectDesc.pdf", "The final project description pulled user stories from our individual proposals","application/pdf"]]
-                },{
-                    "title":"Sprint 1",
-                    "summary":"To lay a strong foundation for more complex features, Sprint 1 focused on user stories that connected to multiple features, such as developing the database that would store trip and user data, key features like account registration, and the core travel planning form.",
-                    "description":" For instance, the account registration system (where users can sign up, log in, and reset their account details) was crucial to later user stories like sharing trips between users, saving trips to accounts, and emailing trips externally. We also made sure to implement the trip planning form and fallback pre-determined options to give us adequate time to troubleshoot any issues we had with the SQLite database.",
-                    "media":[["./caseStudyFiles/travelmate/wireframe1.png", "Wireframe for Trip Planning pages","image/png"], ["./caseStudyFiles/travelmate/wireframe2.png","Wireframe for Home and Login/SignUp pages", "image/png"]]
-                },{
-                    "title":"Sprint 2",
-                    "summary":"In Sprint 2, we refined the features implemented in Sprint 1, implemented our chosen APIs, refactored for good architecture, and prepared for deployment.",
-                    "description":"",
-                    "media":[["./caseStudyFiles/travelmate/main.png","The landing page of the finalized site", "image/png"],["./caseStudyFiles/travelmate/apis.png","Trip planning page rendered including API calls", "image/png"]]
-                }],
-            "artifact": "https://youtu.be/Bw96BV2pxgg",
-            "findings":["Prepared me for industry by familiarizing me with Scrum dynamics and procedures", "Gained meaningful back-end web development experience with Django and SQLite", "Improved collaborative communication, organization, and task delegation skills"]
-        },
-        "reflection":{
-            "paragraph":"This project introduced me to industry standard approaches to collaborative, user-focused software development by exposing me to Agile methodologies, API integrations, and simulating real-world client feedback. As I continue to develop as a computer scientist, this kind of structured collaboration and public-facing co-creation will help me develop more complex, complete, and coherent creative and academic computing projects.",
-            "futureWork":"In the future, I may try other Scrum roles or contribute exlcusively to front- or back-end processes, as this project provided foundational knowledge for collaboration industry and academic software engineering contexts."    
-        }
-    },{
-        "id":"jampacked",
-        "title":"Jam Packed",
-        "tagline":"A roller-derby video game developed for the mGBA emulator",
-        "image":"./projectPreviewPics/jamPacked.png",
-        "date":"October - December 2025, 7 week timeline",
-        "type":"Class Project",
-        "team": [["Ari Hammond", "Developer, Artist"]],
-        "problem":{
-            "blurb": "Take what you’ve learned this semester and turn it into a one-of-a-kind playable game!",
-            "paragraph":"This course taught general high-level computing concepts like memory management, circuits, and Von Neumann Architecture, as well as game development concepts like sprites, interfacing with hardware, backgrounds, and animation. To demonstrate and solidify my grasp of the content, I developed an original, playable video game for the GameBoy Advanced, the chosen hardware interface for the course."
-        },
-        "overview":{
-            "summary": "I designed and developed a roller derby video game for the GBA to demonstrate compentency in C programming and apply key course concepts about high level computing.",
-            "goals":[["Apply ", "concepts of high-level computing and fundamentals of C"], ["Demonstrate ", "creativity and understanding of GBA architecture"]],
-            "results":["A playable, well-designed, original game developed in C"],
-            "tools":["mGBA", "Tiled", "Usenti Sprite Editor"]
-        },
-        "process":{
-            "background":["This course taught high-level programming in C and software and hardware interfacing, using the GameBoyAdvanced (GBA) as a medium to apply concepts like logical implementation and hardware manipulation. To demonstrate strong grasp of these concepts, the final project was to individual ideate, design, and develop a video game for the GBA for the final 6 weeks of class.", "To better sustain my interest and investment in the project beyond simply completing the course, I proposed a game tied to my favorite hobby: roller derby. Derby is a contact sport played with 5 skaters from each team. There is 1 scoring player, a jammer, and 4 defensive players, called blockers. It is fast-paced, dynamic, and wildly entertaining and has been a major part of my life since August 2024, so creating this game felt like a natural extension of this passion."],
-            "citations":[["TONC", "https://www.coranac.com/tonc/text/","Jasper Vijn"],["Welcome to Roller Derby", "https://wftda.com/roller-derby-basics/","Women's Flat Track Derby Association (WFTDA)"]],
-            "methods":[
-                {
-                    "title":"Game Proposal",
-                    "summary":"The project began at Milestone 0, a brief proposal of the game to be submitted for review.",
-                    "description":"In the proposal, I gave a synopsis of my game idea, a sports-genre roller derby game, and laid out basic controls, sound effects and background music, ideas/sketches for graphics, and possible ways to implement the concepts explored during the course, like parallax backgrounds and complex movement.",
-                    "media":[["./caseStudyFiles/jampacked/proposal.pdf","The full proposal document","application/pdf"]]
-                },{
-                    "title":"State Machine and Basic Mechanics",
-                    "summary":"Milestone 1 and 2 were implementing the architecture, state machine, and mechanics of the game.",
-                    "description":"Based on the feedback from my grading TA, I revisited my proposal and began scaffolding the structure of my code, particularly the different files for different game states and objects, and implementing the basic movement mechanics with placeholder sprites (simple rectangles). I got feedback between each of these milestones, and by the end of this stage, I had fully implemented user controls, all of the game states, and reduced the scope of the project to make completion more plausible.",
-                    "media":[["./caseStudyFiles/jampacked/trackCollision.png","The collision map of the track was key to the movement for computerized sprites (opponents, referees, allied tripod).","image/png"]]
-                },{
-                    "title":"Graphics, Sound, and Additional Features",
-                    "summary":"Milestone 3 was a beta version of the game, including complete sound and graphics and gameplay that could lead to the win/lose states.",
-                    "description":"The beta version of the game was a completely playable prototype, complete with sprites, instructional graphics, scoring for both the player and opponent, background music and sound effects. Though changes were made up until the deadline for completion and full realization of my ideas, this was an acceptable deliverable for the project.",
-                    "media":[["./caseStudyFiles/jampacked/spritesheet.png","4-bit Tile Spritesheet","image/png"], ["./caseStudyFiles/jampacked/instruct.bmp","Tileset for Splash Screen and Instructional Page"]]
-                }],
-            "artifact": "https://arihamm24.github.io/jam-packed/",
-            "findings":["Familiarized myself with iterative design, adapting to feedback, and adjusting to time/resource constraints as a developer", "Solidified grasp of course concepts, allowing for abstraction with other hardware and software systems", "Creative, functional, and engaging video game for resume/portfolio"]
-        },
-        "reflection":{
-            "paragraph":"This project helped me develop skills in creative debugging, asset creation, code architecture, and adaptability as a developer. At several points, either due to time or resource constraints, I revisited my original proposal and made changes to ensure I could realize my idea to the best of my ability and make a functional, enjoyable game.",
-            "futureWork":"Game development, and in a larger sense media devices, are integral areas of creative computing/technology, and this project/course laid the foundation of my exploration in the field. Though the course did not make me a full-fledged C developer, I gained useful technical, theoretical, and organizational skills as well as an interesting portfolio piece. I am eager to see how I may use these langauges, tools, and concepts in later research and creative endeavors."
-        }
     },{
         "id":"west-end",
         "title":"West End Academy Arduino Installation",
@@ -223,8 +127,8 @@
         }
 
     },{
-        "id":"kitchennet",
-        "title":"KitchenNet",
+        "id":"potluck",
+        "title":"potluck",
         "tagline":"A mobile app designed to combat cultural food insecurity and develop culinary skills among marginalized college students",
         "image":"",
         "date":"January 2026 - April 2026, 4 month timeline",
@@ -259,7 +163,7 @@
             "futureWork":""
         }
     },{
-        "id":"edtech",
+        "id":"pafl-resource",
         "title":"",
         "tagline":"",
         "image":"",

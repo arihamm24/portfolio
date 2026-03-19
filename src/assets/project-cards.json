@@ -9,7 +9,7 @@
         "skills":["Design thinking", "Web Development", "Academic Research"],
         "team": [["Ari Hammond", "Principal Investigator"], ["Dr. Abigale Stangl","Faculty Advisor"]],
         "role":"Principal Investigator, Web Developer",
-        "link":"https://arihamm24.github.io/ai-museum-datasets/",
+        "link":"",
         "category":["Research","Data","Systems"]
     },{
         "id":"anthropocene",
@@ -23,31 +23,6 @@
         "role": "Writer, Graphics Artist, Twine Developer, p5.js Developer",
         "link":"https://arihammond.itch.io/born-in-the-anthropocene",
         "category" :["Narrative","Interaction"]
-    },
-    {
-        "id":"travelmate",
-        "title":"TravelMate",
-        "tagline":"An interactive travel planning web application",
-        "image" : "./projectPreviewPics/travelmate.png",
-        "summary":" is an interactive travel planning web application built with Django and HTML. Users input their dates, destination, and activities to receive custom AI and API powered weather forecasts, packing lists, and additional travel tips. ",
-        "demo":"https://youtu.be/Bw96BV2pxgg",
-        "skills":["UI Design", "Figma", "Web Development"],
-        "team":[["Ari Hammond", "Full Stack Developer, Front-end Designer"],["Mithil Cherkadi", "Full Stack Developer"], ["Jason Li","Product Manager, Back End Developer"], ["Neha Kunche","Scrum Master, Front End Developer"], ["Deepthi Munagapati", "Full Stack Developer"]],
-        "role":"Full Stack Developer",
-        "link": "",
-        "category":["Systems","Interaction"]
-    },{
-        "id":"jampacked",
-        "title":"Jam Packed",
-        "tagline":"A roller-derby video game developed for the mGBA emulator",
-        "image":"./projectPreviewPics/jamPacked.png",
-        "summary":" is a fast paced, single-player roller derby game created for the mGBA emulator",
-        "demo":"https://www.youtube.com/watch?v=cjYMJZcziBk",
-        "skills":["Game Development","C","Project Organization", "Iterative Design"],
-        "team": [["Ari Hammond", "Developer, Artist"]],
-        "role": "Developer, Artist",
-        "link": "https://arihamm24.github.io/jam-packed/",
-        "category":["Interaction"]
     }, {
         "id":"west-end",
         "title":"West End Academy Arduino Installation",
@@ -61,8 +36,8 @@
         "link":"",
         "category":["Interaction", "Data","Systems","Research"]
     }, {
-        "id":"kitchen-net",
-        "title":"KitchenNet",
+        "id":"potluck",
+        "title":"PotLuck",
         "tagline":"A culturally responsive, food-focused social network",
         "image":"",
         "summary":" is a social networking application that connects users from marginalized backgrounds through food. Users share recipes, grocery stores, dinner parties, and more to connect with people of similar cultural background.",
@@ -84,17 +59,5 @@
         "role":"",
         "link":"",
         "category":[]
-    }, {
-        "id":"edtech",
-        "title":"EdTech Accessibility Design",
-        "tagline":"",
-        "image":"",
-        "summary":"",
-        "demo":"",
-        "skills":["User Research","Affinity Mapping","Design thinking","Figma"],
-        "team":[["Ari Hammond","Designer"]],
-        "role":"Designer",
-        "link":"",
-        "category":["Interaction","Research"]
     }
 ]

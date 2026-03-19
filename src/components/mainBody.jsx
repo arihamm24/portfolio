@@ -28,10 +28,9 @@ function About() {
                     <h4>Research Interests</h4>
                     <ul>
                         <li>Interactive Narratives</li>
-                        <li>Critical Making</li>
-                        <li>Black Media Studies</li>
-                        <li>Afrofuturism</li>
-                        <li>Feminism and Queer Theory in Media</li>
+                        <li>Speculative Design</li>
+                        <li>Black Digital Culture</li>
+                        <li>Gender and Sexuality Studies</li>
                     </ul>
                 </div>
                 <div className="card" id="languages">
@@ -59,10 +58,9 @@ function About() {
                     <summary>Research Interests</summary>
                     <ul>
                         <li>Interactive Narratives</li>
-                        <li>Critical Making</li>
-                        <li>Black Media Studies</li>
-                        <li>Afrofuturism</li>
-                        <li>Feminism and Queer Theory in Media</li>
+                        <li>Speculative Design</li>
+                        <li>Black Digital Culture</li>
+                        <li>Gender and Sexuality Studies</li>
                     </ul>
                 </details>
                 <details>
