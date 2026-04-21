@@ -1,16 +1,16 @@
 [
     {
         "id":"museum",
-        "title":"AI Museum Dataset Site",
-        "tagline":"Web-based visualization to support an independent study in Fall 2025",
+        "title":"Alt Text Evaluation Dashboard",
+        "tagline":"Web-based evaluative dashboard for a multimodal research dataset",
         "image" : "./projectPreviewPics/museum.png",
         "summary":" is a research artifact supporting a 2025-2026 independent study on multimodal AI and cultural heritage sites.",
         "demo":"",
-        "skills":["Design thinking", "Web Development", "Academic Research"],
-        "team": [["Ari Hammond", "Principal Investigator"], ["Dr. Abigale Stangl","Faculty Advisor"]],
+        "skills":["Academic Research", "Web Development"],
+        "team": [["Ari Hammond", "Principal Investigator"], ["Dr. Abigale Stangl","Faculty Advisor"],["Virginia Howell", "Co-author, Evaluator"],["Jerushia Graham", "Co-author, Evaluator"]],
         "role":"Principal Investigator, Web Developer",
         "link":"",
-        "category":["Research","Data","Systems"]
+        "category":["Interaction","Research","Data","Systems"]
     },{
         "id":"anthropocene",
         "title":"Born in the Anthropocene",
@@ -25,16 +25,16 @@
         "category" :["Narrative","Interaction"]
     }, {
         "id":"west-end",
-        "title":"West End Academy Arduino Installation",
+        "title":"Tempogatchi Pet",
         "tagline":"",
         "image":"",
         "summary":"",
         "demo":"",
-        "skills":["Arduino","Fusion 360"],
-        "team":[["Ari Hammond","Developer"]],
+        "skills":["Arduino", "Soldering", "Digital Art"],
+        "team":[["Ari Hammond","Developer, Graphics Artist"]],
         "role":"Developer",
         "link":"",
-        "category":["Interaction", "Data","Systems","Research"]
+        "category":["Data","Systems","Research"]
     }, {
         "id":"potluck",
         "title":"PotLuck",
@@ -49,10 +49,10 @@
         "category":["Interaction","Research"]
     }, {
         "id":"pafl-resource",
-        "title":"Alt Text Resource Build",
+        "title":"Poetic Alt Text Digital Workbook",
         "tagline":"A digital guide to artistic/poetic alt text built for the Fulton County Public Arts Future Lab",
         "image":"",
-        "summary":" is a RESOURCE developed to complement the Fulton County Public Arts Future Lab's celebration of the 36th Anniversary of the passing of the Americans with Disabilities Act (ADA).",
+        "summary":" is an educational site developed to complement the Fulton County Public Arts Future Lab's celebration of the 36th Anniversary of the passing of the Americans with Disabilities Act (ADA). It includes background information on alt text and interactive practice exercises",
         "demo":"",
         "skills":[],
         "team":[[]],
