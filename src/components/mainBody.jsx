@@ -19,9 +19,8 @@ function About() {
     return (
         <div className="contentItem" id="about">
             <h2>About</h2>
-            <p>Hello! My name is <strong>Ari Hammond</strong> (they/them). I am a <strong>Computational Media</strong> student at Georgia Tech, with concentrations in People and Film & Media Studies. Through my academic and professional work I have developed skills in <span id="about-interests">software development, UI/UX design, design research, and human-computer interaction</span> that I apply to critical technical practice.</p>  
-            <p>Under the supervision of Dr. André Brock, I am conducting practice-based research on Black feminist technopractice in interactive documentaries, ultimately culminating in my undergraduate thesis. My research interests sits at the intersection of digital Black feminism, critical cultural studies, Black media studies, speculative art/design, and creative technology.</p>
-            <p>I am currently seeking part-time/internship roles in <span id="about-interests">creative technology, interactive media, and design</span> to further contextualize my research interests and develop my technical and design skills beyond academic settings.</p>
+            <p>Hello! My name is <strong>Ari Hammond</strong> (they/them). I am a <strong>Computational Media</strong> student at Georgia Tech, with concentrations in People and Film & Media Studies. I employ practice-based approaches with digital media to explore questions of Black and queer identity, expression, and cultural memory.</p>  
+            <p>Under the supervision of Dr. André Brock, I am conducting practice-based research on Black feminist technopractice in interactive documentaries, ultimately culminating in my undergraduate thesis. My research sits at the intersection of digital Black feminism, Black media studies, speculative art/design, and digital humanities.</p>
             <MediaQuery minWidth={1335}>
             <div className="cardsContainer" id="about-cards">
                 <div className="card" id="research-interests">
