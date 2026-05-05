@@ -23,9 +23,9 @@
             "methods":[
                 {
                     "title":"Structuring the Dataset for Usability",
-                    "summary":"The dataset as created in my Summer 2025 internship was stored as a PowerPoint presentation for internal use at the museum, but JSON offered a scaleable, structured, readable format that optimized the dataset for research contexts.",
-                    "description":"The dataset's initial PowerPoint format was effective in museum contexts for succinctly visualizing the artifact and its accompanying description, but the inquiry of this study required underlying metadata to better consider authorship, provenance, decision-making, and process. Incorporating this granularity in slide format would render the dataset illegible and difficult to navigate for researchers, as well as created a file far too large for the frequent and iterative LLM usage in the study. JSON mitigated these issues by structuring the data in an array of objects with key-value pairs for each metadata attribute. This consistent, machine-readable, and compact file more explicity paired artifacts and label copy with their accompanying descriptions and preserved the content of the original dataset while optimizing it for human use and LLM co-design for varying research contexts.",
-                    "media":[["./caseStudyFiles/museum/powerPoint.png","A sample of the dataset as delivered at the end of the internship. This PowerPoint contained an additional 50 human-authored descriptions that were not included in the study and therefore not translated to JSON","image/png"],["./caseStudyFiles/museum/jsonData.png","Structuring the dataset as a JSON array allowed for multi-platform use, enhanced readbility, and prepared the dataset for use in digital contexts","image/png"]]
+                    "summary":"The dataset as created in my Summer 2025 internship was stored as a PowerPoint presentation for internal use at the museum, but JSON offered a scalable, structured, readable format that optimized the dataset for research contexts.",
+                    "description":"The dataset's initial PowerPoint format was effective in museum contexts for succinctly visualizing the artifact and its accompanying description, but the inquiry of this study required underlying metadata to better consider authorship, provenance, decision-making, and process. Incorporating this granularity in slide format would render the dataset illegible and difficult to navigate for researchers, as well as created a file far too large for the frequent and iterative LLM usage in the study. JSON mitigated these issues by structuring the data in an array of objects with key-value pairs for each metadata attribute. This consistent, machine-readable, and compact file more explicitly paired artifacts and label copy with their accompanying descriptions and preserved the content of the original dataset while optimizing it for human use and LLM co-design for varying research contexts.",
+                    "media":[["./caseStudyFiles/museum/powerPoint.png","A sample of the dataset as delivered at the end of the internship. This PowerPoint contained an additional 50 human-authored descriptions that were not included in the study and therefore not translated to JSON","image/png"],["./caseStudyFiles/museum/jsonData.png","Structuring the dataset as a JSON array allowed for multi-platform use, enhanced readability, and prepared the dataset for use in digital contexts","image/png"]]
                 },{
                     "title":"Randomizing the Data for Rigor and Validity",
                     "summary":"Using Fetch API and JavaScript, the JSON data was rendered as a static HTML Table and hosted with GitHub Pages. ",
@@ -79,7 +79,7 @@
                 },{
                     "title":"Creating the Interactive Narrative",
                     "summary":"Based on feedback from version 1, we re-evaluated our proposal and decided an interactive narrative would be better fit for exploring our proposed society.",
-                    "description":"We outlined a short, 3-part narrative and corresponding decision tree, where users would play through childhood, young adulthood, and old age as members of our proposed society. Upon the start of the game, players are assigned a sustainability score of 10 and as they navigate the narrative, different decisions increase or decrease that score. This score is revealed at our checkpoints, where we were able to still incoporate the initial p5.js sketch.",
+                    "description":"We outlined a short, 3-part narrative and corresponding decision tree, where users would play through childhood, young adulthood, and old age as members of our proposed society. Upon the start of the game, players are assigned a sustainability score of 10 and as they navigate the narrative, different decisions increase or decrease that score. This score is revealed at our checkpoints, where we were able to still incorporate the initial p5.js sketch.",
                     "media":[["./caseStudyFiles/anthropocene/twineMap.png","After writing the outline and decision tree in a Word document, we translated our story to Twine","image/png"],["./caseStudyFiles/anthropocene/p5embed.png","We decided to embed the city builder sketch as a checkpoint between the three parts of the narrative","image/png"]]
                 }],
             "artifact": "https://arihammond.itch.io/born-in-the-anthropocene",
@@ -103,9 +103,9 @@
         }, 
         "overview":{
             "summary":"",
-            "goals":[["Develop ", "an engaging physical installation that takes environmental data as input"], ["Activate ", "a commmunity in response to environmental data"]],
+            "goals":[["Develop ", "an engaging physical installation that takes environmental data as input"], ["Activate ", "a community in response to environmental data"]],
             "results":[""],
-            "tools":["Arduino", "Modeling Clay"]
+            "tools":["ArduinoIDE", "Wine Image Converter", "Windows Emulation"]
         },
         "process":{
             "background":[],
@@ -164,7 +164,7 @@
         }
     },{
         "id":"pafl-resource",
-        "title":"Poetic Alt Text Digital Workbook",
+        "title":"Poetic Alt Text Website",
         "tagline":"",
         "image":"",
         "date":"",
