@@ -140,50 +140,5 @@
             "paragraph":"This project introduced me to industry standard approaches to collaborative, user-focused software development by exposing me to Agile methodologies, API integrations, and simulating real-world client feedback. As I continue to develop as a computer scientist, this kind of structured collaboration and public-facing co-creation will help me develop more complex, complete, and coherent creative and academic computing projects.",
             "futureWork":"In the future, I may try other Scrum roles or contribute exlcusively to front- or back-end processes, as this project provided foundational knowledge for collaboration industry and academic software engineering contexts."    
         }
-    },{
-        "id":"jampacked",
-        "title":"Jam Packed",
-        "tagline":"A roller-derby video game developed for the mGBA emulator",
-        "image":"./projectPreviewPics/jamPacked.png",
-        "date":"October - December 2025, 7 week timeline",
-        "type":"Class Project",
-        "team": [["Ari Hammond", "Developer, Artist"]],
-        "problem":{
-            "blurb": "Take what you’ve learned this semester and turn it into a one-of-a-kind playable game!",
-            "paragraph":"This course taught general high-level computing concepts like memory management, circuits, and Von Neumann Architecture, as well as game development concepts like sprites, interfacing with hardware, backgrounds, and animation. To demonstrate and solidify my grasp of the content, I developed an original, playable video game for the GameBoy Advanced, the chosen hardware interface for the course."
-        },
-        "overview":{
-            "summary": "I designed and developed a roller derby video game for the GBA to demonstrate compentency in C programming and apply key course concepts about high level computing.",
-            "goals":[["Apply ", "concepts of high-level computing and fundamentals of C"], ["Demonstrate ", "creativity and understanding of GBA architecture"]],
-            "results":["A playable, well-designed, original game developed in C"],
-            "tools":["mGBA", "Tiled", "Usenti Sprite Editor"]
-        },
-        "process":{
-            "background":["This course taught high-level programming in C and software and hardware interfacing, using the GameBoyAdvanced (GBA) as a medium to apply concepts like logical implementation and hardware manipulation. To demonstrate strong grasp of these concepts, the final project was to individual ideate, design, and develop a video game for the GBA for the final 6 weeks of class.", "To better sustain my interest and investment in the project beyond simply completing the course, I proposed a game tied to my favorite hobby: roller derby. Derby is a contact sport played with 5 skaters from each team. There is 1 scoring player, a jammer, and 4 defensive players, called blockers. It is fast-paced, dynamic, and wildly entertaining and has been a major part of my life since August 2024, so creating this game felt like a natural extension of this passion."],
-            "citations":[["TONC", "https://www.coranac.com/tonc/text/","Jasper Vijn"],["Welcome to Roller Derby", "https://wftda.com/roller-derby-basics/","Women's Flat Track Derby Association (WFTDA)"]],
-            "methods":[
-                {
-                    "title":"Game Proposal",
-                    "summary":"The project began at Milestone 0, a brief proposal of the game to be submitted for review.",
-                    "description":"In the proposal, I gave a synopsis of my game idea, a sports-genre roller derby game, and laid out basic controls, sound effects and background music, ideas/sketches for graphics, and possible ways to implement the concepts explored during the course, like parallax backgrounds and complex movement.",
-                    "media":[["./caseStudyFiles/jampacked/proposal.pdf","The full proposal document","application/pdf"]]
-                },{
-                    "title":"State Machine and Basic Mechanics",
-                    "summary":"Milestone 1 and 2 were implementing the architecture, state machine, and mechanics of the game.",
-                    "description":"Based on the feedback from my grading TA, I revisited my proposal and began scaffolding the structure of my code, particularly the different files for different game states and objects, and implementing the basic movement mechanics with placeholder sprites (simple rectangles). I got feedback between each of these milestones, and by the end of this stage, I had fully implemented user controls, all of the game states, and reduced the scope of the project to make completion more plausible.",
-                    "media":[["./caseStudyFiles/jampacked/trackCollision.png","The collision map of the track was key to the movement for computerized sprites (opponents, referees, allied tripod).","image/png"]]
-                },{
-                    "title":"Graphics, Sound, and Additional Features",
-                    "summary":"Milestone 3 was a beta version of the game, including complete sound and graphics and gameplay that could lead to the win/lose states.",
-                    "description":"The beta version of the game was a completely playable prototype, complete with sprites, instructional graphics, scoring for both the player and opponent, background music and sound effects. Though changes were made up until the deadline for completion and full realization of my ideas, this was an acceptable deliverable for the project.",
-                    "media":[["./caseStudyFiles/jampacked/spritesheet.png","4-bit Tile Spritesheet","image/png"], ["./caseStudyFiles/jampacked/instruct.bmp","Tileset for Splash Screen and Instructional Page"]]
-                }],
-            "artifact": "https://arihamm24.github.io/jam-packed/",
-            "findings":["Familiarized myself with iterative design, adapting to feedback, and adjusting to time/resource constraints as a developer", "Solidified grasp of course concepts, allowing for abstraction with other hardware and software systems", "Creative, functional, and engaging video game for resume/portfolio"]
-        },
-        "reflection":{
-            "paragraph":"This project helped me develop skills in creative debugging, asset creation, code architecture, and adaptability as a developer. At several points, either due to time or resource constraints, I revisited my original proposal and made changes to ensure I could realize my idea to the best of my ability and make a functional, enjoyable game.",
-            "futureWork":"Game development, and in a larger sense media devices, are integral areas of creative computing/technology, and this project/course laid the foundation of my exploration in the field. Though the course did not make me a full-fledged C developer, I gained useful technical, theoretical, and organizational skills as well as an interesting portfolio piece. I am eager to see how I may use these langauges, tools, and concepts in later research and creative endeavors."
-        }
     }
 ]

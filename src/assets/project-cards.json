@@ -34,15 +34,26 @@
         "link": "",
         "category":["Systems","Interaction"]
     },{
-        "id":"jampacked",
-        "title":"Jam Packed",
-        "tagline":"A roller-derby video game developed for the mGBA emulator",
-        "image":"./projectPreviewPics/jamPacked.png",
-        "summary":" is a fast paced, single-player roller derby game created for the mGBA emulator",
-        "demo":"https://www.youtube.com/watch?v=cjYMJZcziBk",
-        "team": [["Ari Hammond", "Developer, Artist"]],
-        "role": "Developer, Artist",
-        "link": "https://arihamm24.github.io/jam-packed/",
-        "category":["Interaction"]
+        "id":"pafl-alt-text",
+        "title":"Poetic Alt Text Resource",
+        "tagline":"A web-based reference on creative and poetic alt text authorship developed for the Fulton County Public Art Futures Lab",
+        "image" : "",
+        "summary":" a supplementary resource for the Fulton County Public Art Futures Lab and featured in their celebration of the 36th Anniversary of the Americans with Disabilities Act (ADA).",
+        "demo":"",
+        "team":[["Ari Hammond", "Web Developer, Front-end Designer"]],
+        "role":"Web Developer",
+        "link": "",
+        "category":["Systems","Interaction","Community"]
+    },{
+        "id":"bw-cambridge",
+        "title":"Black Women's Cambridge",
+        "tagline": "A research-through-design study apply Black feminist geographies to Critical GIS",
+        "image" : "",
+        "summary":" a research project conducted under the supervision of Fabio Duarte of the MIT Senseable City Lab during my time at the MIT Summer Research Program",
+        "demo":"",
+        "team":[["Ari Hammond", "Co-Investigator, Designer"]],
+        "role":"Co-Investigator, Designer",
+        "link": "",
+        "category":["Research","Interaction","Community"]
     }
 ]

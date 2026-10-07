@@ -95,6 +95,9 @@ p, li, a, button, h5, h6 {
         background-color: var(--text-color);
         text-decoration: none;
     }
+    button > #explorationCode:hover{
+        color:var(--link);
+    }
 }
 details {
     margin-bottom: 1rem;
@@ -400,6 +403,7 @@ dialog::backdrop {
     margin: 0.25rem;
 }
 #explorationCode {
+    color: var(--main-bg);
     text-decoration: none;
     margin: 0.125rem;
 }
