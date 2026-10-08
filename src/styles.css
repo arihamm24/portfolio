@@ -23,7 +23,7 @@ h3 {
 }
 h4, summary {
   font-size: 1.25rem;
-  line-height: 1.2;
+  line-height: 1.1;
 }
 html {
     scroll-behavior: smooth;
@@ -299,9 +299,9 @@ div.contentItem {
     background-color: var(--card-bg);
     color: var(--main-bg);
     margin: 0.25rem;
-    padding:1.75rem;
-    width: 15.5rem;
-    height: 15rem;
+    padding:1.5rem;
+    width: 30%;
+    height: 15.5rem;
     border-radius: 20px;
     display: flex;
     flex-direction: column;

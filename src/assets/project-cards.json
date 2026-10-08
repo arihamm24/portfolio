@@ -54,6 +54,17 @@
         "team":[["Ari Hammond", "Co-Investigator, Designer"]],
         "role":"Co-Investigator, Designer",
         "link": "",
-        "category":["Research","Interaction","Community"]
+        "category":["Research","Data","Community"]
+    },{
+        "id":"",
+        "title":"",
+        "tagline": "",
+        "image" : "",
+        "summary":" ",
+        "demo":"",
+        "team":[["Ari Hammond", "Co-Investigator, Designer"]],
+        "role":"Co-Investigator, Designer",
+        "link": "",
+        "category":[]
     }
 ]
