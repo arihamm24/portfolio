@@ -12,7 +12,7 @@
             "paragraph":"This site was developed as a data collection dashboard for a study examining Alt Text authorship, evaluation, and AI-in-the-loop description in a paper museum. Drawing on 151 artifact descriptions, the study combines process documentation, human evaluation, and comparative corpus analysis. The study was submitted as a poster to the 2026 ACM SIGACCESS Conference on Computers and Accessibility, but was rejected after review."
         },
         "overview":{
-            "summary":"This is a web-based evaluative dashboard derived multimodal cultural heritage dataset to support data collection and analysis for our project on multimodal AI, accessiblity, and cultural heritage sites.",
+            "summary":"This is a web-based evaluative dashboard derived multimodal cultural heritage dataset to support data collection and analysis for our project on multimodal AI, accessibility, and cultural heritage sites.",
             "artifact":"https://arihamm24.github.io/ai-museum-datasets/",
             "goals":[["Visualize ", "a multimodal dataset, including text and images"],["Collect ", "responses from evaluations of the multimodal dataset"], ["Support ", "study design and inquiry for design research endeavors"]],
             "tools":["JSON", "HTML", "JavaScript"]
@@ -102,13 +102,18 @@
             "summary":"This site was developed as a supplementary resource for the Fulton County Public Art Futures Lab and featured in their celebration of the 36th Anniversary of the Americans with Disabilities Act (ADA). It contains written information and interactive practice exercises to empower artists and curators to approach alt text authorship as a creative/poetic/interpretive practice.",
             "artifact":"https://arihamm24.github.io/poetic-alt-text/",
             "goals":[],
-            "tools":[]
+            "tools":["HTML","CSS"]
         },
         "process": {
             "background":["Based on initial conversations with the Lab's director about audience and context (artists, curators, and visitors for an in-person event/event series), we decided a digital resource would allow for easy access and dissemination.  Though there are a variety of resources on best practices for alt text in informational and educational contexts, there is little about alt text as a rhetorical and interpretive genre, or as a tool that complements artistic expression."],
             "citations":[],
             "methods":[
-                {}
+                {
+                    "title":"",
+                    "summary":"",
+                    "description":"",
+                    "media":[[]]
+                }
             ]
         },
         "reflection": {
@@ -128,16 +133,21 @@
             "paragraph":""
         },
         "overview": {
-            "summary":"In this study, I use a research-through-design methodology to locate and visualize Black women’s geographies in ArcGIS, extending previous arguments in feminist GIS to highlight Black feminist geographies. The resulting ArcGIS visualization offers an alternative geographic and historical lens through which to examine the City of Cambridge; the accompanying design documentation explores how using ArcGIS with/for Black feminist geographies reveals new design patterns and possibilities.",
+            "summary":"In this study, I use a research-through-design methodology to locate and visualize Black women’s geographies in ArcGIS, extending previous arguments in feminist GIS to highlight Black feminist geographies. The resulting ArcGIS visualization and design documentation reveals how using ArcGIS with/for Black feminist geographies reveals new critical, qualitative design patterns and possibilities.",
             "artifact":"https://arihamm24.github.io/black-womens-cambridge/",
             "goals":[],
-            "tools":[]
+            "tools":["QualCoder", "ArcGIS", "HTML", "PowerPoint"]
         },
         "process": {
             "background":["Black women’s sense of place is expressed both under constraints of and in resistance to intersectional oppression, creating an ambiguous, subjective experience of geography  rooted in their embodied and affective relationships with space. “Feminist [and Black] geographers challenge objectivity and mind/body dualisms [of GIS] by recognizing emotion and embodiment as ways of knowing,” emphasizing qualitative data, and rejecting simplification and quantification native to GIS features.  Though work has been done to center both Black and feminist geographic perspectives and approaches to GIS, it is often consolidated under the label of ‘critical GIS’ and continues to neglect intersectionality.","Black women's geographies, McKittrick explains, are entrenched in the poetics of landscape conveyed through creative and expressive acts. Though her book specifically examines plays and novels, I examined oral histories from the Cambridge Public Library archives, locating the geographies expressed by Black women during the interviews and allowing their narratives to guide a counter-mapping of the city of Cambridge and to disrupt the assumptions embedded in ArcGIS and similar software"],
             "citations":[],
             "methods":[
-                {}
+                {
+                    "title":"",
+                    "summary":"",
+                    "description":"",
+                    "media":[[]]
+                }
             ]
         },
         "reflection": {
@@ -146,7 +156,7 @@
         }
     }, {
         "id":"uninvited-guests",
-        "title":"'Uninvited Guests' Remix Advertisement",
+        "title":"'Uninvited Guests' Remix Ad",
         "tagline":"A design fiction advertisement based on a speculative film about assistive technologies, elder care, and autonomy",
         "image": "./projectPreviewPics/uia_preview.png",
         "date":"October 2026",
@@ -160,13 +170,18 @@
             "summary":"During my Intro to Media Studies course, I was tasked with redesigning an existing media artifact in another medium. I redesigned Uninvited Guests, a speculative film project from the design research firm Superflux, as an editorial advertisement.",
             "artifact":"https://arihamm24.github.io/media-remix/",
             "goals":[],
-            "tools":[]
+            "tools":["Procreate", "Affinity"]
         },
         "process": {
             "background":["Uninvited Guests follows Thomas, a 70-year-old widower whose children gifted him smart objects to help him build healthy habits and care for him from a distance. A 'fiercely independent man,' Thomas struggles with the structure the devices impose on his routine and behavior, and we see how he negotiates with the affordances of the technology to maintain his way of life. Fundamentally, the film asks: 'In a world where ’smart objects’ will increasingly be used to provide care at a distance, how will we live with these uninvited guests?'","The film, created in 2015, was intended to elicit reflections and questions about human-technology interaction; how technologies disrupt or enhance existing human behaviors; how they influence and are influenced by human relationships; and, to me, the techno-solutionism of assistive technologies and the importance of co-designing with users to make products that fit more seamlessly into their actual lives, routines, and behaviors."],
             "citations":[],
             "methods":[
-                {}
+                {
+                    "title":"",
+                    "summary":"",
+                    "description":"",
+                    "media":[[]]
+                }
             ]
         },
         "reflection": {
@@ -189,13 +204,18 @@
             "summary":"Potluck is a food-focused social media app where users post recipes, finished dishes, and community events to their desired cultural communities.​ It was developed for the Spring 2026 Intro to UI Design course.",
             "artifact":"",
             "goals":[],
-            "tools":[]
+            "tools":["Figma", "PowerPoint","NotebookLM"]
         },
         "process": {
             "background":["This project was intended to address cultural food insecurity among marginalized university students, including ethnic/racial minorities, international students, and first- or second-generation immigrants. Cultural foods are a critical method of maintaining identity and well-being, but for these students, in unfamiliar cultural environments, they are often unable to cook, share, and consume traditional foods and to engage in foodways–the cultural behaviors and practices surrounding food. Cultural food insecurity is extremely detrimental to these impacted students, as without the cultural, emotional, and physical connection to their traditional cuisine, they experience feelings of social isolation, anxiety and depression, and severe physical health consequences (Alakaam & Willyard, 2020; Koc & Welsh, 2001; Wright et al., 2021). Cultural foods “reinforce a sense of communality” that is vital to the happiness, self-esteem, and social-emotional success of these students at American institutions (Wright et al., 2021). Thus, offering these students opportunities to eat foods from their cultures of origin could presumably have positive impacts on their physical and mental health, alleviating reported symptoms and encouraging more nutritional habits."],
             "citations":[],
             "methods":[
-                {}
+                {
+                    "title":"",
+                    "summary":"",
+                    "description":"",
+                    "media":[[]]
+                }
             ]
         },
         "reflection": {}
