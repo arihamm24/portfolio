@@ -74,7 +74,7 @@ function App() {
                 <div id="sidebarContent">
                     <div id="profile">
                         <h3>Ari Hammond</h3>
-                        <h5 id="blurb">Critcal Media Practitioner, Media Researcher, and Interaction Designer</h5>
+                        <h5 id="blurb">Critical and Speculative Designer and Media Studies Researcher</h5>
                         <Socials/>
                     </div>
                     <hr />

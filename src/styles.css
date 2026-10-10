@@ -99,6 +99,10 @@ p, li, a, button, h5, h6 {
     button > #explorationCode:hover{
         color:var(--link);
     }
+    nav > a:hover {
+        transform: scale(1.2);
+        color:var(--link);
+    }
 }
 details {
     margin-bottom: 1rem;
