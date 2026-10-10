@@ -85,6 +85,7 @@ p, li, a, button, h5, h6 {
     }
     button:hover {
         cursor: pointer;
+        border: 1px solid var(--link);
     }
     button:hover > a {
         color:var(--link);
@@ -472,7 +473,8 @@ embed[type="application/pdf"]{
 }
 .projButtons {
     display: flex;
-    gap: 0.75rem;
+    padding: 0.5rem;
+    gap: 1rem;
 }
 details > p, details > embed {
     margin-left: 1rem;

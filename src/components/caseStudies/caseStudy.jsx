@@ -173,6 +173,7 @@ function Overview({project}) {
         <div className="projContent" id="overview">
             <div>
                 <p>{project.overview.summary}</p>
+                <a href={project.overview.artifact} target="_blank"><button>View Project/Demo</button></a>
             </div>
             <div>
                 <div>
@@ -184,12 +185,6 @@ function Overview({project}) {
                
             </div>
             <div>
-                <div>
-                <h4>Results</h4>
-                    {project.overview.results.map((result, index) => (
-                        <p key={index}>{result}</p>
-                    ))}
-                </div>
                 <div>
                     <h4>Tools</h4>
                 <ul>
@@ -254,19 +249,6 @@ function Process({project}) {
                             ))}
                         </details>
                     ))}
-                </div>
-                <div className="processSection" id="artifact">
-                    <h4>Artifact & Implementation</h4>
-                    <a href={project.process.artifact} target="_blank"><img src={project.image} width={200}/></a>
-                    <h5>Click the Image to Access the Live Artifact or Demo</h5>
-                </div>
-                <div className="processSection">
-                    <h4>Outcomes</h4>
-                    <ul>
-                        {project.process.findings.map((outcome, j) =>(
-                            <li>{outcome}</li>
-                        ))}
-                    </ul>
                 </div>
             </div>
             <hr />

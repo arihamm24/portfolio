@@ -1,26 +1,15 @@
 [
     {
         "id":"museum",
-        "title":"AI Museum Dataset Site",
+        "title":"Alt Text Evaluation Dashboard",
         "tagline":"Web-based visualization to support an independent study in Fall 2025",
         "image" : "./projectPreviewPics/museum.png",
-        "summary":" is a research artifact supporting a 2025-2026 independent study on multimodal AI and cultural heritage sites.",
+        "summary":" is a web-based evaluative dashboard for a multimodal research dataset supporting a 2025-2026 independent study on AI alt-text authorship and cultural heritage sites.",
         "demo":"",
         "team": [["Ari Hammond", "Principal Investigator"], ["Dr. Abigale Stangl","Faculty Advisor"]],
         "role":"Principal Investigator, Web Developer",
         "link":"https://arihamm24.github.io/ai-museum-datasets/",
         "category":["Research","Data","Systems"]
-    },{
-        "id":"anthropocene",
-        "title":"Born in the Anthropocene",
-        "tagline": "An interactive narrative exploring a sustainable future based in collective welfare and critical thought",
-        "image":"./projectPreviewPics/anthropocene.png",
-        "summary":" is a 3-part interactive narrative implemented using Twine and p5.js. Users navigate a society founded on collective welfare, postmodern education, and multigenerational, communal family structures.",
-        "demo":"https://youtu.be/n69gkQKcF2Y",
-        "team":[["Ari Hammond","Writer, Twine Developer, Graphics Artist"], ["Noah Graff", "p5.js Developer, Graphics Artist"],  ["Case Dinkla", "p5.js Developer"],  ["Caden Terrell", "Writer"],  ["Sowmiyan Nattamai", "Writer"]],
-        "role": "Writer, Graphics Artist, Twine Developer, p5.js Developer",
-        "link":"https://arihammond.itch.io/born-in-the-anthropocene",
-        "category" :["Narrative","Interaction"]
     },
     {
         "id":"travelmate",
@@ -37,34 +26,45 @@
         "id":"pafl-alt-text",
         "title":"Poetic Alt Text Resource",
         "tagline":"A web-based reference on creative and poetic alt text authorship developed for the Fulton County Public Art Futures Lab",
-        "image" : "",
-        "summary":" a supplementary resource for the Fulton County Public Art Futures Lab and featured in their celebration of the 36th Anniversary of the Americans with Disabilities Act (ADA).",
+        "image": "",
+        "summary":" is a supplementary resource for the Fulton County Public Art Futures Lab and featured in their celebration of the 36th Anniversary of the Americans with Disabilities Act (ADA).",
         "demo":"",
         "team":[["Ari Hammond", "Web Developer, Front-end Designer"]],
         "role":"Web Developer",
-        "link": "",
+        "link": "https://arihamm24.github.io/poetic-alt-text/",
         "category":["Systems","Interaction","Community"]
     },{
         "id":"bw-cambridge",
         "title":"Black Women's Cambridge",
         "tagline": "A research-through-design study apply Black feminist geographies to Critical GIS",
         "image" : "",
-        "summary":" a research project conducted under the supervision of Fabio Duarte of the MIT Senseable City Lab during my time at the MIT Summer Research Program",
+        "summary":" is a research project conducted under the supervision of Fabio Duarte of the MIT Senseable City Lab during my time at the MIT Summer Research Program.",
         "demo":"",
         "team":[["Ari Hammond", "Co-Investigator, Designer"]],
         "role":"Co-Investigator, Designer",
-        "link": "",
+        "link": "https://arihamm24.github.io/black-womens-cambridge/",
         "category":["Research","Data","Community"]
     },{
-        "id":"",
-        "title":"",
-        "tagline": "",
+        "id":"uninvited-guests",
+        "title":"'Uninvited Guests' Remix Advertisement",
+        "tagline": "Reimagining a speculative film project in a new media",
         "image" : "",
         "summary":" ",
         "demo":"",
         "team":[["Ari Hammond", "Co-Investigator, Designer"]],
         "role":"Co-Investigator, Designer",
+        "link": "https://arihamm24.github.io/media-remix",
+        "category":["Speculative"]
+    },{
+        "id":"potluck",
+        "title":"Potluck",
+        "tagline": "A social media app to foster cultural connection through food for minority college students",
+        "image" : "",
+        "summary":" ",
+        "demo":"",
+        "team":[["Ari Hammond", "UX Designer/Researcher"]],
+        "role":"UX Designer/Researcher",
         "link": "",
-        "category":[]
+        "category":["Interaction", "Community","Systems"]
     }
 ]
