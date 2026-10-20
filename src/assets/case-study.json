@@ -274,6 +274,9 @@
                 }
             ]
         },
-        "reflection": {}
+        "reflection": {
+            "paragraph":"",
+            "futureWork":""
+        }
     }
 ]
