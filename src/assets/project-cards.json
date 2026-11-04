@@ -1,17 +1,5 @@
 [
     {
-        "id":"museum",
-        "title":"Alt Text Evaluation Dashboard",
-        "tagline":"A web-based visualization to support a mixed-methods study on AI-in-the-loop alt-text authorship",
-        "image" : "./projectPreviewPics/museum.png",
-        "summary":" is a web-based evaluative dashboard for a multimodal research dataset supporting a 2025-2026 independent study on AI-in-the-loop alt-text authorship and cultural heritage sites.",
-        "demo":"",
-        "team": [["Ari Hammond", "Research Assistant"], ["Dr. Abigale Stangl","Faculty Advisor"]],
-        "role":"Research Assistant, Web Developer",
-        "link":"https://arihamm24.github.io/ai-museum-datasets/",
-        "category":["Research","Data","Systems"]
-    },
-    {
         "id":"travelmate",
         "title":"TravelMate",
         "tagline":"An interactive travel planning web application",
@@ -64,7 +52,7 @@
         "demo":"",
         "team":[["Ari Hammond", "UX Designer/Researcher"], ["Brandon Parker", "UX Designer/Researcher"], ["Miles Young", "UX Researcher, Poster Designer"], ["Rylan Chapa", "UX Researcher"], ["Mayssam Mazlout", "UX Researcher"]],
         "role":"UX Designer/Researcher",
-        "link": "",
+        "link": "https://www.figma.com/proto/VOU6xWyfDrqTPlKO3LeCH0/Potluck-Figma-Mock?node-id=0-1&p=f&viewport=2741%2C-426%2C0.22&t=HRTfcUDFD23doklY-0&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=2398%3A890",
         "category":["Interaction", "Community"]
     }
 ]
