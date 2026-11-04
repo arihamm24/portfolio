@@ -101,7 +101,7 @@
         "team":[["Ari Hammond", "Co-Investigator, Designer"], ["Dr. Fabio Duarte", "Faculty Mentor"]],
         "problem": {
             "blurb":"How might Black women's geographies disrupt traditional digital GIS practices?",
-            "paragraph":""
+            "paragraph":"Black feminist geographies explain how Black women’s intersectional bodily and emotional experiences of race and gender are expressed in and reinforced by landscapes. They also challenge traditional geographic practices that treat one dominant perspective as an objective truth. Though previous work explores how feminist geographies be used in geographic information systems (GIS) to create more critical, subjective geographic representations, this work often fails to includes Black women's intersectional perspectives."
         },
         "overview": {
             "summary":"In this study, I use a research-through-design methodology to locate and visualize Black women’s geographies in ArcGIS, extending previous arguments in feminist GIS to highlight Black feminist geographies. The resulting ArcGIS visualization and design documentation reveals how using ArcGIS with/for Black feminist geographies reveals new critical, qualitative design patterns and possibilities.",
@@ -111,7 +111,7 @@
         },
         "process": {
             "background":["Black women’s sense of place is expressed both under constraints of and in resistance to intersectional oppression, creating an ambiguous, subjective experience of geography  rooted in their embodied and affective relationships with space. “Feminist [and Black] geographers challenge objectivity and mind/body dualisms [of GIS] by recognizing emotion and embodiment as ways of knowing,” emphasizing qualitative data, and rejecting simplification and quantification native to GIS features.  Though work has been done to center both Black and feminist geographic perspectives and approaches to GIS, it is often consolidated under the label of ‘critical GIS’ and continues to neglect intersectionality.","Black women's geographies, McKittrick explains, are entrenched in the poetics of landscape conveyed through creative and expressive acts. Though her book specifically examines plays and novels, I examined oral histories from the Cambridge Public Library archives, locating the geographies expressed by Black women during the interviews and allowing their narratives to guide a counter-mapping of the city of Cambridge and to disrupt the assumptions embedded in ArcGIS and similar software"],
-            "citations":[],
+            "citations":[["Demonic Grounds: Black Women and the Cartographies of Struggle", "https://www.jstor.org/stable/10.5749/j.ctttv711", "Katherine McKittrick"], ["Feminist geography and geospatial technologies", "https://www.routledge.com/The-Routledge-Handbook-of-Geospatial-Technologies-and-Society/Kent-Specht/p/book/9781032431284", "Meghan Kelly"]],
             "methods":[
                 {
                     "title":"Design Documentation",
@@ -200,7 +200,7 @@
         "team":[["Ari Hammond", "UX Designer/Researcher"], ["Brandon Parker", "UX Designer/Researcher"], ["Miles Young", "UX Researcher, Poster Designer"], ["Rylan Chapa", "UX Researcher"], ["Mayssam Mazlout", "UX Researcher"]],
         "problem": {
             "blurb":"How might we design systems that promote community and connection for marginalized groups?",
-            "paragraph":""
+            "paragraph":"Cultural foods are a critical method of maintaining identity and well-being, but for these students, in unfamiliar cultural environments, they are often unable to cook, share, and consume traditional foods, and to engage in foodways–the cultural behaviors and practices surrounding food. Cultural food insecurity is extremely detrimental to these impacted students, as without the cultural, emotional, and physical connection to their traditional cuisine, they experience feelings of social isolation, anxiety and depression, and severe physical health consequences."
         },
         "overview": {
             "summary":"Potluck is a food-focused social media app where users post recipes, finished dishes, and community events to their desired cultural communities.​ It was developed for the Spring 2026 Intro to UI Design course.",
@@ -209,8 +209,8 @@
             "tools":["Figma", "PowerPoint","NotebookLM"]
         },
         "process": {
-            "background":["This project was intended to address cultural food insecurity among marginalized university students, including ethnic/racial minorities, international students, and first- or second-generation immigrants. Cultural foods are a critical method of maintaining identity and well-being, but for these students, in unfamiliar cultural environments, they are often unable to cook, share, and consume traditional foods and to engage in foodways–the cultural behaviors and practices surrounding food. Cultural food insecurity is extremely detrimental to these impacted students, as without the cultural, emotional, and physical connection to their traditional cuisine, they experience feelings of social isolation, anxiety and depression, and severe physical health consequences (Alakaam & Willyard, 2020; Koc & Welsh, 2001; Wright et al., 2021). Cultural foods “reinforce a sense of communality” that is vital to the happiness, self-esteem, and social-emotional success of these students at American institutions (Wright et al., 2021). Thus, offering these students opportunities to eat foods from their cultures of origin could presumably have positive impacts on their physical and mental health, alleviating reported symptoms and encouraging more nutritional habits."],
-            "citations":[],
+            "background":["This project was intended to address cultural food insecurity among marginalized university students, including ethnic/racial minorities, international students, and first- or second-generation immigrants. Cultural foods are a critical method of maintaining identity and well-being, but for these students, in unfamiliar cultural environments, they are often unable to cook, share, and consume traditional foods and to engage in foodways–the cultural behaviors and practices surrounding food. Cultural food insecurity is extremely detrimental to these impacted students, as without the cultural, emotional, and physical connection to their traditional cuisine, they experience feelings of social isolation, anxiety and depression, and severe physical health consequences. Cultural foods “reinforce a sense of communality” that is vital to the happiness, self-esteem, and social-emotional success of these students at American institutions. Thus, offering these students opportunities to eat foods from their cultures of origin could presumably have positive impacts on their physical and mental health, alleviating reported symptoms and encouraging more nutritional habits."],
+            "citations":[["Food, foodways and immigrant experience","https://www.researchgate.net/publication/253449347_Food_Foodways_and_Immigrant_Experience", "Mustafa Koc and Jennifer Welsh"],["Eating habits and dietary acculturation effects among international college students in the United States", "https://doi.org/10.3934/publichealth.2020020 ","Amir Alakaam and Amanda Willyard "]],
             "methods":[
                 {
                     "title":"User Research",
@@ -218,17 +218,17 @@
                     "description":"",
                     "media":[[]]
                 },{
+                    "title":"Personas",
+                    "summary":"",
+                    "description":"",
+                    "media":[["./caseStudyFiles/potluck/personas.pdf", "The two personas developed based on surveys and user interviews", "application/pdf"]]
+                },{
                     "title":"Low-Fidelity Prototype",
                     "summary":"",
                     "description":"",
-                    "media":[[]]
+                    "media":[["./caseStudyFiles/potluck/3frame_proto.jpg", "An early 3 frame sketch of the intended functionalities", "image/jpg"], ["./caseStudyFiles/potluck/lofi_proto.png", "Low-fidelity Figma prototype", "image/png"]]
                 }, {
                     "title":"High-Fidelity Prototype",
-                    "summary":"",
-                    "description":"",
-                    "media":[[]]
-                }, {
-                    "title":"Final Iteration",
                     "summary":"",
                     "description":"",
                     "media":[[]]
