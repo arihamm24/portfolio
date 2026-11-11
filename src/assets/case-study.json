@@ -115,23 +115,23 @@
             "methods":[
                 {
                     "title":"Design Documentation",
-                    "summary":"",
+                    "summary":"I used a multi-part critical documentation system proposed by Zoë Sadokierski and stored this documentation between Procreate and Notion.",
                     "description":"",
                     "media":[[]]
                 },
                 {
                     "title":"Oral History Analysis",
-                    "summary":"",
+                    "summary":"I conducted a deductive thematic analysis of 8 oral histories interviews with Black Cantabrigian women. The entire process, from manual transcription and familiarization to theme development, took about 4 weeks.",
                     "description":"",
                     "media":[[]]
                 },{
                     "title":"ArcGIS Mapping",
-                    "summary":"",
+                    "summary":"A major limitation of this project was my lack of GIS experience. Over the last 2 weeks of the project, I gained rudimentary proficiency in the features of ArcGIS to determine those that were most common and/or most useful in similar mapping projects.",
                     "description":"",
                     "media":[[]]
                 }, {
-                    "title":"Reflection and Documentation Analysis",
-                    "summary":"",
+                    "title":"Process Reflection",
+                    "summary":"Rather than conducting a second thematic analysis, I used the critical documentation and final artifact to ground a reflection on the design process that revealed key insights about the implications of this project.",
                     "description":"",
                     "media":[[]]
                 }
@@ -161,34 +161,29 @@
         },
         "process": {
             "background":["Uninvited Guests follows Thomas, a 70-year-old widower whose children gifted him smart objects to help him build healthy habits and care for him from a distance. A 'fiercely independent man,' Thomas struggles with the structure the devices impose on his routine and behavior, and we see how he negotiates with the affordances of the technology to maintain his way of life. Fundamentally, the film asks: 'In a world where ’smart objects’ will increasingly be used to provide care at a distance, how will we live with these uninvited guests?'","The film, created in 2015, was intended to elicit reflections and questions about human-technology interaction; how technologies disrupt or enhance existing human behaviors; how they influence and are influenced by human relationships; and, to me, the techno-solutionism of assistive technologies and the importance of co-designing with users to make products that fit more seamlessly into their actual lives, routines, and behaviors."],
-            "citations":[],
+            "citations":[["UNINVITED GUESTS - Film and Project Write Up", "https://superflux.in/work/uninvited-guests/#", "Superflux Team (Anab Jain, Jon Ardern, Jonathan Flint, Alexandra Fruhstorfer)"]],
             "methods":[
                 {
                     "title":"Examining the Original Film",
-                    "summary":"",
-                    "description":"",
-                    "media":[[]]
+                    "summary":"I began by watching and re-watching the film to distill its key themes, questions, and visual motifs. These notes included sketches, frame annotations, questions, comments and reflection; they helped establish the audience, perspective, and goal of my advertisement remix.",
+                    "description":"While the film encoded these messages through sequencing of scenes, overlays to show cell phone interaction, cards from his children, and presenting the smart objects as bulky and neon, signifying how out of place they feel in the man's life, I was constrained to the limitations of print and therefore had to determine the most impactful themes to incorporate and include to elicit the same reflection and provocation.",
+                    "media":[["", "Annotated film frames", "image/png"], ["","Notes from initial viewing", "image/jpg"]]
                 }, {
                     "title":"Defining Design Goals and Early Sketches",
-                    "summary":"",
-                    "description":"",
-                    "media":[[]]
+                    "summary":"Having established the key themes and motifs of the film, I did some research on technology ads and did some preliminary sketches for design elements I might want to include.",
+                    "description":"I aimed to convey a sleek, modern technology and therefore incorporated several font and color choices I learned from my familiarization with the genre. Instrument Serif font and a blue-green color scheme are common across modern technology advertisements and created a more cohesive basis for the text and visual components of the print advertisement.",
+                    "media":[["","Instrument Sans is a commonly used font in modern tech advertisements AND older elder care advertisements", "image/png"], ["","Mindmap of Themes and Design Elements", "image/jpg"], ["","Initial Layout Sketch","image/jpg"]]
                 }, {
                     "title":"Finalizing the Design Concept",
-                    "summary":"",
-                    "description":"",
-                    "media":[[]]
-                }, {
-                    "title":"Presentation and Reflection",
-                    "summary":"",
-                    "description":"",
-                    "media":[[]]
+                    "summary":"The final design concept was rendered in Affinity, using redrawn screencaps as primary graphics, halftone dot effects to imitate newspaper/magazine printing, and text components that designed to give pause and align with the genre.",
+                    "description":"Primarily, I relied on the more striking visual frames and translated the smartphone overlays to overlapping circles with graphics. I focused on close-up action shots that showed how the technologies would be used, and connected that to the verbiage I used in the advertisements. I decided to illustrate them in Procreate rather than editing in Photoshop because it felt like a more personal approach. In hindsight, Photoshop would have significantly improved the quality of the final advertisement, but this experiment in digital art was better under the time constraints and helped me further challenge myself, which was a significant personal goal for this project.",
+                    "media":[["", "The finalized concept maintained the most recent layout idea, but highlighted each of the three devices","image/jpg"], ["","Redrawn screencaps from Procreate", "image/png"]]
                 }
             ]
         },
         "reflection": {
             "paragraph":"I chose to reimagine Uninvited Guests as an in-universe print/editorial advertisement for several reasons. Fictional advertisements are frequently used in speculative design to prompt reflection on how we design, produce, market, and consume technology as a commodity. To that end, the medium is well-suited for subliminal/implicit messaging, persuasion, and provocation necessary to present and convince an audience to consider and explore a possible future.",
-            "futureWork": "The most difficult part was translating the visual and narrative elements of the film to a single-page advertisement. Primarily, I relied on the more striking visual frames and translated the smartphone overlays to overlapping circles with graphics. I focused on close-up action shots that showed how the technologies would be used, and connected that to the verbiage I used in the advertisements. I decided to illustrate them in Procreate rather than editing in Photoshop because it felt like a more personal approach. In hindsight, Photoshop would have significantly improved the quality of the final advertisement, but this experiment in digital art was better under the time constraints and helped me further challenge myself, which was a significant personal goal for this project. Overall, as an experiment in speculative design and a small-scale project, this piece helped me develop a stronger workflow in digital art and design, consider different media for speculation, and closely examine a work that has fascinated me for a long time."
+            "futureWork": "The most difficult part was translating the visual and narrative elements of the film to a single-page advertisement. Overall, as an experiment in speculative design and a small-scale project, this piece helped me develop a stronger workflow in digital art and design, consider different media for speculation, and closely examine a work that has fascinated me for a long time."
         }
     }, {
         "id":"potluck",
@@ -214,22 +209,22 @@
             "methods":[
                 {
                     "title":"User Research",
-                    "summary":"",
+                    "summary":"We began with community-based surveys and 10 interviews with students around campus that we identified as target users. Using NotebookLM, we mapped common themes from the surveys and interviews.",
                     "description":"",
                     "media":[[]]
                 },{
                     "title":"Personas",
-                    "summary":"",
+                    "summary":"Having defined the problem space, user needs, pain points, and goals, we developed two personas of potential users to guide the prototyping process.",
                     "description":"",
                     "media":[["./caseStudyFiles/potluck/personas.pdf", "The two personas developed based on surveys and user interviews", "application/pdf"]]
                 },{
                     "title":"Low-Fidelity Prototype",
-                    "summary":"",
+                    "summary":"We did some preliminary wire-framing and low-fidelity prototyping after determining features that would address our users' needs.",
                     "description":"",
                     "media":[["./caseStudyFiles/potluck/3frame_proto.jpg", "An early 3 frame sketch of the intended functionalities", "image/jpg"], ["./caseStudyFiles/potluck/lofi_proto.png", "Low-fidelity Figma prototype", "image/png"]]
                 }, {
                     "title":"High-Fidelity Prototype",
-                    "summary":"",
+                    "summary":"We developed a high-fidelity prototype in Figma and iterated based on results from user testing and evaluation.",
                     "description":"",
                     "media":[[]]
                 }
