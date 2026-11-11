@@ -167,17 +167,17 @@
                     "title":"Examining the Original Film",
                     "summary":"I began by watching and re-watching the film to distill its key themes, questions, and visual motifs. These notes included sketches, frame annotations, questions, comments and reflection; they helped establish the audience, perspective, and goal of my advertisement remix.",
                     "description":"While the film encoded these messages through sequencing of scenes, overlays to show cell phone interaction, cards from his children, and presenting the smart objects as bulky and neon, signifying how out of place they feel in the man's life, I was constrained to the limitations of print and therefore had to determine the most impactful themes to incorporate and include to elicit the same reflection and provocation.",
-                    "media":[["", "Annotated film frames", "image/png"], ["","Notes from initial viewing", "image/jpg"]]
+                    "media":[["./caseStudyFiles/uninvited-guests/annotations.png", "Annotated film frames", "image/png"], ["./caseStudyFiles/notes.png","Notes from initial viewing", "image/png"]]
                 }, {
                     "title":"Defining Design Goals and Early Sketches",
                     "summary":"Having established the key themes and motifs of the film, I did some research on technology ads and did some preliminary sketches for design elements I might want to include.",
                     "description":"I aimed to convey a sleek, modern technology and therefore incorporated several font and color choices I learned from my familiarization with the genre. Instrument Serif font and a blue-green color scheme are common across modern technology advertisements and created a more cohesive basis for the text and visual components of the print advertisement.",
-                    "media":[["","Instrument Sans is a commonly used font in modern tech advertisements AND older elder care advertisements", "image/png"], ["","Mindmap of Themes and Design Elements", "image/jpg"], ["","Initial Layout Sketch","image/jpg"]]
+                    "media":[["./caseStudyFiles/uninvited-guests/font-research.png","Instrument Sans is a commonly used font in modern tech advertisements AND older elder care advertisements", "image/png"], ["./caseStudyFiles/uninvited-guests/mindmap.JPG","Mindmap of Themes and Design Elements", "image/jpg"], ["./caseStudyFiles/uninvited-guests/layout.JPG","Initial Layout Sketch","image/jpg"]]
                 }, {
                     "title":"Finalizing the Design Concept",
                     "summary":"The final design concept was rendered in Affinity, using redrawn screencaps as primary graphics, halftone dot effects to imitate newspaper/magazine printing, and text components that designed to give pause and align with the genre.",
                     "description":"Primarily, I relied on the more striking visual frames and translated the smartphone overlays to overlapping circles with graphics. I focused on close-up action shots that showed how the technologies would be used, and connected that to the verbiage I used in the advertisements. I decided to illustrate them in Procreate rather than editing in Photoshop because it felt like a more personal approach. In hindsight, Photoshop would have significantly improved the quality of the final advertisement, but this experiment in digital art was better under the time constraints and helped me further challenge myself, which was a significant personal goal for this project.",
-                    "media":[["", "The finalized concept maintained the most recent layout idea, but highlighted each of the three devices","image/jpg"], ["","Redrawn screencaps from Procreate", "image/png"]]
+                    "media":[["./caseStudyFiles/uninvited-guests/sketch.png", "The finalized concept maintained the most recent layout idea, but highlighted each of the three devices","image/jpg"]]
                 }
             ]
         },
