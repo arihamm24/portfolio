@@ -130,10 +130,10 @@
                     "description":"",
                     "media":[[]]
                 }, {
-                    "title":"Process Reflection",
+                    "title":"Process Reflection and Findings",
                     "summary":"Rather than conducting a second thematic analysis, I used the critical documentation and final artifact to ground a reflection on the design process that revealed key insights about the implications of this project.",
                     "description":"",
-                    "media":[[]]
+                    "media":[["./caseStudyFiles/bw-cambridge/","","image/png"]]
                 }
             ]
         },
@@ -210,8 +210,8 @@
                 {
                     "title":"User Research",
                     "summary":"We began with community-based surveys and 10 interviews with students around campus that we identified as target users. Using NotebookLM, we mapped common themes from the surveys and interviews.",
-                    "description":"",
-                    "media":[[]]
+                    "description":"From our user research, we found that users expressed a strong desire for cultural connection. However, many noted that buying, preparing, and consuming food was critical to establishing friendships, maintaining familial connections, and building routines in college regardless of culture. Finally, many participants listed lack of time, skill, or ingredients to cook cultural meals as major barriers to cultural connection through food.",
+                    "media":[["./caseStudyFiles/potluck/survey.png","Question results about cultural connection through food","image/png"],["./caseStudyFiles/potluck/nblm.png","Section of the NotebookLM map about Community and Social Dynamics","image/png"]]
                 },{
                     "title":"Personas",
                     "summary":"Having defined the problem space, user needs, pain points, and goals, we developed two personas of potential users to guide the prototyping process.",
