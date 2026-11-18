@@ -66,7 +66,7 @@
             "tools":["HTML","CSS"]
         },
         "process": {
-            "background":["Based on initial conversations with the Lab's director about audience and context (artists, curators, and visitors for an in-person event/event series), we decided a digital resource would allow for easy access and dissemination.  Though there are a variety of resources on best practices for alt text in informational and educational contexts, there is little about alt text as a rhetorical and interpretive genre, or as a tool that complements artistic expression."],
+            "background":["Our design brief was to develop an accessibility resource for a hypothetical or actual community partner. We got to design a resource for the Fulton County Public Art Futures Lab. Based on initial conversations with the Lab's director about audience and context (artists, curators, and visitors for an in-person event), we decided a digital resource would allow for easy access and dissemination at the event and to refer back to after the fact.  Though there are a variety of resources on best practices for alt text in informational and educational contexts, there is little about alt text as a rhetorical and interpretive genre, or as a tool that complements artistic expression."],
             "citations":[],
             "methods":[
                 {
@@ -117,23 +117,23 @@
                     "title":"Design Documentation",
                     "summary":"I used a multi-part critical documentation system proposed by Zoë Sadokierski and stored this documentation between Procreate and Notion.",
                     "description":"",
-                    "media":[[]]
+                    "media":[["./caseStudyFiles/bw-cambridge/overview_map.png", "", "image/png"], ["./caseStudyFiles/bw-cambridge/contextual_anchor.png", "", "image/png"]]
                 },
                 {
                     "title":"Oral History Analysis",
                     "summary":"I conducted a deductive thematic analysis of 8 oral histories interviews with Black Cantabrigian women. The entire process, from manual transcription and familiarization to theme development, took about 4 weeks.",
                     "description":"",
-                    "media":[[]]
+                    "media":[["./caseStudyFiles/bw-cambridge/codes1.png", "", "image/png"], ["./caseStudyFiles/bw-cambridge/codes2.png", "", "image/png"], ["./caseStudyFiles/bw-cambridge/oh_slides.png", "", "image/png"]]
                 },{
                     "title":"ArcGIS Mapping",
                     "summary":"A major limitation of this project was my lack of GIS experience. Over the last 2 weeks of the project, I gained rudimentary proficiency in the features of ArcGIS to determine those that were most common and/or most useful in similar mapping projects.",
                     "description":"",
-                    "media":[[]]
+                    "media":[["./caseStudyFiles/bw-cambridge/design_decision.png", "", "image/png"]]
                 }, {
                     "title":"Process Reflection and Findings",
                     "summary":"Rather than conducting a second thematic analysis, I used the critical documentation and final artifact to ground a reflection on the design process that revealed key insights about the implications of this project.",
                     "description":"",
-                    "media":[["./caseStudyFiles/bw-cambridge/","","image/png"]]
+                    "media":[["./caseStudyFiles/bw-cambridge/findings.png","","image/png"]]
                 }
             ]
         },
