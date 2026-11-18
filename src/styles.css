@@ -83,7 +83,7 @@ p, li, a, button, h5, h6 {
         background-color: var(--link);
         color:var(--main-bg);
     }
-    button:hover {
+    button:not(#menuToggle, #closeModal):hover {
         cursor: pointer;
         border: 1px solid var(--link);
     }

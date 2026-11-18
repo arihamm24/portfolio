@@ -48,7 +48,7 @@ const ProjectCard = ({project}) => {
         <dialog className="modal" id={project.id} ref={dialogRef}> 
             <div id="modalHeader">
                 <h3>{project.title}</h3>
-                <button onClick={toggleDialog}>&times;</button>
+                <button onClick={toggleDialog} id="closeModal">&times;</button>
             </div>
             <div id="modalBody">
                 <div className="projDemoSection">
