@@ -115,25 +115,25 @@
             "methods":[
                 {
                     "title":"Design Documentation",
-                    "summary":"I used a multi-part critical documentation system proposed by Zoë Sadokierski and stored this documentation between Procreate and Notion.",
-                    "description":"",
-                    "media":[["./caseStudyFiles/bw-cambridge/overview_map.png", "", "image/png"], ["./caseStudyFiles/bw-cambridge/contextual_anchor.png", "", "image/png"]]
+                    "summary":"I used a multi-part critical documentation approach proposed by Zoë Sadokierski to help derive generalizable knowledge from contextualized design activities in research-through-design projects.",
+                    "description":" In Procreate, I recorded Progressive Overview maps–periodic descriptions of the project to show how my understanding/goals developed overtime; Analysis of Contextual Anchors–annotations of design and research precedents; and design sketches/notes. In Notion, I recorded Reflective Experiment Logs- -which were supplemented by images from the Procreate sketchbook. Here, because it was an individual project and I was not able to frequently meet with my faculty mentor, I did not have significant peer review to record.",
+                    "media":[["./caseStudyFiles/bw-cambridge/overview_map.png", "A Progressive Overview Map from the Beginning of the Project", "image/png"], ["./caseStudyFiles/bw-cambridge/contextual_anchor.png", "Analysis of a Contextual Anchor: 'From oral histories to visual narratives' by M. Kwan ", "image/png"]]
                 },
                 {
                     "title":"Oral History Analysis",
-                    "summary":"I conducted a deductive thematic analysis of 8 oral histories interviews with Black Cantabrigian women. The entire process, from manual transcription and familiarization to theme development, took about 4 weeks.",
-                    "description":"",
-                    "media":[["./caseStudyFiles/bw-cambridge/codes1.png", "", "image/png"], ["./caseStudyFiles/bw-cambridge/codes2.png", "", "image/png"], ["./caseStudyFiles/bw-cambridge/oh_slides.png", "", "image/png"]]
+                    "summary":"I used QualCoder to conduct a deductive thematic analysis of 8 oral histories interviews with Black Cantabrigian women. The entire process, from manual transcription and familiarization to theme development, took about 4 weeks.",
+                    "description":"Initially, I had hoped to analyze social media posts on Twitter to connect the SCL's focus on how technology and cities, but ran into paywall issues. Then, I attempted to conduct interviews, but could not find any participants in the 9 week timeline. Therefore, at Week 4, I pivoted to oral histories, which I feel connected most strongly to McKittrick's emphasis of Glissant's 'poetics of landscapes' while also offering similar insights that I may have gotten from the other two failed methodologies.",
+                    "media":[["./caseStudyFiles/bw-cambridge/oh_slides.png", "The resulting themes of the oral history analysis", "image/png"]]
                 },{
                     "title":"ArcGIS Mapping",
                     "summary":"A major limitation of this project was my lack of GIS experience. Over the last 2 weeks of the project, I gained rudimentary proficiency in the features of ArcGIS to determine those that were most common and/or most useful in similar mapping projects.",
-                    "description":"",
-                    "media":[["./caseStudyFiles/bw-cambridge/design_decision.png", "", "image/png"]]
+                    "description":"I used the ArcGIS documentation and support forums as needed, but for the most part, translated data into a map and recorded my decisions and pain points as I used the software. I was frequently frustrated with the learning curve with the platform and translating my coded data into reasonable layers and features.",
+                    "media":[["./caseStudyFiles/bw-cambridge/design_decision.png", "Final design decision for the ArcGIS map based on the themes and codes from the oral history analysis. This includes layer names and content, color-coding, and justification of the decisions", "image/png"]]
                 }, {
                     "title":"Process Reflection and Findings",
                     "summary":"Rather than conducting a second thematic analysis, I used the critical documentation and final artifact to ground a reflection on the design process that revealed key insights about the implications of this project.",
-                    "description":"",
-                    "media":[["./caseStudyFiles/bw-cambridge/findings.png","","image/png"]]
+                    "description":"This was a new approach to me, but helped me understand how findings and insights are derived from research-through-design projects. I reviewed my design diary and reflective experiment logs, noting especially in marginalia and reflections where I expressed strong positive or negative reactions to using ArcGIS for the task of mapping Black women's geographies. My most significant finding was that there was minimal disruption of the platform; many of the features in ArcGIS lent themselves to my goals of visualizing these subjective geographies.",
+                    "media":[["./caseStudyFiles/bw-cambridge/findings.png","The three key findings of the study","image/png"]]
                 }
             ]
         },
