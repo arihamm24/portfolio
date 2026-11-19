@@ -67,23 +67,23 @@
         },
         "process": {
             "background":["Our design brief was to develop an accessibility resource for a hypothetical or actual community partner. We got to design a resource for the Fulton County Public Art Futures Lab. Based on initial conversations with the Lab's director about audience and context (artists, curators, and visitors for an in-person event), we decided a digital resource would allow for easy access and dissemination at the event and to refer back to after the fact.  Though there are a variety of resources on best practices for alt text in informational and educational contexts, there is little about alt text as a rhetorical and interpretive genre, or as a tool that complements artistic expression."],
-            "citations":[],
+            "citations":[["Alt Text as Poetry","https://alt-text-as-poetry.net/","Bojana Coklyat and Finnegan Shannon"],["Alt Text for Artwork, Alt Text as Artwork","https://aestheticsforbirds.com/2024/05/02/how-to-write-alt-text/","Aaron Richardson"]],
             "methods":[
                 {
                     "title":"Problem Space Definition",
                     "summary":"",
                     "description":"",
-                    "media":[[]]
+                    "media":[["./caseStudyFiles/pafl-alt-text/ResourceBuildProposal.pdf","Initial Site proposal after meeting with PAFL Director and preliminary research","application/pdf"]]
                 }, {
                     "title":"Identifying Sources",
                     "summary":"",
                     "description":"",
-                    "media":[[]]
+                    "media":[["./caseStudyFiles/pafl-alt-text/alt_text_poetry_source.png", "The Alt Text as Poetry Website was our central source of information, as they authored the workbook we adapted into a website", "image/png"],["./caseStudyFiles/pafl-alt-text/site outline.pdf","Site content outline based on research/literature review", "application/pdf"]]
                 }, {
                     "title":"Translating to Web",
-                    "summary":"",
+                    "summary":"Once we had written the web content and written a rough outline, I transferred the outline to a single page website.",
                     "description":"",
-                    "media":[[]]
+                    "media":[["./caseStudyFiles/pafl-alt-text/skeleton.png", "HTML outline for site", "image/png"], ["./caseStudyFiles/pafl-alt-text/pafl_logo.png","Our color palette took inspiration from the branding for the Public Art Futures Lab","image/png"], ["./caseStudyFiles/pafl-alt-text/palette_viz.png", "", "image/png"]]
                 }
             ]
         },
