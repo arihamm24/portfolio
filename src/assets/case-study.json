@@ -200,7 +200,7 @@
         "overview": {
             "summary":"Potluck is a food-focused social media app where users post recipes, finished dishes, and community events to their desired cultural communities.​ It was developed for the Spring 2026 Intro to UI Design course.",
             "artifact":"https://www.figma.com/proto/VOU6xWyfDrqTPlKO3LeCH0/Potluck-Figma-Mock?node-id=0-1&p=f&viewport=2741%2C-426%2C0.22&t=HRTfcUDFD23doklY-0&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=2398%3A890",
-            "goals":[["Create", " an interactive product that improves a population's wellbeing"], ["Conduct", "substantial user research to identify and fill a need"], ["Iterate"," on low- and hi-fidelity prototypes"]],
+            "goals":[["Create", " an interactive product that improves a population's wellbeing"], ["Conduct ", "substantial user research to identify and fill a need"], ["Iterate"," on low- and hi-fidelity prototypes"]],
             "tools":["Figma", "PowerPoint","NotebookLM"]
         },
         "process": {
@@ -220,13 +220,13 @@
                 },{
                     "title":"Low-Fidelity Prototype",
                     "summary":"We did some preliminary wire-framing and low-fidelity prototyping after determining features that would address our users' needs.",
-                    "description":"",
-                    "media":[["./caseStudyFiles/potluck/3frame_proto.jpg", "An early 3 frame sketch of the intended functionalities", "image/jpg"], ["./caseStudyFiles/potluck/lofi_proto.png", "Low-fidelity Figma prototype", "image/png"]]
+                    "description":"Our chosen idea, Potluck, addressed identified user needs through three primary features/functionalities: connecting networks and audiences based on a specified culture or country of origin, posting and commenting of dishes and recipes, and sharing of cooking- or recipe-based events.",
+                    "media":[["./caseStudyFiles/potluck/3frame_proto.png", "An early sketch of discover page and post/comment functionality", "image/png"], ["./caseStudyFiles/potluck/lofi_proto.png", "Low-fidelity Figma prototype", "image/png"], ["./caseStudyFiles/potluck/storyboard.png","Storyboard of one use case", "image/png"]]
                 }, {
                     "title":"High-Fidelity Prototype",
-                    "summary":"We developed a high-fidelity prototype in Figma and iterated based on results from user testing and evaluation.",
-                    "description":"",
-                    "media":[[]]
+                    "summary":"We developed a high-fidelity prototype in Figma and iterated based on results from user testing and evaluation. Users were given 3 tasks to complete with our protoype",
+                    "description":"From the evaluation, we found users were confused by the visual and functional similarity of many screens, thar very few actions were instinctual or rote, and the intended use of several features of the app to be unclear. In the final iteration, we revised the color palette for a more cohesive visual experience, simplified certain interactions and clearly distinguished different pages, and revisited our user goals and design goals to determine how best to address these pain points and achieve these goals.",
+                    "media":[["./caseStudyFiles/potluck/hifi1.png","First iteration prototype used for in-class user feedback", "image/png"],["./caseStudyFiles/potluck/hifi2.png","","image/png"]]
                 }
             ]
         },
